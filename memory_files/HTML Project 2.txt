@@ -1,0 +1,42 @@
+4 points
+
+This is how you start HTML:
+
+USB Drive
+1. Create a Folder on your E:\ (should be inside an HTML Folder) and call it HTML2.
+2. Open up Notepad ++ from your USB Drive.
+3. At the top, you will see a tab for Language. Go to H → HTML
+4. Go to Save As… and locate the directory you created in Step 1 and type in index.
+
+Check the HTML Primer document for information on various HTML tags.
+
+When you are in Notepad++, be sure to go to File → Save to save your work.
+
+Once your project is saved, open up the .html file in the proper directory to view your website..
+
+Create four other files in accordance with Part 2. To do this, see the following:
+1. If you are in Notepad++, just create multiple files.
+
+Part 1:
+Create a homepage. Include a title, a brief paragraph that states who you are, and a picture of your favorite pastime.
+
+Part 2:
+Add a list of courses you are currently taking to the home page.
+
+Part 3:
+Make each item in the list from Part 2 a link to a page that describes that item. Create these pages and test your hypertext thoroughly. Your list may be bulleted or numbered.
+
+Part 4:
+Add links to each of the pages created in Part 4 that return the user to your homepage.
+
+Part 5:
+Make your presentation to the class by saving the project and e-mailing me. This project should be very professional looking. There should be no Internet links at all. All links should be on the hard drive. Pictures and websites should be saved in the same directory.
+
+Items that MUST be included:
+1. A picture on every page (5)
+2. A change of font and color (on each page) (5)
+3. A background change on each page (may be a solid color or image, but cannot be white)  (5)
+4. A list (either bulleted or numbered, only needs to be on main page) (2)
+5. A closing tag for each opening tag. Only exceptions are <BR>, <IMG>, <LI>, and <HR> (5)
+6. A comment of some sort. (1)
+7. A link back to the main page on each site. (2)

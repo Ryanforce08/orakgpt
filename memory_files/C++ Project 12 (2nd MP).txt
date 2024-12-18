@@ -1,0 +1,68 @@
+C++ Project 12
+2 points
+
+Goal:
+1. Learn how to write the isPrime(n) function
+2. Display the prime numbers to the screen
+
+To get started:
+To create a new project, click Create a new project. Then click Empty Project. Click Next
+
+For the Project name, type Prog12. Click the 3 dots (...) for the location. Select the Prog12 folder you created above. No other options need to be changed for now. Click Create.
+
+If an advertising window appears, click the little X at the top left.
+
+To add a file (a class), right click on Source files. Go to Add → New Item…
+Type Prog12 for the file name. NO SPACES. Click Add.
+
+You previously learned how to write while loops, for loops, and conditional expressions. You will now use them all in one project.
+
+A prime number is a number greater than 1, and the only factors are 1 and itself.
+
+To determine if a number is prime, it is best to use (write) a function for the task.
+
+Here is the algorithm in Python pseudocode:
+
+def isPrime(n)
+
+   if (n <= 1)
+      return false
+
+   Loop i from [2 to n)
+      if (i goes into n evenly)
+         return false
+
+   return true
+
+That is the entire algorithm. It’s not the most efficient algorithm, but it always works. You should translate this algorithm into C++ code.
+
+
+
+
+You can also call the function to test to see if numbers are prime. For example,
+
+int num;
+cout << "Enter a number to test: ";
+cin >> num;
+
+if(isPrime(num) == true)
+   cout << num << " is a prime number." << endl;
+else
+   cout << num << " is not a prime number." << endl;
+
+You can now create a list of prime numbers. Here is the algorithm (Python pseudocode) to do so:
+
+count = 0
+prime = 2
+
+while (count < desired_num_of_primes)
+
+   if(isPrime(prime) == true)
+      DISPLAY: prime to the screen
+      increment count
+
+   increment prime
+
+That is the entire algorithm. Make sure you have the isPrime(n) function in your program.
+
+Your goal is to print out the first 100 prime numbers to the screen.   

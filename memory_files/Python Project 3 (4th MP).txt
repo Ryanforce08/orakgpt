@@ -1,0 +1,52 @@
+Python Project 3
+1 point
+
+Create a Folder inside of Python called Python3
+Create a file called python3.py
+
+This project will familiarize you with conditional statements.
+
+Python has 3 conditional statements:
+if
+elif
+else
+
+if, elif, and else are used exactly the same as Java.
+
+One important difference is that whitespace matters. It doesn’t matter which spacing you use, but it is required (I use 3 spaces for each conditional for reference)
+
+For example:
+If there is one conditional, you would have code akin to:
+if (boolean condition):
+   # code here
+
+If there are two conditionals, you would have code akin to:
+if (boolean condition):
+   # code here
+else:
+   # code here
+
+If there are three or more conditionals, you would have code akin to:
+if (boolean condition):
+   # code here
+elif (boolean condition):
+   # code here
+# more elif conditionals if necessary:
+else:
+   # code here
+
+Notice how there are no opening and closing braces, and code contained within each conditional is indented.
+
+Your project is to utilize these 3 conditionals in some way.
+
+You should have 3 user inputs and store the variables as required. Make sure each variable entered contains a prompt to the user. Make sure one of the user inputs is a string.
+
+You can compare strings using the == operator
+For instance, if we have the code:
+a = "hello"
+if (a == "hello"):
+   print("Hello World")
+else:
+   print("Hello New World")
+
+Your code doesn’t have to produce anything useful.

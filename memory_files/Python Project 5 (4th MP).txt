@@ -1,0 +1,24 @@
+Python Project 5
+1 point
+
+Create a Folder inside of Python called Python5
+
+Part 1:
+
+Create a file called python5.py
+
+Recreate Java 13 project in Python. The Java solution has been shared with you.
+
+
+
+Part 2:
+
+Create a file called python5a.py
+
+At the top of the program add the line of code:
+import math
+
+Recreate Java 13 project Part 2 in Python. The Java solution has been shared with you.
+
+To get the constant Pi, utilize math.pi
+To utilize absolute value, utilize abs()

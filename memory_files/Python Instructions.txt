@@ -1,0 +1,36 @@
+Python instructions:
+
+Open up IDLE - Type IDLE into start menu or locate it on the Desktop
+
+Go to File - New 
+Before running, save it to your proper directory (E:\Python\Python__)
+
+To run your project, go to Run - Run Module.
+
+
+Below: Not normally used.
+
+Open up IDLE - Type IDLE into start menu
+
+1. Type: 
+import os
+
+2. To see what the current directory is, type:
+os.getcwd()
+
+3. To change your directory, type:
+os.chdir(‘P:\\Python’) 
+You can use whatever directory you want. This was convenient for me. Your projects will be stored in sub folders. Separate them by \\ for each directory
+
+4. There are two ways to ‘run’ a program:
+a. Type the following commands in order:
+py = open(‘./filename.py’).read()
+co = compile(py, ‘<string>’, ‘exec’)
+exec(co)
+
+b. File → Open
+Find your filename.py and click Open
+A new window should open. Click on Run, and go to Run Module
+
+
+

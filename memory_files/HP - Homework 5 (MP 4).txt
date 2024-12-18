@@ -1,0 +1,62 @@
+Honors Programming 
+Assignment 5:
+46 points
+
+
+1. In order to use functions from the Math class, what must you import? (2)
+
+
+
+2. Create a variable equal to Python’s approximation of pi. (2)
+
+
+
+3. Write a line of code that finds: z = |x - y|. (2)
+
+
+
+4. Why can you not utilize a for loop in Python5a? What makes the Java version different from the Python version? (4)
+
+
+
+5. Create a function that will take two parameters, a and b, and return their average as an integer. (6)
+
+
+
+
+
+6. Write a function call that does not have a return type. This function only prints out statements to the screen. You do not need to write the function itself; you just need to write the call to it. It takes two parameters, both integers. (2)
+
+
+
+7. Write a function that does not take a parameter and does not return a value, and prints some message to the screen. (6)
+
+
+
+
+8. What import statement is needed to utilize the random class? (2)
+
+
+
+9. Create a statement that finds a random number between 4 and 25 inclusive. (2)
+
+
+
+10. Write a function that finds (and returns) the product of 40 random integer numbers between 1 and 3. (6)
+
+
+
+
+
+11. Write a function that finds (and returns) the product of 2000 decimal numbers between 0 and 2 exclusive. (6)
+
+
+
+
+12. Write a function that returns an integer and takes one parameter that will calculate the sum of all the numbers to the 4th power, up to and including the number passed in as a parameter. (6)
+
+
+
+
+
+

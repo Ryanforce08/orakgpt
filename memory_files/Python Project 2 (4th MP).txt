@@ -1,0 +1,28 @@
+Python Project 2
+1 point
+
+Create a Folder inside of Python called Python2
+Create a file called python2.py
+
+This project will focus on user input.
+
+All user input will require a prompt in Python, and it should be stored in as a variable.
+
+An example would be as follows:
+s = input("Please enter your name: ")
+s is now stored as a string
+
+It could also be used as an integer:
+n = input("Please enter a number: ")
+n = int(n)
+
+Here, int(n) will convert n to an integer.
+
+If you recall from Python1, you can convert an object to a string by using str(s)
+
+Your goal is the following
+You are to ask the user for a name and 2 numbers
+You are to perform 6 mathematical operations on the number you enter, and display them in a string to the screen
+Print out the results using the value you received from each of the operations and the variables as well. Make the output look presentable.
+Here are the six mathematical operations:
++, -, /, *, %, **

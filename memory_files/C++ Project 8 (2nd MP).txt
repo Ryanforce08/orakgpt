@@ -1,0 +1,69 @@
+C++ Project 8
+1 point
+
+Goals:
+1. Learn how to write functions with parameters
+2. Learn how to call functions with arguments
+3. Learn how to assign functions with parameters with a return type to a variable
+4. Learn how to print functions with parameters that return a value directly to the screen
+
+To get started:
+To create a new project, click Create a new project. Then click Empty Project. Click Next
+
+For the Project name, type Prog8. Click the 3 dots (...) for the location. Select the Prog8 folder you created above. No other options need to be changed for now. Click Create.
+
+If an advertising window appears, click the little X at the top left.
+
+To add a file (a class), right click on Source files. Go to Add → New Item…
+Type Prog8 for the file name. NO SPACES. Click Add.
+
+You already know how to write and call functions with no parameters. Here, you will learn how to write functions and call functions with parameters.
+
+A parameter is akin to a basket for a value. It has a variable name and can only be used inside the function itself. A value passed in to a function via a call is called an argument.
+
+An argument can either be a variable or a value directly. However, the argument should never be the same name as the parameter. That is poor style.
+
+For example, if we have a function definition:
+void funcNew(int a)
+{
+   cout << "The value of the parameter for this method is: " << a << endl;
+}
+
+with a function call:
+funcNew(4);
+
+Here, a is called the parameter. Whatever value passed into the function will be able to be used as a variable in the function. The value of 4 is called the argument. 
+
+Think of it like an argument gets supplied into a function and a parameter is what comes out.
+
+The number and type of parameters MUST coincide in the correct order.
+
+If we have a function:
+
+void funcNew2(int a, string s)
+{
+   cout << "The value of the int parameter for this method is: " << a << endl;
+   cout << "The value of the string parameter for this method is: " << s << endl;
+}
+
+Here, our function takes two parameters, a string and an int in that order. This means that the function call must have an int and a string in that order. The function call should look something like:
+funcNew(5, "Brian");
+
+You can also have a function with parameters return values. For example:
+int sum(int a, int b)
+{
+   return a + b;
+}
+
+Here, our function takes two parameters, both ints and then returns their sum.
+
+Our function call should look something like:
+int x = sum(3, 7);
+cout << "The sum of " << 3 << " and " << 7 << " is: " << x << endl;
+
+Your goal is to:
+A. Write a void function with one parameter.
+B. Write a function of one of the 2 primitive types (bool, char) with one parameter.
+C. Write a string function with two parameters.
+D. Write a math function with two parameters.
+E. Make appropriate function calls to the above four functions.

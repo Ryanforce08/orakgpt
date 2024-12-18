@@ -1,0 +1,113 @@
+Java Project 19 - 3rd MP
+2 points
+
+You will be discovering how to sort arrays and ArrayLists in the Java environment.
+
+Eclipse
+1. Inside of the Java folder you created, create another folder called Java19
+
+Locate the folder Sorting2.zip on Google Drive and download its contents. Extract the folder to Java19.
+
+Open up Eclipse and go to File → Open Projects from FIle System. 
+Click on Directory… then navigate to: Java → Java19 → Sorting2
+
+Click on the Sorting2 folder but do not open it. Once it is selected, click the Select Folder button. Click finish on the bottom.
+
+You should now see a project called Sorting2 on the left. Click the down arrow next to it, then src, then (default package). You should see a lot of files in here.
+
+There are 24 sorting Java files and a runner file called Sorting2.java. Open up Sorting2.java, and explore some of the algorithms.
+
+A sorting algorithm will take an array and arrange its contents so the elements are in the correct order.
+
+For example, if we were to have the following array:
+int[] arr = {3, 6, 2, 5, 1, 4};
+
+It’s obvious that this array is not sorted.
+To sort this array, we will need to issue some kind of command and apply an algorithm to sort the elements.
+
+Some sorting algorithms are inherently faster than others. For example, LSD Radix Sort is by far the fastest, and Bogo Sort is by far the slowest.
+
+Bubble Sort, Insertion Sort, Selection Sort, and Gnome sort are in the average time varieties.
+
+BubbleSort is defined as below:
+public static void bubbleSort(int[] a)
+{
+    int swap;
+    for (int c = 0; c < a.length - 1; c++)
+    {
+        for (int d = 0; d < a.length - c - 1; d++)
+        {
+            if (a[d] > a[d+1]) /* For descending order use < */
+            {
+                swap = a[d];
+                a[d] = a[d + 1];
+                a[d + 1] = swap;
+            }
+        }
+    }
+}
+
+Insertion Sort is defined as below:
+public static void insertionSort(int[] a)
+{
+    for (int i = 1; i < a.length; i++)
+    {
+        int temp = a[i];
+        int j;
+        for (j = i - 1; j >=0 && temp < a[j]; j--)
+            a[j + 1] = a[j];
+        a[j + 1] = temp;
+    }
+}
+
+Selection Sort is defined as below:
+public static void selectionSort(int[] a)
+{
+    /* a[0] to a[n - 1] is the array to sort */
+    int i,j;
+    int iMin;
+    int temp = 0;
+ 
+    /* advance the position through the entire array */
+    /*   (could do j < n-1 because single element is also min element) */
+    for (j = 0; j < a.length - 1; j++)
+    {
+        /* find the min element in the unsorted a[j .. n - 1] */
+ 
+        /* assume the min is the first element */
+        iMin = j;
+        /* test against elements after j to find the smallest */
+        for ( i = j + 1; i < a.length; i++)
+        {
+             /* if this element is less, then it is the new minimum */  
+             if (a[i] < a[iMin])
+             {
+                 /* found new minimum; remember its index */
+                 iMin = i;
+             }
+        }
+        if(iMin != j)
+        {
+            temp = a[j];
+            a[j] = a[iMin];
+            a[iMin] = temp;
+        }
+    }
+}
+
+Part 1:
+
+Create a new Project and file called Java19a.
+
+Create an array of 1000 elements, all random from 0 to 1000 inclusive. Copy one of the methods from above in Sorting2 into Java19a. Sort the array.
+
+Display the final array to the screen.
+
+
+
+
+Part 2:
+
+Create a Project and File called Java19b. Complete Part 1, but use an ArrayList rather than an array.
+
+You will have to edit the actual sorting method to do this because the sorting method will only sort integer arrays. You want to sort an ArrayList. That means that all the array syntax will not work. It is therefore recommended you use one of the simpler algorithms to perform this task.

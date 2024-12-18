@@ -1,0 +1,74 @@
+C++ Project 21
+0.01 points - You earn 3 or 4 if correct
+
+Goal:
+1. Write a function that finds the mode.
+
+To get started:
+To create a new project, click Create a new project. Then click Empty Project. Click Next
+
+For the Project name, type Prog21. Click the 3 dots (...) for the location. Select the Prog21 folder you created above. No other options need to be changed for now. Click Create.
+
+If an advertising window appears, click the little X at the top left.
+
+To add a file (a class), right click on Source files. Go to Add → New Item…
+Type Prog21 for the file name. NO SPACES. Click Add.
+
+For 3 points:
+The mode is the most frequent number in a dataset. There may be more than one mode.
+
+Your goal is to write a function that finds the mode of an array. You may only use functions / syntax we have studied.
+
+For this project, create an array of 15 random numbers ranging from 1 to 10.
+
+I highly suggest sorting the array to do this project. It will make your code much, much simpler since equivalent values in an array will be adjacent to each other.
+
+Here is some sample output:
+[1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 8, 9, 9, 10, 10]
+The most frequent number(s) appears 2 times
+The mode is: 2 3 5 6 9 10
+
+For 4 points:
+You can create the mode in a separate array.
+To do this, you will need to declare an array dynamically (by a variable).
+
+To do this, you should use the following syntax:
+int* arr = new int[size];
+The length here is size.
+
+When you are finished with your mode, be sure to delete this array in memory. Use the syntax:
+delete[] arr;
+
+Here is some sample output:
+[1, 1, 3, 4, 5, 5, 5, 6, 6, 6, 7, 8, 8, 9, 10]
+The most frequent number(s) appears 3 times
+The number of times this occurs is: 2
+The mode is: [5, 6]
+
+Here is the algorithm to find the mode:
+1. Create an int array of 15 elements
+2. Find the length of the array
+3. Load the array with random values from 1-10 inclusive.
+4. Sort the array.
+5. Write the following function that finds the mode taking in 2 parameters: the int array and the length of the array
+	A. Create a couple of variables - 
+	    1. A count variable that represents if an element adjacent (to the right) of the 
+	    element is a repeat
+	    2. A second count variable that represents the maximum number of times a 
+	    repeat occurs
+	    3. Assign both variables to 1 since the minimum number of repeats will be 1.
+	B. Traverse the array from position 0 to the length - 1. This is so you do not try to find 
+	arr[length] as this will be out of range of indices.
+	C. If adjacent elements are equivalent, increment the first count variable by 1
+	D. Inside here, check to see if second count variable is less than first count variable
+		1. If this is true, assign the second count variable to the first count variable
+	E. If the adjacent elements are not equal, re-assign the first count variable back to 1.
+	(When the loop ends, the second count variable will be equivalent to the maximum 
+	number of repeats the array has)
+	F. Re-assign the first count variable back to 1. (outside loop)
+	G. Traverse the array again, just like you did in B.
+	H. Copy the same code from C-E inside the loop. You can eliminate the nested if 
+	component.
+	I. Add a condition where if the first count variable is equal to the second count variable, 
+	print the arr[i] value to the screen. This will be one (or more) of the modes.
+6. Call the function you just wrote.

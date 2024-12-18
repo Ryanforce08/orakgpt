@@ -1,0 +1,280 @@
+Review for Lessons 1-29
+
+Lesson 1 - Programming with Angry Birds
+Blockly is a programming language that uses blocks in a drag and drop interface to complete a specific task.
+Underneath the hood (which may be seen if clicking View Code) is the actual code that is being done when executing the blocks.
+The purpose of this lesson is to get the bird to the pig in each level.
+All blocks must be placed under the when run block.
+These blocks must be interlocking for the code to run.
+Code that is not interlocking will appear faded and will not run and will not be counted to the total blocks coded.
+Move forward will move the bird forward one block.
+Turn right will turn the bird 90 degrees to the right.
+Turn left will turn the bird 90 degrees to the left.
+The goal is to use as little code as possible (efficiency) and avoid the TNT.
+There is also a loop block that allows code to be repeated multiple times.
+
+Lesson 2 - Debugging in Maze
+The goal is to get Scrat to the Acorn.
+As of right now, we have the same commands / loops: Move forward, turn right/left, repeat __ times
+To see what these do, read lesson 2.
+Occasionally, you will have to debug the code to find any problems and then fix the problems by changing the blocks as necessary.
+
+Lesson 3 - Collecting Treasure with Laurel
+The goal is to move Laurel around the screen until she collects all the treasure.
+To collect the treasure, we now have a new command, called collect, which will collect a treasure on the square that Laurel is on.
+Laurel can only collect the treasure on the square that she is on.
+The commands that are utilized in this lesson are move forward, turn right/left, collect, and the repeat __ times loop
+
+Lesson 4 - Creating Art with Code
+The goal of this lesson is to draw the required art.
+Here, we can change the number of pixels required to move, and the number of degrees to turn left or right.
+Move forward ____ pixels - The artist will shade in and move a certain amount of pixels.
+Jump forward ____ pixels - The artist will jump forward and not shade a certain amount of pixels.
+Turn right / left ____ degrees - The artist will turn right or left a certain number of degrees.
+Repeat ____ times - same as before (basic loop).
+We can also set the color of the brush to a specific color or a random color.
+
+Lesson 5 - Swimming Fish in Sprite Lab
+The goal of this lesson is to learn about sprites.
+Essentially sprites are characters that can be displayed on the screen.
+The choices for this lesson are a tumbleweed, various colors of fish, or a crab.
+The sprites can spin right/left, swim right/left, grow/shrink, jitter, patrol, or wander.
+The sprites can also be renamed.
+When choosing an action, the correct sprite has to be called in the drop down menu.
+Each sprite can be placed at a specific location on the canvas.
+
+Lesson 6 - Making Sprites
+The purpose of this lab is to have a sprite, or two-dimensional object, perform a specific task
+For example, the sprite can fly (like the rocketship).
+These sprites can move any direction on the screen.
+The sprites can also be placed at various locations on the screen. 
+The sizes of these sprites can be changed as well as the background color.
+
+Lesson 7 - Sprites in Action
+The goal of this lesson is similar to the previous sprite lab.
+Here we are supposed to have the aliens complete a specific task - either jitter, patrol, or roam.
+They can also grow and spin, much like the previous lesson.
+The sprites here can also move in a certain cardinal direction.
+The concept of random numbers were added to this lesson.
+A sprite can move to any pixel adjacent to the current one and if it is given the task of roaming, a random pixel adjacent to the current pixel is chosen and it will seem like the alien is moving around the screen aimlessly.
+These numbers are not truly random, but pseudorandom as they are based on a random number generator.
+Each alien can be placed on a specific location on the canvas.
+They can also be named much like the previous lesson, and when performing an action, the correct sprite must be selected.
+
+Lesson 8 - Virtual Pet with Sprite Lab
+The purpose of this lesson is to have a sprite perform basic tasks, akin to a pet.
+These sprites have various costumes and energy levels.
+You can have sprites perform certain tasks when they interact with the world.
+For example, when a sprite touches a wall or another sprite, it can perform various tasks.
+Wandering is a concept where a sprite moves a small amount of distance in a random direction (either forwards, backwards, left, or right).
+These sprites can move to various locations in the window by the jump block.
+Sprites can also change their energy and display their energy to the screen.
+Fruit and cheese can be placed in the window to make the animation more interactive as desired.
+These sprites can also interact with the user.
+For example actions can happen when a key is pressed.
+
+Lesson 9 - Dance Party
+The Dance Party is an environment to create songs using blocks of code.
+A measure is a segment of a song (very short component) that is subdivided by beats.
+You can program various effects to happen after a certain number of measures.
+You can also set background effects, backup dancers, lead dancers, and create new animals on the stage - there are blocks for all these effects.
+The setup block specifies what will happen for the given song.
+All blocks placed inside the setup block will execute sequentially.
+
+Lesson 10 - Music Lab Intro Tutorial
+The purpose of the lesson is to play various musical beats in line with measures.
+The when run block starts all music.
+You can either play a specific rhythm or play drums / machine / glitch.
+Each of these have various drum related instruments to accompany your song
+There is also another block to play beats / bass / leads / effects.
+Each of these 4 kits have associated acts with them.
+The control structures are play together and a repeat loop.
+
+Lesson 11 - Loops with Rey and BB-8
+The purpose of this lesson is to move BB-8 around the screen to collect all the scrap metal.
+Additionally, this is where loops are introduced formally.
+The first type of loop that is introduced is the basic loops (also called a times loop).
+This loop will simply run a segment of code a certain number of times.
+More than one block can be placed inside a loop if desired.
+There is no specific command to pick up the scrap metal. 
+Simply arriving on the square automatically picks up the material.
+An additional command is learned in this lesson - move backwards.
+Move backwards is identical to move forward except it moves BB-8 in the opposite direction.
+
+Lesson 12 - Mini-Project: Sticker Art
+This lesson allows a character to be moved to a specific location.
+The goal of this lesson is to place sticker art and draw various pictures on the screen.
+For example, there is a jump to ____ over ___ down. 
+This will jump to a specific location on the screen.
+For reference 200 over 200 down is in the middle of the screen.
+There are a few additional commands in this lesson - set width, set pattern _____, and draw sticker ____, in addition to the previous commands that were utilized in the previous artist lesson.
+Set width will set the width of the brush that is painting when commands such as move forward ___ are issued.
+Set pattern ______ will set the specific pattern of the brush to a desired pattern such as a solid line, a rainbow, a squiggle line, etc…
+Draw sticker _____ will change the sticker that is placed on the screen.
+For reference, there are 41 different patterns that can be used as stickers.
+
+Lesson 13 - Nested Loops in Maze
+The purpose of this lesson is to move the bee around the screen completing a specific task such as making honey or collecting nectar.
+A zombie may also be required to eat the flower.
+Here, loops can be stacked inside each other.
+For example if a repeat 3 times loop appears in a repeat 5 times loop, the number of executions are 15. 
+The numbers are multiplied with each other.
+A comment is a segment or piece of code that allows the programmer to make a note.
+A comment does not contribute to the block total and is not executed in the program.
+
+Lesson 14 - Snowflakes with Anna and Elsa
+The purpose of this lesson is for Elsa to draw various patterns on the screen, this time with more complex patterns due to the various loops that are involved.
+Here, loops within loops (or nested loops) are used to draw complex patterns, mainly involving snowflakes.
+
+Lesson 15 - Looking Ahead with Minecraft
+The goal of this lesson is to move the character to pick up an item or complete a task.
+You can choose between Steve or Alex.
+The same basic commands move forward, turn right / left, repeat ___ loop are used exactly as they were before.
+However, when destroying a block, shearing sheep, one must be in the space exactly one square ahead.
+Placing birch / oak planks, placing torches, and planting crops must be placed on the exact tile the character is standing on.
+A cobblestone must be placed over lava or water prior to walking. 
+It is useful to use an if conditional to complete this task.
+An if conditional is a segment of code that can only be executed if the condition is true.
+An if conditional may only be executed once.
+An if conditional is not a loop.
+The last exercise allows for cobblestone or other structures to be placed directly on the tile the character is on.
+
+Lesson 16 - If / Else with Bee
+The goal of this lesson is to move the bee to the honeycombs and make honey and/or move to the flowers and get nectar.
+Here an else portion of a code is featured.
+This would be useful if there are two possible outcomes when arriving on a particular square.
+For example, if the bee is over a cloud and either a honeycomb or flower was present, the bee could either make honey or get nectar.
+The else portion would execute if the if portion is false.
+If the if portion is true, the else portion will not execute.
+Again, since this is a conditional, the code will only execute once.
+
+Lesson 17 - While loops with the Farmer
+The purpose of this lesson is to move the farmer around the screen and either fill in holes or remove dirt from piles, or both.
+A while loop is introduced in this lesson which is a type of loop that runs when the boolean expression attached to it is true.
+Once the boolean expression becomes false, the loop stops executing.
+A while loop may be nested as well, and can execute 1 or more lines of code.
+It is possible to use a while loop when there is a hole, when there is a path ahead, and when there is a pile.
+The command remove 1 must be used when removing dirt and the command fill 1 must be used when filling in a hole.
+If using the “while there is a path” loop, the move forward command must be utilized in some way.
+
+Lesson 18 - Conditionals in Minecraft: Voyage Aquatic
+The goal of this lesson is to solve various puzzles such as feeding a dolphin or opening a chest or finding a squid.
+The primary way to do this is by using an until block.
+For example, until the goal is reached, do something.
+This Minecraft lesson also uses components from the world to complete a task.
+For example, if you are standing on a sea lantern, turn right / left.
+
+Lesson 19 - Until Loops in Maze
+The purpose of this lesson is to get the zombie to the flower.
+Until loops are utilized in this lesson.
+An until loop is essentially the opposite of a while loop.
+The loop will execute when the boolean condition is false.
+Once the boolean expression becomes true, the loop will stop.
+In this lesson, the until loop is repeat until sunflower.
+The loop will repeat until the zombie reaches the sunflower. 
+If the zombie never reaches the flower without crashing into a wall, it will be locked into an infinite loop.
+Again, in a “while path ahead” loop, there must be a move forward block or the zombie would be in an infinite loop.
+In the if path to the left / right conditional block, the zombie would turn in that particular direction if the path to the left / right exists.
+This is usually used in conjunction with a loop of some kind.
+
+Lesson 20 - Harvesting with Conditionals
+The purpose of this lesson is to harvest the various crops around the screen.
+We have three new action blocks: pick corn, pick lettuce, and pick pumpkins.
+When using these blocks, the harvester must be over the desired target.
+Two other loops are added: while there is corn / lettuce / pumpkins and repeat until there are pumpkins.
+The while there is corn / lettuce / pumpkins loop will be useful when there is more than one of each at a given location.
+The harvester will pick the crops at that particular square until there is none left.
+The repeat until there are pumpkins is similar to first until loop discussed when the zombie would be travelling until the sunflower appeared.
+Here, once a pumpkin is found the pick pumpkins block must be added.
+
+Lesson 21 - Functions in Minecraft
+The goal of this lesson is to move the character to pick up a certain item.
+Here, a helper (agent) is designated to move around the screen and potentially unlock switches that will allow the main character to move around the screen with the directional pad and pick up the item successfully.
+The agent can walk over water and lava and place the items directly over the obstacle, unlike the main character.
+The agent still needs to be in front of a block in order to destroy it, however.
+Functions are utilized here especially when moving across the lava, and the same bridge needs to be made multiple times. 
+The agent will make a bridge and the main character will cross. 
+There were two built-in functions - one to build a small bridge and one to build a large bridge.
+
+Lesson 22 - Functions with Harvester
+The purpose of this lesson is to have the harvester pick all the crops on the screen.
+Functions are utilized if a certain pattern needs to be repeated. 
+Everytime that function needs to be repeated, the function needs to be called.
+Functions can also be placed inside other functions.
+This is useful if there are multiple corn stalks growing on a single square and it is part of a multiple pattern system.
+Here, one can create a function called pick along path which picks the various crops along the path and inside of the function could be another function called check for corn which will check for corn at every instance the harvester is moving.
+Functions could be as simple or as complicated as necessary - they could be a single block of code, or multiple blocks that include loops, conditionals, or other functions.
+
+Lesson 23 - Functions with Artist
+The purpose of this lesson is to draw various shapes with functions and create larger patterns.
+Each figure is meant to be drawn multiple times, so a function is utilized.
+Remember, a function is a segment of code separate from the main code that is designed to perform a specific task.
+A few functions that were utilized here were “draw hexagon”, “draw square”, “staggered squares”, etc.
+The last lesson allows for parameters to be substituted for various colors.
+All colors in computer science are represented by an RGB value from 0-255. 
+R is for red, G for green, and B is for blue.
+You could also alter the math involved.
+Set alpha changes the transparency of the brush - the higher the alpha (closer to 100), the darker the line.
+If the alpha is set to 0, the brush is invisible.
+
+Lesson 24 - Text and Prompts
+The purpose of this project is to familiarize oneself to adding text to your world.
+The print block allows text to be printed to the screen.
+A prompt allows for user input and text can be stored in certain variables to be used later.
+Different events can occur after a certain time by using the at seconds block - after a certain time is passed (a number can be inputted here as a variable), certain events can take place.
+A when answered block is used for when text is inputted to the variable - an event will take place then.
+Debugging techniques are also used in this lesson.
+
+Lesson 25 - Counting with Variables
+The purpose of this lesson is to familiarize oneself with the concept of variables.
+There is a block called set ??? to ***
+The ??? refers to the variable name.
+The *** refers to the value of the variable and you can enter in a value.
+You can then use this variable later in the code under the Variables block. 
+The pull down menu for ??? will allow you to select the desired variable.
+You will have an opportunity to predict what a variable will do in a lab.
+You will then perform some tasks that allow you to attach different numbers to variables.
+You then get to play a few games that involve variables with sprites, and there is a mini project as well.
+
+Lesson 26 - Using Variables with the Artist
+The purpose of this lesson is to familiarize oneself with the concept of variables.
+Variables can be added to loops or conditionals.
+While not discussed, but able to be accessed in Lesson 22, variables are now required to complete tasks.
+Variables can be changed or kept as constants in a program and are represented by a single puzzle piece.
+These variables can be a single number or represent a length (or other values you will see later).
+As a number, it can be put into a standard loop to repeat a certain number of times.
+As a length, it can be used to draw specific figures where lengths change. 
+This is useful if a length is modified by a certain amount in a program or if a length stays the same and can be used multiple times.
+It’s especially useful if we are drawing multiple squares or triangles of the same length.
+The length can be set at the top of the program, and then passed into a function or loop or utilized in a move forward command so the pixels do not have to be reset each time.
+You can set an initial value for the variable (length) and then use the math commands to add or subtract from the length each time as necessary.
+This will increase or decrease the pixel size when the brush is on the canvas.
+Also the pencil up or pencil down command was added to brushes for when you want to draw when moving forward.
+Again, the alpha can be set as can the brush width, the pattern of the brush, and the color of the brush.
+
+Lesson 27 - Using Variables with the Bee
+The purpose of this exercise is to further your understanding with variables by getting nectar and making honey.
+The gather block can be set in the beginning of the exercise and can be used throughout the program.
+Other variable blocks may be used where you can change the value manually.
+
+Lesson 28 - For Loops with the Bee
+An example of a for loop is demonstrated below.
+If the for loop starts at 3, ends at 15 and counts by 3 each time, it will execute 5 times.
+Each time the loop is executed, the variable can be used to throughout the loop.
+This is useful if the nectar increases or decreases by a certain amount each time as well as if it corresponds with the number of tiles the bee moves per loop iteration.
+The math can be changed this time from addition only to all 4 functions - addition, subtraction, multiplication, or division.
+
+Lesson 29 - For Loops with Artist
+Here, we learn explicitly about the set alpha block, which changes the transparency of the brush.
+The for loop is useful in artist if a single shape is being drawn with an increase or decrease in width.
+The for loop will start on a certain number and end on a certain number and continue drawing the shape that’s desired while increasing or decreasing the amount of pixels for the brush each iteration.
+To find the number of iterations, simply subtract the initial value from the final value and divide by the “count by” value.
+For example, if the count starts at 2 and ends at 20 and counts by 3 each time, the loop will execute (20 - 2) / 3 + 1 = 7 times.
+
+Lesson 30 - End of Course Project
+Ignore
+
+
+
+
+

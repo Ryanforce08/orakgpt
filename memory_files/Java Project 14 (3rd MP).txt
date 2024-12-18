@@ -1,0 +1,112 @@
+Java Project 14 - 3rd MP
+2 points
+
+
+Eclipse
+1. Inside of the Java folder you created, create another folder called Java14
+2. Open up the Eclipse Icon on your Desktop
+3. Navigate to the Java14 directory you created and select that folder
+4. Click the Restore Icon on the left (it looks like a small windows button)
+3. Go to File -> New -> Java Project
+4. Type in the name of the project - Java14 and click Finish
+5. Right click on the project on the left (in this case Java14) and go to New -> Class
+7. Type in Java14 as the filename
+8. Check the box for public static void main(String[] args) in the middle of the window.
+9. Click Ok.
+10. Press Enter before the opening brace on the first line.
+11. Press Enter before the other opening brace on the 2nd or 3rd line.
+12. You are ready to start your program.
+
+The purpose of this project is to discover logical operators. Remember, logical operators link Boolean expressions.
+
+Part 1:
+
+You will be calculating a college GPA based on the number of credits taken and the grade received.
+
+First create a sum variable stored as a double, and initialize it to 0.0, and an int variable for total credits and initialize that to 0.
+
+Second, prompt the user to enter a number of grades, and store this in a variable.
+Create a loop that will then ask the user to enter a course with the number of credits (an int), and then the grade received.
+To make it simple, use the following system:
+A = 4.0
+B = 3.0
+C = 2.0
+D = 1.0
+F = 0.0
+This should be stored in String variable
+Have 5 if / else conditionals that will assign a double variable equal to the grade received.
+For example, one of the structures will look as follows:
+else if (grade.equals("B"))
+   numgrade = 3.0;
+
+Below this set of conditionals, you will need to include a line that will actually calculate the heavy part of the GPA calculation:
+It should be as follows: the number of credits for the course * the grade added with the previous value of sum.
+
+Once you are finished calculating this value, create another double value which will be the sum from above, divided by the total number of credits.
+Print the GPA from above.
+
+Here is a sample output:
+Please enter the number of classes: 2
+Course 1
+How many credits? 4
+Grade received: A
+Course 2
+How many credits? 3
+Grade received: B
+Your GPA is: 3.5714285714285716
+
+
+
+
+
+
+Part 2:
+Create a second project called Java14a. Create a file named Java14. Copy the contents from Part 1 into this file.
+
+Here, you will utilize a logical operator to determine how well you did:
+GPA		Phrase
+3.0-4.0		Excellent Job
+2.0-3.0		Nice Job
+1.0-2.0		Satisfactory Job
+0.0-1.0		Failing Job
+
+To do this, you are to utilize 4 conditionals using logical operators:
+|| → OR
+&& → AND
+! → NOT
+
+Here are the truth tables for AND, OR, and NOT:
+			AND: (&&)		OR: (||)
+T	T		T			T
+T	F		F			T
+F	T		F			T
+F	F		F			F
+
+		NOT: (!)
+T		F
+F		T
+
+Syntax will look akin to:
+If x < 40 and x > 20:
+if (x < 40 && x > 20)
+
+If x < 40 or x > 80:
+if (x < 40 || x > 80)
+
+If x >= 40:
+if (!(x < 40))
+
+Here is a sample output:
+Please enter the number of classes: 3
+Course 1
+How many credits? 2
+Grade received: A
+Course 2
+How many credits? 3
+Grade received: B
+Course 3
+How many credits? 4
+Grade received: C
+Your GPA is: 2.7777777777777777
+Nice job!
+

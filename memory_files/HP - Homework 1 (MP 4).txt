@@ -1,0 +1,48 @@
+Honors Programming 
+Assignment 1:
+43 points
+
+1. Explain the process of creating a Ruby file. (2)
+
+2. Explain the process of navigating to the proper Ruby directory, compiling, and executing a file in Ruby. (2)
+
+3. What is the difference between puts and print? (2)
+
+4. Write a line of code that displays “Hello World” to the screen. (2)
+
+5. Explain what the following methods do: (3)
+a. .to_i
+b. .to_s
+c. .to_f
+
+6. What is required to print a line to the screen where one variable is a string and the other is an integer? (2)
+
+7. Explain the keyword gets. (2)
+
+8. Explain the method .chomp. (2)
+
+9. Find the following: (6)
+3 / 2
+3 * 2
+3 + 2
+3 - 2
+3 % 2
+3 ** 2
+
+10. Write an if conditional statement. (2)
+
+11. Write an if / else conditional statement. (2)
+
+12. Write an if / elsif / else conditional statement. (2)
+
+13. Write an unless conditional statement. (2)
+
+14. Write a while loop. (2)
+
+15. Write an until loop. (2)
+
+16. What is the difference between .. and …? (2)
+
+17. Write a for loop. (2)
+
+18. Write a .times loop two different ways. (4)

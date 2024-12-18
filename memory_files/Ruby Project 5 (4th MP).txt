@@ -1,0 +1,46 @@
+Ruby Project 5
+1 point
+
+Create a Folder inside of Ruby called Ruby5
+Create a file called ruby5.rb
+
+This project will familiarize yourself with:
+1. Random numbers
+2. Writing methods
+
+
+Random numbers:
+To create a random integer between 0 and n - 1, use the following syntax:
+rand(n)
+
+This can also be added to numerical expressions as well. For example, if you wanted to create a random number between 104 and 130 (both inclusive) and store it in a variable named x, use the following statement:
+x = 104 + rand(27)
+
+
+Writing methods:
+Methods should be written at the beginning of your program. They will have the following syntax:
+
+For 0 parameters:
+def methodname()
+   # code here
+end
+
+For 1 parameter:
+def methodname(a)
+   # code here
+end
+
+For 2 parameters:
+def methodname(a, b)
+   # code here
+end
+
+A return type is not to be specified. You can return values similar to Java if desired.
+Code inside a method should be indented 2-4 spaces or tabbed.
+Methods begin with the keyword def and end with the keyword end.
+
+The parameters a, b, … should not be the same name as a variable inside of your actual program. These values are simply passed in and can be used in the method only.
+
+The goal of this project is to create 2 methods:
+1. Create a method with no parameters that displays a 3 line message to the screen and does not return any number.
+2. Inside of your program, prompt the user to specify a range of values for random numbers (both beginning and end, inclusive). Pass both of these variables into a method and create 100 random numbers between these two ranges. Find the average of these random numbers and return it back to your program. Call your method in a print / puts statement stating that it is the average.

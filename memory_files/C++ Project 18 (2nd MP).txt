@@ -1,0 +1,53 @@
+C++ Project 18
+1 point
+
+Goal:
+1. Learn how to sort an array.
+2. Learn how to find the range of a sorted array.
+3. Learn how to find the median of a sorted array.
+
+To get started:
+To create a new project, click Create a new project. Then click Empty Project. Click Next
+
+For the Project name, type Prog18. Click the 3 dots (...) for the location. Select the Prog18 folder you created above. No other options need to be changed for now. Click Create.
+
+If an advertising window appears, click the little X at the top left.
+
+To add a file (a class), right click on Source files. Go to Add → New Item…
+Type Prog18 for the file name. NO SPACES. Click Add.
+
+Now that we know how to generate an array of random numbers, we can use a specific function to sort the array so the contents are arranged in order from least to greatest.
+
+Choose 1 of the following 4 sorting algorithms: BubbleSort, MergeSort, SelectionSort, InsertionSort. These algorithms are found on Google Drive. You do not have to memorize any of them. Simply copy the code of the desired algorithm to your program.
+
+You can then call the function to sort the array.
+
+Now that our array is sorted, we can also find the range and the median.
+
+Recall from math class that the range is the largest number in a data set - smallest number. Since our array is sorted, our smallest number will be the first element and our largest number will be the last element.
+
+Position 0 represents the first element. The last element is in position (length - 1).
+
+The median is the middle number or the average of the middle numbers depending if there are an even or odd number of elements in the set (or in our case, array).
+
+To determine if a number is even, use a conditional with two possibilities. The if portion should have some kind of modulus with 2. The else obviously does not have a conditional portion.
+
+Let’s assume there are 10 elements for now in our set. We would add the 5th element and 6th elements together and divide by 2 to find the median. This would correspond to index 4 and 5. So index1 = 4 and index2 = 5. Now you can add the actual values together by: 
+arr[index1] + arr[index2]. Put that in a sum variable and then multiply by 1.0 and divide by 2 and assign it to median. 
+
+If there are 2 elements, the indices are 0 and 1. If there are 100 elements, the indices are 49 and 50.
+Generally speaking,
+index1 = length / 2 - 1
+index2 = length / 2
+
+If there are an odd number of elements, simply divide the length by 2 to get the index.
+The median value is arr[index].
+
+Tasks:
+A. Create an array of 1000 int types in range from 1000 to 2000.
+B. Sort the array.
+C. Display the array to the screen using my algorithm.
+D. Find the mean. It should be around 1500.
+E. Find the range. It should be around 1000.
+F. Find the median. It should be around 1500.
+

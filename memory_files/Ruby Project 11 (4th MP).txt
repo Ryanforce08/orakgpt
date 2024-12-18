@@ -1,0 +1,23 @@
+Ruby Project 11
+1 point
+
+Create a Folder inside of Ruby called Ruby11
+
+This project focuses on recursion.
+
+Part 1:
+Create a file inside of Ruby11 called ruby11a.rb
+You are to create a recursive method for the Fibonacci numbers and the factorial function.
+
+
+Part 2:
+Create a file inside of Ruby11 called ruby11b.rb
+
+You are to write a recursive method in Ruby to find exponents.
+
+There should be two parameters that come into the method: the base and the power
+Therefore, your method header should look like:
+
+def power(a, b)
+   # code here
+end

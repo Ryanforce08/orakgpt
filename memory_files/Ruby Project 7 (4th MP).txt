@@ -1,0 +1,42 @@
+Ruby Project 7
+1 point
+
+Create a Folder inside of Ruby called Ruby7
+
+This project will familiarize yourself with:
+1. Arrays
+
+Create a file called ruby7.rb
+
+Before you begin declaring and utilizing arrays in Ruby, understand that arrays in Ruby are dynamic - meaning elements can be added and removed at will. This is very similar to how an ArrayList works in Java.
+
+To declare an array in Ruby, there are three different ways:
+Method 1:
+arr = []
+
+This will create an empty array with no elements.
+Method 2:
+arr = Array.new(n)
+This will create an array of n elements (all assigned to nil be default)
+
+Accessing elements is identical to Java, and the indices of an array run from 0 to n - 1, where n is the size of the array. It is important to understand that the index of the last element of an array is: n - 1 and not n.
+
+Method 3:
+An array also may be declared and initialized in one step, in a similar fashion.
+For example, if we have the following declaration in Java:
+int[] arr = {1, 3, 5, 7, 9};
+We can write the same array in Ruby as:
+arr = [1, 3, 5, 7, 9]
+
+Recall that in Java, you were required to utilize a loop to print an array to the screen.
+For example, one had to use code akin to:
+for (int i = 0; i < arr.length; i++)
+   System.out.print(arr[i] + “\t”);
+
+In Ruby, the array can be printed out directly:
+print arr
+puts
+
+Your goal of this project is to recreate Java16 Part 2, or Java16a.
+
+The premise was to create an array with the first 100 prime numbers.

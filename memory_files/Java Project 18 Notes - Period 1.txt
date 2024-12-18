@@ -1,0 +1,89 @@
+import java.util.ArrayList;
+
+public class TestArrayList 
+{
+	
+	public static void main (String[] args)
+	{
+		ArrayList <Integer> al = new ArrayList <Integer> ();
+		
+		// everything in an ArrayList is accessed by methods
+		
+		for (int i = 1; i <= 10; i++)
+			al.add(i);
+		
+		// a loop is not necessary to print an ArrayList
+		
+		System.out.println(al);
+		
+		// when you add to an ArrayList, elements are put into
+		// the first open position (usually the end)
+		// .add(element) - adds element to ArrayList at first open
+		// position (usually at the end)
+		
+		al.add(40);
+		
+		// [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 40]
+		
+		
+		// adds 100 to position 5, and every element after
+		// will be shifted
+		// .add(index, element) will add element to position index
+		// in the ArrayList and all elements to the right of 
+		// index will be shifted by 1
+		al.add(5, 100);
+		
+		System.out.println(al);
+		
+		// removes element from position 8
+		// .remove(index) - removes element from position index
+		// all elements to the right of index will be shifted
+		// to the left
+		al.remove(8);
+		
+		System.out.println(al);
+		
+		// removes the first instance of 3, regardless of position
+		// .remove((Object) o) - removes first instance of o in
+		// the ArrayList
+		al.remove((Integer) 3);
+		System.out.println(al);
+		
+		// overwrites the element in position 7 with value of 200
+		// .set(index, element) - overwrites the element originally 
+		// at index with the new element
+		al.set(7, 200);
+		System.out.println(al);
+		
+		// retrieves element in position 2
+		// Here, 4 is printed
+		// .get(index) - retrieves the element at index position
+		System.out.println(al.get(2));
+		
+		// finds the index of the first instance of 200 in the 
+		// ArrayList
+		// .indexOf(element) - returns the index of the first instance
+		// of element in the ArrayList. -1 is returned if not in it.
+		System.out.println(al.indexOf(200));
+		
+		// al has elements, so false would be returned
+		// .isEmpty() - return true / false depending if the 
+		// ArrayList has elements or not
+		System.out.println(al.isEmpty());
+		
+		// .size() - returns the number of elements in the ArrayList
+		System.out.println(al.size());
+		
+		// .contains(element) - return true / false depending on
+		// if element is in the ArrayList
+		System.out.println(al.contains(40));
+		
+		// .clear() - removes all elements from the ArrayList
+		al.clear();
+		System.out.println(al);
+		
+	}
+}
+
+
+

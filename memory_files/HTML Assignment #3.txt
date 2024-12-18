@@ -1,0 +1,23 @@
+HTML Assignment 3:
+20 points
+
+1. Write an entire HTML document that will change all of the following:
+A. BODY’s font color to blue
+B. BODY’s background to yellow
+C. BODY’s font to Courier New
+D. BODY’s font size to 20 pixels
+E. BODY to have a border
+F. P’s background to green
+G. P’s font color to red
+H. P’s font to Arial
+I. P’s font size to 30 pixels
+J. P to have a border
+K H1’s background to blue
+L. H1’s font color to pink
+M. H1’s font to Tahoma
+N. H1’s font size to 40 pixels
+O. H1 to have a border
+
+Make sure you have text inside of BODY, but outside of P and H1
+Make sure you have text inside of BODY, and inside of P
+Make sure you have text inside of BODY, and inside of H1

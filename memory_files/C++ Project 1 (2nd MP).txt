@@ -1,0 +1,58 @@
+C++ Project 1
+1 point
+
+Goal: Display "Hello World" to the screen.
+
+The IDE (integrated development environment) we use for C++ is called Microsoft Visual Studio. An IDE allows text to be entered into the text editor as well as the compilation and execution of a program. There are IDEs specific to programming languages.
+
+C++ is an object oriented programming language where objects are derived from classes.
+
+1. There should be a folder on your desktop called Hon Prog. Open it.
+2. Create a folder inside here called C++ if you have not done so. Open it.
+3. Create 15 folders inside here called Prog1, Prog2, …, Prog21.
+4. On the Desktop - open Microsoft Visual Studio 2022.
+5. If it asks you to create an account, click “Skip this for now”.
+6. Choose your mode for viewing - light, dark, etc. I prefer light mode.
+7. To create a new project, click Create a new project. Then click Empty Project. Click Next
+
+For the Project name, type Prog1. Click the 3 dots (...) for the location. Select the Prog1 folder you created above. No other options need to be changed for now. Click Create.
+
+If an advertising window appears, click the little X at the top left.
+
+To add a file (a class), right click on Source files. Go to Add → New Item…
+Type Prog1 for the file name. NO SPACES. Click Add.
+
+Click Tools (at the toolbar on top) → Options
+Click Debugging on the left.
+About 7 options from the bottom, there is an option for “Automatically close the console when debugging stops”. Check that box. Click OK.
+
+Type the following in exactly:
+#include <iostream>
+
+using namespace::std;
+
+int main()
+{
+	// your name here
+	cout << "Hello World" << endl;
+	cin.get();
+	return 0;
+}
+
+First, #include <iostream> will allow for a stream of input and output between the user and the computer.
+
+Next, using namespace::std; will allow the methods and variables inside of namespace and std to be used. In our case, it allows us to use cout and cin. All program statements must end in a semicolon (;).
+
+Next, we have int main(). This is where our project runs from. The compiler looks for the main function and runs that first. Always. int specifies the return type of the function. Just know that main will almost always carry the int return type.
+
+All code that we want to run from main will be located inside of {} and it should be indented. No exceptions.
+
+Comments will be disregarded by the compiler. Single-line comments are written with //. The compiler will know to skip over all comments when running a program. A comment is used for documentation. Here, write your name in a comment.
+
+Next, we have cout << "Hello World" << endl;
+Here, cout refers to displaying text to the console. Anything that you want displayed to the console should be included with the << operator. Here, we are displaying "Hello World" to the screen. Finally the endl at the end of this statement returns a line after the text is displayed.
+
+Next is cin.get();
+Here, cin allows for user input. The .get() method allows for a single character input. If this line weren’t here, the program would immediately terminate and you would not see the Hello World in the terminal window. This line of code will stop the program from terminating until I press any key and press Enter. All programs in this class should have this line of code as the second to last line in main().
+
+Finally, we have return 0. Since main() requires an int (integer) return type we must specify a number to terminate the program. 0 is primarily used for this purpose. The keyword return terminates the method and sends back the value. It should always be the last line of main().

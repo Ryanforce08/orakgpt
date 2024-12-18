@@ -1,0 +1,108 @@
+C++ Project 11
+1 point
+
+Goal:
+1. Learn to write for loops
+
+To get started:
+To create a new project, click Create a new project. Then click Empty Project. Click Next
+
+For the Project name, type Prog11. Click the 3 dots (...) for the location. Select the Prog11 folder you created above. No other options need to be changed for now. Click Create.
+
+If an advertising window appears, click the little X at the top left.
+
+To add a file (a class), right click on Source files. Go to Add → New Item…
+Type Prog11 for the file name. NO SPACES. Click Add.
+
+You previously learned how to write while loops. Now you will learn to write for loops.
+
+A for loop has 3 main components - initialization, Boolean expression, modification. All for loops have this structure, though some may be purposely missing.
+
+A for loop is structured like:
+for (initialization; Boolean expression; modification)
+{
+   // code here
+}
+
+Code that will repeat will be inside the braces. All code is indented. Do not put a semicolon on the same line as the for loop.
+
+If the contents of a for loop is one line, you do not need opening and closing braces. However, code must be indented.
+
+A basic for loop is as follows:
+for (int i = 0; i < 5; i++)
+   cout << "The value for i is: " << i << endl;
+
+I could have also written this as:
+for (int i = 0; i < 5; i++)
+{
+   cout << "The value for i is: " << i << endl;
+}
+
+Notice how the variable, i, is declared inside the loop. This means it cannot be used outside the loop.
+
+It will count up from 0 to 4 inclusive since the Boolean expression states that it will run until i hits 5.
+
+The following output will be printed:
+The value of i is 0
+The value of i is 1
+The value of i is 2
+The value of i is 3
+The value of i is 4
+
+You can also count down in a for loop:
+for (int i = 5; i > 0; i--)
+   cout << "The value for i is: " << i << endl;
+
+The following output will be printed:
+The value of i is 5
+The value of i is 4
+The value of i is 3
+The value of i is 2
+The value of i is 1
+
+You can also modify the variable by a value more than 1. See the example below
+for (int i = 10; i > 0; i -= 2)
+   cout << "The value for i is: " << i << endl;
+
+The following output will be printed:
+The value of i is 10
+The value of i is 8
+The value of i is 6
+The value of i is 4
+The value of i is 2
+
+It is important to understand that the modification happens after the contents of the loop executes.
+
+All while loops can be converted to a for loop and vice versa.
+
+
+
+
+
+For example, if we have:
+int i = 0;
+while (i < 10)
+{
+   cout << "The value of i is: " << i << endl;
+   i += 1;
+}
+
+I can write this as:
+for (int i = 0; i < 10; i += 1)
+   cout << "The value of i is: " << i << endl;
+
+It is important to understand not to write the i += 1 twice, as this will not produce the desired outcome. The only difference between the while loop and for loop is that I can re-use the variable i after the while loop and I cannot for the for loop.
+
+The reverse can also be true. If I have the following:
+for (int i = 20; i > 0; i /= 4)
+   cout << "The value of i is: " << i << endl;
+
+This can be written as:
+int i = 20;
+while (i > 0)
+{
+   cout << "The value of i is: " << i << endl;
+   i /= 4;
+}
+
+Your task is to re-create Prog 10 using for loops.

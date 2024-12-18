@@ -1,0 +1,12 @@
+Python Project 13
+1 point - EC
+
+Create a Folder inside of Python called Python13
+
+Create a file called python13.py
+
+This project will focus on the mode.
+
+Your goal is to find the mode of a data set. Create an array with 15 elements ranging from 0-10 inclusive.
+
+The mode should be in an array. You might have one mode or more than one mode.

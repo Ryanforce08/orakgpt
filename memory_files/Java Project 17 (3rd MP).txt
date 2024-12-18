@@ -1,0 +1,85 @@
+Java Project 17 - 3rd MP
+
+Eclipse
+1. Inside of the Java folder you created, create another folder called Java17
+2. Open up the Eclipse Icon on your Desktop
+3. Navigate to the Java17 directory you created and select that folder
+4. Click the Restore Icon on the left (it looks like a small windows button)
+3. Go to File -> New -> Java Project
+4. Type in the name of the project - Java17 and click Finish
+5. Right click on the project on the left (in this case Java17) and go to New -> Class
+7. Type in Java17 as the filename
+8. Check the box for public static void main(String[] args) in the middle of the window.
+9. Click Ok.
+10. Press Enter before the opening brace on the first line.
+11. Press Enter before the other opening brace on the 2nd or 3rd line.
+12. You are ready to start your program.
+
+You will be discovering how two-dimensional arrays work in the Java environment.
+
+As you’ve seen from a previous project, an array can be declared as follows.
+Here, each element of the array will correspond to the index (in this case, 0 through 24).
+int[] arr = new int[25];
+for (int i = 0; i < 25; i++)
+   arr[i] = i;
+
+To print out the array, use the following code. This is standard for a one-dimensional array.
+for (int i = 0; arr.length; i++)
+   System.out.println(arr[i]);
+
+Your goal is to create a two-dimensional array:
+This can be done two different ways.
+
+The first will be as follows:
+int[][] arr = {{1, 2}, {2, 3}, {3, 4}};
+Here, there is an array within an array.
+
+This is not the preferred way of creating a two-dimensional array, but the values would be as follows:
+arr[0][0] = 1
+arr[0][1] = 2
+arr[1][0] = 2
+arr[1][1] = 3
+arr[2][0] = 3
+arr[2][1] = 4
+
+Notice that there is an x component and a y component.
+
+The preferred way of doing this is as follows:
+int[][] arr = new int[3][2];
+
+This will mean that there will be 3 rows in our 2-D array, and 2 columns.
+
+To initialize it as above, we will use the following code:
+for (int i = 0; i < arr.length; i++)
+{
+   for (int j = 0; j < arr[i].length; j++)
+      arr[i][j] = (i + 1) + j;
+}
+
+
+
+
+
+
+To print it to the screen, there are a few options, but a nice format will look like:
+for (int i = 0; i < arr.length; i++)
+{
+   for (int j = 0; j < arr[i].length; j++)
+   {
+      System.out.print(arr[i][j] + "\t");  
+   }
+   System.out.println();
+}
+
+This will create a matrix of 2 columns and 3 rows.
+
+Your goal is to create a times table utilizing a 2-D array:
+0x0=0	0x1=0	0x2=0	0x3=0	0x4=0	0x5=0	0x6=0	0x7=0	0x8=0
+1x0=0	1x1=1	1x2=2	1x3=3	1x4=4	1x5=5	1x6=6	1x7=7	1x8=8
+2x0=0	2x1=2	2x2=4	2x3=6	2x4=8	2x5=10	2x6=12	2x7=14	2x8=16
+3x0=0	3x1=3	3x2=6	3x3=9	3x4=12	3x5=15	3x6=18	3x7=21	3x8=24
+4x0=0	4x1=4	4x2=8	4x3=12	4x4=16	4x5=20	4x6=24	4x7=28	4x8=32
+5x0=0	5x1=5	5x2=10	5x3=15	5x4=20	5x5=25	5x6=30	5x7=35	5x8=40
+6x0=0	6x1=6	6x2=12	6x3=18	6x4=24	6x5=30	6x6=36	6x7=42	6x8=48
+7x0=0	7x1=7	7x2=14	7x3=21	7x4=28	7x5=35	7x6=42	7x7=49	7x8=56
+8x0=0	8x1=8	8x2=16	8x3=24	8x4=32	8x5=40	8x6=48	8x7=56	8x8=64

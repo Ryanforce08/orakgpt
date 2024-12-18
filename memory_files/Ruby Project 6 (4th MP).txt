@@ -1,0 +1,68 @@
+Ruby Project 6
+2 points
+
+Create a Folder inside of Ruby called Ruby6
+
+This project will familiarize yourself with:
+1. String methods
+2. .each_byte loops
+
+
+Part 1:
+Create a file called ruby6a.rb
+
+From Java, there were 10 methods for Strings you familiarized yourself with:
+1. .charAt(n)
+2. .trim()
+3. .indexOf(str) or .indexOf(str, n)
+4. .substring(n1) or .substring(n1, n2)
+5. .replace(str1, str2)
+6. .toUpperCase()
+7. .toLowerCase()
+8. .equals(str)
+9. .compareTo(str)
+10. .length()
+
+Ruby’s equivalent methods are as follows:
+1. [n] where n represents the character number - do not use a . as with a method
+2. .strip (Same return type as Java)
+3. .index(str) or .index(str, n) (You may use 1 or 2 parameters and same return type as Java)
+4. Use [] similarly in #1:
+For variant 1: use [n1, str.length]
+For variant 2: use [n1...n2] (exclusive of n2) or [n1..n2] (inclusive of n2)
+5. .gsub(str1, str2) (Same return type as Java)
+6. .upcase (Same return type as Java)
+7. .downcase (Same return type as Java)
+8. .eql? str2 (Same return type as Java)
+9. str1 <=> str2 (Returns either -1, 0 or 1)
+10. .length (Same return type as Java)
+
+Your goal is to create a program that will utilize these 10 methods (12 statements). Your program doesn’t have to do anything interesting or useful. My advice is to create a string s = "Hello World" and utilize these methods inside of print/puts statements.
+
+
+Part 2:
+Create a file called ruby6b.rb
+
+The 5th type of loop you will utilize in Ruby is called a .each loop
+
+There are a vast number of ways you can use a .each loop, but understand that it is an iterated loop, which means it will loop until the object has completed its task
+
+You will be looking at a .each_byte loop as it relates to strings
+
+For example, let’s example the following code:
+s = "Hello World"
+s.each_byte do |x|
+   puts x.chr
+end
+
+This will print out each character of the string on a separate line.
+The code inside of |x| represents what you are working with (called an iterator)
+Here, we are working with each byte of the string (which means each character since each character represents a byte). Each byte is represented by a number
+The .chr method will convert the ascii value (the number) of a character into an actual character
+
+Your goal is to utilize a .each loop and create a string with double the amount of characters. You are then to reverse the string. Make sure the string is stored in a variable rather than just being displayed to the screen. You are NOT allowed to use the .reverse! or .reverse method.
+
+For example, the string s = “Hello World” will be converted to:
+t = "HHeelllloo  WWoorrlldd"
+t will then be converted to t = "ddllrrooWW  oolllleeHH"
+

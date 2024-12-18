@@ -1,0 +1,77 @@
+Java Project 6 - 3rd MP
+2 points
+
+Eclipse
+1. Inside of the Java folder you created, create another folder called Java6
+2. Open up the Eclipse Icon on your Desktop
+3. Navigate to the Java6 directory you created and select that folder
+4. Click the Restore Icon on the left (it looks like a small windows button)
+3. Go to File -> New -> Java Project
+4. Type in the name of the project - Java6 and click Finish
+5. Right click on the project on the left (in this case Java6) and go to New -> Class
+7. Type in Java6 as the filename
+8. Check the box for public static void main(String[] args) in the middle of the window.
+9. Click Ok.
+10. Press Enter before the opening brace on the first line.
+11. Press Enter before the other opening brace on the 2nd or 3rd line.
+12. You are ready to start your program.
+
+The goal of this project is to familiarize yourself with various String methods.
+
+We will cover 12 of them in this class.
+
+To get started, declare some ints and Strings as follows:
+String s1 = " hello world ";
+String s2 = "l";
+String s3 = "W";
+int i1 = 4;
+int i2 = 7;
+
+You are to find the following:
+The definition and return types of the following methods.
+1. .trim()
+2. .toUpperCase()
+3. .toLowerCase()
+4. .charAt((integer))
+5. .indexOf((string))
+6. .indexOf((string), (integer))
+7. .replace((string), (string))
+8. .length()
+9. .equals((string))
+10. .substring((integer))
+11. .substring((integer), (integer))
+12. .compareTo((string))
+
+There are 10 different methods. You will be required to know both variations of .substring() and .indexOf()
+
+To test what these methods do, put them inside of print statements as follows:
+
+System.out.println(s1.trim());
+System.out.println(s1.toUpperCase());
+System.out.println(s1.toLowerCase());
+System.out.println(s1.charAt(i1));
+System.out.println(s1.indexOf(s2));
+System.out.println(s1.indexOf(s2, i1));
+System.out.println(s1.replace(s2, s3));
+System.out.println(s1.length());
+System.out.println(s1.equals(s2));
+System.out.println(s1.substring(i1));
+System.out.println(s1.substring(i1, i2));
+System.out.println(s2.compareTo(s3));
+
+The method .compareTo() will probably be the hardest to figure out what it does.
+Notice how the parameters correspond from 1-12 inside of these print statements.
+
+Also note that using these methods WILL NOT alter the contents of the string, it will simply display the result of performing an operation.
+
+If you want to modify a string by these, you will have to set the original string equal to it.
+For example: 
+String s4 = "Brian";
+String s5 = "r";
+String s6 = "R";
+s4.replace(s5, s6);
+System.out.println(s4);
+s4 = s4.replace(s5, s6);
+System.out.println(s4);
+
+Create a list of comments - 1 - 12. Each number will correspond to the methods listed above. You are to find the return type and definition for all 12.

@@ -1,0 +1,115 @@
+C++ Project 9
+1 point
+
+Goals:
+1. Write conditional expressions using if statements
+2. Write conditional expressions using if / else statements
+3. Write conditional expressions using if / else if / … / else statements
+4. Learn the 6 relational operators
+
+To get started:
+To create a new project, click Create a new project. Then click Empty Project. Click Next
+
+For the Project name, type Prog9. Click the 3 dots (...) for the location. Select the Prog9 folder you created above. No other options need to be changed for now. Click Create.
+
+If an advertising window appears, click the little X at the top left.
+
+To add a file (a class), right click on Source files. Go to Add → New Item…
+Type Prog9 for the file name. NO SPACES. Click Add.
+
+There are 6 relational operators - <, >, <=, >=, !=, == - in C++.
+They correspond to less than, greater than, less than or equal to, greater than or equal to, not equal to, equal to.
+These relational operators are used to compare numeric types only.
+
+Just like you learned in Code.org, there are conditional expressions in C++ as well.
+
+There are three different types:
+1. if statement only (used for one outcome)
+2. if / else statement (used for two outcomes)
+3. if / else if / … / else statement (used for three+ outcomes)
+
+All if conditionals have a Boolean expression attached to it. If the Boolean expression is true, the statement inside will execute. Code inside the braces will be the contents that will execute. Code inside the braces should always be indented.
+
+For example,
+int x = 4;
+if (x < 5)
+{
+   cout << "x is less than 5" << endl;
+}
+
+
+Since the Boolean expression is true (4 < 5), the code inside the braces will execute. Here, “x is less than 5” will be displayed to the screen.
+
+If the contents of the if statement is one line, braces are not necessary.
+
+For example, the above statement can be written as:
+int x = 4;
+if (x < 5)
+   cout << "x is less than 5" << endl;
+
+The exact same scenario as above happens. Notice also that the code (even though it is one line) will be indented as well.
+
+If there are two possible outcomes for a decision, you should use an if / else structure.
+
+For example,
+int x = 4;
+if (x > 5)
+{
+   cout << "x is greater than 5" << endl;
+}
+else
+{
+   cout << "x is less than 5" << endl;
+}
+
+Here, the else portion would execute since the Boolean expression for the if statement is false. Notice how there is no Boolean expression for the else portion of this structure. There will never be a Boolean expression for an else portion. "x is less than 5" will be displayed on the screen. Either the else portion or the if portion will execute. Both will never execute.
+
+Again, the contents of each portion are indented inside the braces. If the contents only happen to be one line, then braces are not needed, but the code should still be indented.
+
+For example, the above structure could be written as:
+int x = 4;
+if (x > 5)
+   cout << "x is greater than 5" << endl;
+else
+   cout << "x is less than 5" << endl;
+
+
+
+Finally, if there are 3 or more outcomes, you would use a structure that is: if / else if / … / else.
+
+The Boolean expression condition that is true will have that segment run, or if none are true, the else portion will run.
+
+For example,
+int x = 4;
+if (x > 5)
+{
+   cout << "x is greater than 4" << endl;
+}
+else if (x == 4)
+{
+   cout << "x is equal 4" << endl;
+}
+else
+{
+   cout << "x is less than 4" << endl;
+}
+
+Note that that middle condition(s) has(ve) a Boolean expression attached to it.
+The last portion would execute if none of the conditions are true. Here, the x == 4 condition is true so “x is equal to 4” will be displayed on the screen.
+
+The above structure could also be written as:
+int x = 4;
+if (x > 5)
+   cout << "x is greater than 4" << endl;
+else if (x == 4)
+   cout << "x is equal 4" << endl;
+else
+   cout << "x is less than 4" << endl;
+
+If there are more than 3 outcomes, add an extra else if statement as needed.
+
+Your task is:
+1. Ask the user for 3 inputs: their age, their favorite number, and their graduation year.
+2. Write an if conditional structure (one outcome) for their age.
+3. Write an if / else conditional structure (two outcomes) for their favorite number.
+4. Write an if / else if / … / else conditional structure (3+ outcomes) for their graduation year.

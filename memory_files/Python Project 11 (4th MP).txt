@@ -1,0 +1,23 @@
+Python Project 11
+2 points
+
+Create a Folder inside of Python called Python11
+
+Create a file called python11.py
+
+This project will focus on recursion.
+
+Recursion is utilized the same way as Ruby and Java - a method (or function) is called within itself.
+
+Your goal is to return True if an element is located inside an array, and False otherwise.
+
+For example:
+If the array had [2, 5, 7, 9, 1, 3] and you were looking for a key of 8, you would get False back. If you were looking for a key of 7, you would get True back.
+
+You must utilize recursion in this project.
+
+Your function should either take 2 or 3 parameters:
+If 2 parameters - the array itself and the key
+If 3 parameters - the array itself, the key, and the size (count down) or 0 (count up)
+
+You can complete this how you wish, but you must utilize a recursive function.

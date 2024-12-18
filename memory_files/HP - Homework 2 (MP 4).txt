@@ -1,0 +1,36 @@
+Honors Programming 
+Assignment 2:
+36 points
+
+1. Write a comment of your choice. (2)
+2. Write a method of your choice with no parameters. (4)
+
+3. Write a method of your choice with one parameter. (4)
+
+4. Write a method call from a method that returns an integer and store it in a variable. (2)
+
+5. Create a random number between a and b. (2)
+
+6. Explain the following string methods: (12)
+a. [n]
+b. .upcase
+c. .downcase
+d. index(s)       # s is a string
+e. index(s, n)   # s is a string, n is a number
+f. [n1, n2]        # n1 and n2 are numbers
+g. [n1..n2]       # n1 and n2 are numbers
+h. .gsub(s1, s2)    # s1 and s2 are strings
+i. <=> 
+j. .length
+k. .strip
+l. .eql? s    # s is a string
+
+7. Explain how a .each_byte loop works. (2)
+
+8. Create an array two different ways. (2)
+
+9. How do you print an array? (2)
+
+10. How do you load another file in a Ruby file? (2)
+
+11. What must be added to every sorting method when passing in an array? (2)

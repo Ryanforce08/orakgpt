@@ -1,0 +1,61 @@
+HTML Project 5
+
+4 points - Programming Project
+20 points - Quiz
+
+Create a folder named HTML5 (should be inside of your HTML folder on E:)
+
+Directions:
+1. Open up Notepad ++ from your USB Drive.
+2. At the top, you will see a tab for Language. Go to H → HTML
+3. Go to Save As… and locate the directory you created before Step 1 and type in index.
+
+Your goal is to create a resume. It does not have to be serious. It must be school appropriate though.
+
+You are to have the following ingredients:
+1. A border around the website using CSS. (2)
+2. At least 3-4 methods involving CSS. (8)
+  A. One of the methods must adjust the <BODY> attributes.
+  B. One of the methods must adjust the <P> attributes.
+3. All tags must have closing tags. (4)
+4. All opening braces ({) must have a closing brace (}) for CSS. (2)
+5. The font must be changed from Times New Roman using CSS. (1)
+6. There needs to be padding between the border and the text. This means that the text should not be flush against the border. (2)
+7. There must be a change of background color. (1)
+
+Note: The border, padding, background color should all be modified inside of:
+BODY
+{
+}
+
+Each line of CSS code should be indented and end with a semi-colon (;).
+
+You may use the following website:
+http://www.tutorialspoint.com/css/
+It is highly recommended that you at least glance at the CSS - Borders, CSS - Backgrounds, CSS - FONTS
+
+Remember, all projects should begin with:
+<HTML>
+<HEAD>
+<TITLE> Title of your website here </TITLE>
+…
+</HEAD>
+…
+</HTML>
+
+It is highly recommended to complete all of the CSS inside of <HEAD> and after <TITLE>.
+
+All CSS code should go inside of <STYLE> and </STYLE>
+
+Remember that each method inside of <STYLE> will overwrite the attributes of a specific tag.
+
+For instance,
+h1 
+{
+   color: #36CFFF; 
+}
+
+will affect the <H1> tag. Every time the <H1> tag is used in the website, the color will be cyan.
+
+This can be done with any tag. It is highly recommended that you utilize body in this way, so everytime <BODY> is used inside of the website, the attributes inside of <STYLE> are applied.
+

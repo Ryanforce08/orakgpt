@@ -1,0 +1,75 @@
+C++ Assignment 2 - 2nd MP
+42 points
+
+1. What allows a user to collect input? (1)
+
+
+2. Write segments of code that stores user input for each variable type. (10)
+
+
+
+
+
+
+3. What is a constant? (1)
+
+
+4. What are the naming conventions for constants? (2)
+
+
+5. How does one print the values of E and PI to the screen that’s pre-declared inside of C++? (2)
+
+
+
+6. Declare and instantiate constants for the 5 primitive types we learned. (5)
+
+
+7. What is a function? (1)
+
+
+8. What are the naming conventions for functions? (1)
+
+
+9. Write a function with no parameters that returns a string. (2)
+
+
+
+10. What is a function call? (1)
+
+
+11. Write a line of code that has a function call to the function you created in 9. (1)
+
+
+12. Write a function with no parameters that has a return type of one of the other 5 primitive types we studied. (2)
+
+
+
+13. Write a function call to the function you just wrote in 13. (1)
+
+
+14. Write a function with no parameters with a return type of void. (2)
+
+
+
+15. Write a function call to the function you just wrote in 14. (1)
+
+
+16. Write a function that has a non-void return type that takes a parameter. (2)
+
+
+
+17. Write an appropriate call to this function. (1)
+
+
+18. Write a function that has a void return type that takes a parameter. (2)
+
+
+
+19. Write an appropriate call to this function. (1)
+
+
+20. Write a function that takes two string parameters and returns a string that is a concatenation of those two strings (as a single string). (2)
+
+
+
+21. Write an appropriate call to this function. (1)

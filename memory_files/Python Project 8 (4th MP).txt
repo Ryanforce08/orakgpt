@@ -1,0 +1,25 @@
+Python Project 8
+1 point
+
+Create a Folder inside of Python called Python8
+
+Create a file called python8.py
+
+This project will have you play a guessing game with the computer.
+
+This project is similar to Python7. However, you are coming up with the random number (between 1-100 inclusive), and the computer will guess the number.
+
+You have to specify whether the number is higher or lower.
+
+Using the example from yesterday,
+1. If your number is 42, the computer will guess 50 first. You say “lower”.
+2. 50 would then be the max, so the computer will guess 25. You say “higher”.
+3. 25 would now be the min, so the computer will guess 37. You say “higher”.
+4. 37 would now be the min, so the computer will guess 43. You say “lower”.
+5. 43 would now be the max, so the computer will guess 40. You say “higher”.
+6. 40 would now be the min, so the computer will guess 41. You say “higher”.
+7. 41 would now be the min, so the computer will guess 42. 42 is correct.
+The maximum number of tries will always be 7.
+
+Hint: specify a range from 1-100 (100 being max and 1 being min).
+Alter the max and min as needed. Remember the computer will always guess the middle number (min + max) / 2. Since Python converts all numbers to decimals, be sure to type cast this number back as an integer.

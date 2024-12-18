@@ -1,0 +1,67 @@
+Ruby Project 4
+1 point
+
+Create a Folder inside of Ruby called Ruby4
+Create a file called ruby4.rb
+
+This project will familiarize you with loop structures.
+
+Ruby has a variety of loop structures. There are 5 of them, but this project will focus on 4 of them.
+Here are the following loop structures:
+1. while loop
+2. for loop
+3. until loop
+4. times loop
+5. each loop
+
+while loop:
+This functions analogously to Java - meaning, it functions exactly the same. The syntax is also the same.
+For example, to print out your name 4 times to the screen:
+i = 0
+while (i < 4)
+   puts “Brian Orak”
+   i = i + 1 # you could also use i += 1, but i++ is not valid syntax
+end
+
+
+for loop:
+This functions analogously to Java, but the loop can only count by 1.
+For example, to print out your name 4 times to the screen:
+for i in 0..3
+   puts “Brian Orak”
+end
+
+Note that .. will designate inclusion of both numbers. If the first line of the loop was:
+for i in 0...3 
+3 will not be included. It will cycle through 0, 1, and 2.
+
+
+
+
+
+
+until loop:
+This is a new kind of loop, and will execute until a certain condition is met.
+For example, to print your name to the screen 4 times:
+i = 0
+until (i == 4)
+   puts “Brian Orak”
+   i += 1
+end
+
+
+times loop:
+This is also a new kind of loop, and will execute a specific number of times. It can be done two different ways.
+To print your name to the screen 4 times, the following syntax will work:
+# Method 1
+4.times { puts “Brian Orak” }
+
+# Method 2
+4.times do
+   puts “Brian Orak”
+end
+
+Both do the exact same thing. Make sure you are familiar with both styles.
+
+
+Your goal is to create a program that utilizes each of these loops. Your program doesn’t have to do anything useful. But you should familiarize yourself with these structures.

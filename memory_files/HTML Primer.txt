@@ -1,0 +1,110 @@
+Here is a sample HTML project. You can copy this code into your project to get started to see what happens.
+
+<HTML>
+<HEAD>
+<TITLE>A Short HTML Document</TITLE>
+</HEAD>
+<BODY>
+<H1>This is a first heading</H1>
+<P>This is a first paragraph!</P>
+<P>You will learn to write simple Web pages.</P>
+</BODY>
+</HTML>
+
+Code located in <> are called tags. These tags are NOT case sensitive, however, for style, please capitalize all tags. Additionally, whenever you start a tag with <>, you must finish the tag with </> (with some exceptions).
+
+The following tags are the basic HTML markup tags
+HTML			Designates an HTML document
+HEAD			Designates the head of the document
+BODY			Designates the contents of the document
+FONT			Designates the font of the document
+A			Designates a hyperlink
+TITLE			Designates the title that appears in the browser window
+P			Designates a paragraph of text
+H1, H2, H3, …	Designates a heading; there are six levels of headings
+PRE			Designates text to be formatted literally
+BR			Indicates a line break
+UL			Designates a bulleted (ordered) list
+OL			Designates a numbered (ordered) list
+LI			Indicates an item within a list
+
+
+The beginning of an HTML document should always begin with the <HTML> tag and close with the </HTML> tag.
+
+
+Additional character-level tags:
+EM			Designates emphasis, usually italics
+STRONG			Designates strong emphasis, usually bold
+CITE			Similar to italics, used for citations
+B			Bold text
+I			Italic text
+TT			Typewriter text, a fixed-width font
+
+Escape sequences:
+&lt;			Used for <
+&gt;			Used for >
+&amp;			Used for &
+
+
+Definition List tags:
+DL			Begins the definition list and ends it
+DT			Precedes each term in a definition list
+DD			Precedes each definition in a definition list
+
+
+Alignment tags:
+CENTER			Aligns text to center
+
+Linking to other documents:
+<A HREF=”target document identifier”>text of link</A>
+
+For example,
+<A HREF=”courses.html”>courses last year</A>
+Links the words courses last year to the courses webpage.
+
+
+Multimedia:
+<IMG SRC=”ImageLocation”> inserts an image at the ImageLocation path.
+
+
+Alignment:
+<P ALIGN=CENTER>		Aligns text, multimedia, and hypertext at center
+<P ALIGN=RIGHT>		Aligns text, multimedia, and hypertext at right
+<P ALIGN=LEFT>		Aligns text, multimedia, and hypertext at center
+
+
+Colors and Backgrounds:
+<BODY BGCOLOR=”#XXXXXX” TEXT=”#XXXXXX” LINK=”#XXXXXX”>
+Where XXXXXX designates a 6-digit hexadecimal code for a specific color
+
+You may also use a background image for the background:
+<BODY BACKGROUND=”mybackground.jpg”>
+Where mybackground.jpg is an image file in the current project.
+
+
+To alter the size of an image:
+<img src="picture.jpg"  width="300" height="200">
+Change the “300” and “200” to the desired width/height
+
+To create falling text, use the following code (marquee):
+
+<marquee scrollamount="3" direction="down">TEXT YOU WANT TO FALL</marquee>
+
+You may edit the above marquee at your leisure. Note that you can make some text scroll up by changing the direction. You may alter the font, the location, the number of places the text falls, the color, the size, etc… 
+
+
+To add music to your HTML project, use the following code:
+<BGSOUND SRC="FILE.mid" hidden="true" autostart="true" autoplay="true">
+
+To add horizontal text, use the following code:
+<marquee direction="left" behavior="scroll" scrollamount="10" >ENTER YOUR TEXT HERE</marquee>
+
+
+Notice how the number 10 is set as a speed, to increase speed, change 10 to a higher number. To decrease speed, change 10 to a lower number. To have it scroll right to left, change left to right.
+
+
+To change the font:
+<font size="3" color="red">This is some text!</font>
+<font size="2" color="blue">This is some text!</font>
+<font face="verdana" color="green">This is some text!</font>
+

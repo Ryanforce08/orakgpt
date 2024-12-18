@@ -1,0 +1,61 @@
+C++ Project 4
+1 point
+
+Goals:
+1. Learn how to use variables
+2. Learn various data types
+
+To get started:
+To create a new project, click Create a new project. Then click Empty Project. Click Next
+
+For the Project name, type Prog4. Click the 3 dots (...) for the location. Select the Prog4 folder you created above. No other options need to be changed for now. Click Create.
+
+If an advertising window appears, click the little X at the top left.
+
+To add a file (a class), right click on Source files. Go to Add → New Item…
+Type Prog4 for the file name. NO SPACES. Click Add.
+
+Variables are entities in a program that can be modified at any point.
+
+In order to use a variable, it must be declared in the following context:
+type var;
+
+You can also (and preferably) declare a variable and initialize it in one step:
+type var = value;
+
+Every variable has a data type associated with it.
+Variables can either be primitive (endemic to C++) or defined by a class.
+
+There are technically 7 primitive data types, which are as follows:
+bool, char, int, float, double, void, wchar_t
+
+We will only concern ourselves with bool, char, int, float, double
+bool - Boolean value (true / false) (1 bit)
+char - single character defined in ‘ and ’ (1 byte)
+int - integer values from -231 to (231 - 1) (4 bytes)
+float - decimal values from 1.401E-45 to 3.403E38, positive and negative (4 bytes)
+double - decimal values from 4.941E-324 to 1.798E308, positive and negative (8 bytes)
+
+There are other integer data types like a short and a long, and we can make these values unsigned as well, but for now, it’s not necessary to know this.
+
+There is one other data type that is important and that is a string. A string is a sequence of characters inside of “ “.
+A string is defined by a class, so it is not a primitive type.
+
+We have dealt with string literals in Prog 1, Prog 2, and Prog 3 because they were not attached to a variable. It is simply a block of text that cannot be reused.
+
+Variable naming conventions should be as follows:
+1. Lowercase letter to start
+2. No spaces at all for the name (required)
+3. Avoid special symbols other than underscore or $.
+4. Cannot use keywords as variable names (like int, float, double, etc.)
+5. Cannot use special identifiers as variable names (like main, sqrt, min, etc.)
+6. Be descriptive but do not make the variable name too long.
+
+Your task is to:
+Use all 6 types of variables in a program. For the int, float, and double types, you can perform mathematical operations with them, just make sure you do not assign a decimal value to an int type. You may perform string concatenation with the string data type.
+
+Print all 6 of these variables to the screen. Perform math with the 3 numeric types. Perform string concatenation with the string type.
+
+You should have a total of 10 cout statements.
+
+

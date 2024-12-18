@@ -1,0 +1,51 @@
+Ruby Project 2
+1 point
+
+Create a Folder inside of Ruby called Ruby2
+Create a file called ruby2.rb
+
+Variables can be utilized similar to Java, but they do not need to be declared to use them.
+
+To receive user input, we use the keyword gets.
+
+There are a few quirks to gets:
+1. The value stored is an object (meaning you can store a String, byte, integer, floating point, etc.)
+2a. After pressing Enter, there will be a trailing \n for where you pressed Enter
+2b. To remove the \n at the end, utilize the method .chomp
+3. It is advised to store your input into a variable.
+
+The following methods convert the object to a desired format:
+1. Object to integer → .to_i
+2. Object to String → .to_s
+3. Object to float → .to_f
+4. Object to array → .to_a
+5. Object to hash → .to_h
+We mainly only have to worry about integers, strings, and floats for now.
+
+Assume we have the code:
+print "Please enter an integer: "
+input = gets.chomp.to_i
+
+If you want to print your integer to the screen along with a string, you have to convert the variable to a string as well:
+puts "The value you entered is: " + input.to_s
+
+We can also use these methods in conjunction with one another. For example:
+print "Please enter an integer: "
+input = gets.chomp.to_i
+puts "5 times the number you entered is: " + (5 * input).to_s
+Notice how input is converted to an integer and being multiplied by 5
+Then we take that number and convert it to a String.
+
+You are only allowed to print one type of output per print / puts statement. In other words, if there are strings and integers, you must convert them all to strings or all to integers.
+
+
+
+There are 6 mathematical operators in Ruby: 
++	Addition
+-	Subtraction
+*	Multiplication
+/	Integer / floating point division
+%	Modulus
+**	Exponentiation
+
+Your goal is to write a program that will ask the user for input, then perform a mathematical calculation with that input variable, and display it to the screen in a print statement.

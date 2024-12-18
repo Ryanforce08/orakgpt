@@ -1,0 +1,37 @@
+Python Project 12
+1 point
+
+Create a Folder inside of Python called Python12
+
+Create a file called python12.py
+
+This project will focus on String functions.
+
+There are various string functions you should be familiar with:
+
+1a. .count(a) → Finds how many times the string a appears in a string
+1b. .count(a, b, c) → Finds how many times the string a appears in a string between positions b and c (both numbers)
+
+2a. .endswith(a) → Returns True if the string a is the ending of a string
+2b. .endswith(a, b, c) → Returns True if the string a is the ending of a string between positions b and c (both numbers)
+
+3a. .find(a) → Returns the position of the string a inside of a string. Returns -1 otherwise.
+3b. .find(a, b, c) → Returns the position of the string a inside of a string between positions b and c (both numbers). Returns -1 otherwise
+
+4. len(string) → Returns the length of a string
+
+5. .lower() → Converts all characters in a string to lowercase
+
+6. max(string) → Returns the maximum alphabetical character in a string
+
+7. min(string) → Returns the minimum alphabetical character in a string
+
+8. .replace(a, b) → Replaces all occurrences of string a with string b
+
+9. .split("delim") → Splits a string into elements of a list by a given delimiter
+
+10. .strip() → Removes leading and trailing whitespace on a string
+
+11. .upper() → Converts all characters in a string to uppercase
+
+Your goal is to utilize all 14 functions in a project in some way.

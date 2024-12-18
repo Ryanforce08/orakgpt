@@ -1,0 +1,56 @@
+Java Project 20 - 3rd MP
+2 points
+
+Eclipse
+1. Inside of the Java folder you created, create another folder called Java20
+2. Open up the Eclipse Icon on your Desktop
+3. Navigate to the Java20 directory you created and select that folder
+4. Click the Restore Icon on the left (it looks like a small windows button)
+3. Go to File -> New -> Java Project
+4. Type in the name of the project - Java20 and click Finish
+5. Right click on the project on the left (in this case Java20) and go to New -> Class
+7. Type in Java20 as the filename
+8. Check the box for public static void main(String[] args) in the middle of the window.
+9. Click Ok.
+10. Press Enter before the opening brace on the first line.
+11. Press Enter before the other opening brace on the 2nd or 3rd line.
+12. You are ready to start your program.
+
+You will be discovering how to use recursion in the Java environment.
+
+The following example will demonstrate recursion:
+public static long factorial (int n)
+{
+   if (n == 0 || n == 1)
+      return 1;
+   else
+      return n * factorial (n - 1);
+}
+
+Here, the factorial function is as follows:
+n! = n * (n - 1) * (n - 2) * … * 2 * 1
+
+For example, 4! = 4 * 3 * 2 * 1 = 24
+
+With recursion, there must be a base case. Here the base case of a factorial is 1! = 1 or 0! = 1.
+
+Since this method returns a long data type, it should either be stored as a long variable or put inside of a print statement.
+For example, the method call would look like: 
+System.out.println("The value of 5 factorial is " + factorial(5));
+
+
+Create a Folder, Project, and File named Java20.
+
+Your goal is to create a method that will compute the Fibonacci numbers.
+For reference, the Fibonacci numbers are: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, …
+To calculate the Fibonacci numbers, simply add the previous two values in the sequence:
+Fn = Fn-1 + Fn-2
+
+Reminder that your program must utilize recursion - the process of calling a method inside itself.
+
+Additionally you must:
+- Display the first 15 Fibonacci numbers. Find F21.
+- Display the first 10 factorial values.
+- Display xy for 0 < x < 8 and 0 < y < 8. You must utilize recursion for this.
+
+

@@ -1,0 +1,114 @@
+Homework 2:
+37 points
+
+Lesson 15:
+1. What is the goal of the Bee minigame?
+
+2. How does an if conditional work?
+
+3. How does the else portion of a code operate and is an else block always required?
+
+
+Lesson 16:
+4. What is the purpose of the farmer minigame?
+
+5. What is a while loop?
+
+6. How would you code a problem that requires you to remove 40 shovels of dirt?
+
+
+Lesson 17:
+7. What is the goal of the aquatic voyage in the Minecraft lesson?
+
+8. Explain how conditionals are used in Minecraft.
+
+9. What is a conduit?
+
+
+Lesson 18:
+10. What is an until loop?
+
+11. How is an until loop utilized in the Maze level?
+
+
+Lesson 19:
+12. What is the purpose of the Harvesting lesson?
+
+13. How are conditionals used with the Harvester lesson?
+
+14. What are the three types of crops you can pick?
+
+
+Lesson 20:
+20. What is a function?
+
+21. How is a function used in the Minecraft lesson?
+
+22. What are the benefits to using functions?
+
+23. What are some functions you use in the Minecraft lesson?
+
+
+Lesson 21:
+14. How are functions used in the Artist lesson?
+
+15. What shapes can you create using a function?
+
+16. What are the benefits to using a function in the Artist lesson?
+
+
+Lesson 22:
+17. How are functions used with the Harvester lesson?
+
+18. What are some examples of functions in the Harvester lesson?
+
+19. What are the benefits to using a function to harvest crops?
+
+
+Lesson 23:
+20. What does the print block do?
+
+21. What is a prompt, and where does this information get stored?
+
+22. What does the at seconds block do?
+
+23. What does the when answered block do?
+
+
+Lesson 24:
+24. What is a variable?
+
+25. How is a variable used with the Artist lesson?
+
+26. What are some variable names that are used in the Artist lesson?
+
+27. How can a variable change?
+
+28. What are some examples of these changing variables in Artist?
+
+
+Lesson 25:
+29. How is a variable used with the Bee lesson?
+
+30. What are some variables used in the Bee lesson?
+
+31. What are the benefits to using variables in the Bee lesson?
+
+
+Lesson 26:
+32. What is a for loop?
+
+33. How is a for loop used in the Bee lesson?
+
+34. What is the counter used for?
+
+
+Lesson 27:
+35. How is a for loop used in Artist?
+
+36. What shapes can you make using a for loop?
+
+37. How can the for loop be used in conjunction with the set width block?
+
+
+

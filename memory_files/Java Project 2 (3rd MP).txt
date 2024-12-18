@@ -1,0 +1,41 @@
+Java Project 2 - 3rd MP
+1 point
+
+Eclipse
+1. Inside of the Java folder you created, create another folder called Java2
+2. Open up the Eclipse Icon on your Desktop
+3. Navigate to the Java2 directory you created and select that folder
+4. Click the Restore Icon on the left (it looks like a small windows button)
+3. Go to File -> New -> Java Project
+4. Type in the name of the project - Java2 and click Finish
+5. Right click on the project on the left (in this case Java2) and go to New -> Class
+7. Type in Java2 as the filename
+8. Check the box for public static void main(String[] args) in the middle of the window.
+9. Click Ok.
+10. Press Enter before the opening brace on the first line.
+11. Press Enter before the other opening brace on the 2nd or 3rd line.
+12. You are ready to start your program.
+
+The point of this project is to familiarize yourself with how a String will be displayed.
+
+There are a number of escape sequences in Java that can be used inside Strings.
+Here are a few with their meanings:
+\r → carriage return, return to beginning of line
+\n → return a line
+\t → creates a tab
+\’ → displays a ‘
+\\ → displays a \
+\” → displays a “
+
+Remember, all code that you want printed to the screen should be contained in either of the two following statements:
+System.out.print();
+System.out.println();
+
+Discover the difference between these two statements.
+
+Code that is inside a string should always be contained in quotes, and should be placed inside of the () from above.
+
+Your goal is to print the following message to the screen (include the quotes and slashes):
+"Hello, my name	is "Brian Orak". '\"
+
+Use one print statement for this code. There is a tab between name and is.

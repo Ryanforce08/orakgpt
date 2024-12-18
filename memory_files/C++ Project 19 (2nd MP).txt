@@ -1,0 +1,48 @@
+C++ Project 19
+1 point
+
+Goal:
+1. Learn how to generate a string of random letters.
+2. Learn how to sort an array of strings.
+
+To get started:
+To create a new project, click Create a new project. Then click Empty Project. Click Next
+
+For the Project name, type Prog19. Click the 3 dots (...) for the location. Select the Prog19 folder you created above. No other options need to be changed for now. Click Create.
+
+If an advertising window appears, click the little X at the top left.
+
+To add a file (a class), right click on Source files. Go to Add → New Item…
+Type Prog19 for the file name. NO SPACES. Click Add.
+
+We already know how to sort an array of int data types. This project will show you how to sort an array of string data types.
+
+Before we begin, copy the following function to your program which will generate a string of length 8 consisting of entirely random characters.
+
+string getString()
+{
+    string s = "";
+    for (int i = 0; i < 8; i++)
+    {
+   	 int r = rand() % 26 + 97;
+   	 char c = (char)r;
+   	 string s1 = string() + c;
+   	 s += s1;
+    }
+    return s;
+}
+
+To figure out how this works, let’s examine the contents. First, we are creating a blank string which will be used to return back when called. A loop is run 8 times. 
+
+Inside the loop, r is a random number from 97 to 122 (26 possible numbers). If you look at an ASCII table, you will see the range of lowercase letters begin at 97 (a) and end at 122 (z). The next line converts this number to a char type by using a computer science technique known as type casting. The subsequent line converts that char type to a string and finally, we add that character (which is a string) to the larger string.
+
+Copy the BubbleSort algorithm to your program. Modify it so it takes a string[] array and compares string types. Remember, you cannot use relational operators on string types. You should use a string function you are familiar with. Additionally, you should change the value of swap to a string type. You should only be modifying 3 lines. Do not change the algorithm. It works fine.
+
+Copy my algorithm to print arrays to the screen (the one you did in Prog 14 where you had to print a string array.
+
+Your task is as follows:
+1. Create an array of 1000 string types. Load the array by calling the function getString() from above for each element.
+2. Print the original array to the screen.
+3. Print a few blank lines.
+4. Use the BubbleSort to sort the array.
+5. Then print the array to the screen again. You should see that all elements are in lexographical order.

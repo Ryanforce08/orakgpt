@@ -1,0 +1,22 @@
+Honors Programming 
+Assignment 3:
+26 points
+
+1. Explain the process of finding the mean of a group of numbers in an array. (2)
+2. Explain the process of finding the median of a group of numbers in an array. (2)
+
+3. Explain the process of finding the range of a group of numbers in an array. (2)
+
+4. Explain the process of finding the mode of a group of numbers in an array. (4)
+
+5. What is recursion? (2)
+
+6. Write a recursive method in Ruby that calculates factorials. (4)
+
+7. What does the .split method do? (2)
+
+8. Write a line of code that will take a string named s and store each character as a separate element in an array named a. (2)
+
+8. What does the .reverse method do? (2)
+
+9. Write a .each loop two different ways. (4)

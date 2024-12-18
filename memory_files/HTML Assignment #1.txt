@@ -1,0 +1,95 @@
+HTML Assignment 1:
+39 points
+
+1. Describe what the following tags do: (22)
+A. <!-- … -->
+
+
+B. <A>
+
+
+C. <B>
+
+
+D. <BODY>
+
+
+E. <BR>
+
+
+F. <DEL>
+
+
+G. <FONT>
+
+
+H. <H1>, <H2>, … , <H6>
+
+
+G. <HEAD>
+
+
+H. <HR>
+
+
+I. <HTML>
+
+
+J. <I>
+
+
+K. <IMG>
+
+
+L. <LI>
+
+
+M. <MARQUEE>
+
+
+N. <OL>
+
+
+O. <P>
+
+
+P. <SUP>
+
+
+Q. <SUB>
+
+
+R. <TITLE>
+
+
+S. <U>
+
+
+T. <UL>
+
+
+2. What is the purpose of a closing tag? (2)
+
+
+3. Which of the above tags do not need closing tags? (2)
+
+
+4. Write a line of code that will display a picture that is located in your current directory called picture.png with a width of 300 pixels by 200 pixels. (2)
+
+
+5. Write HTML code that will alter the font to “Courier New” and its color to blue. (3)
+
+
+6. 
+A. Write HTML code that will change a background to red. (3)
+
+
+
+B. A. Write HTML code that will change a background to an image called “background.jpg” located in your current directory. (3)
+
+
+6. Write a line of code that will create a link to a website named homework.html with the link called “Homework Link”. (2)
+
+
+
+

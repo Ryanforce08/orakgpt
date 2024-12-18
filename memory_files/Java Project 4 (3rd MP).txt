@@ -1,0 +1,83 @@
+Java Project 4 - 3rd MP
+1 point
+
+Eclipse
+1. Inside of the Java folder you created, create another folder called Java4
+2. Open up the Eclipse Icon on your Desktop
+3. Navigate to the Java4 directory you created and select that folder
+4. Click the Restore Icon on the left (it looks like a small windows button)
+3. Go to File -> New -> Java Project
+4. Type in the name of the project - Java4 and click Finish
+5. Right click on the project on the left (in this case Java4) and go to New -> Class
+7. Type in Java4 as the filename
+8. Check the box for public static void main(String[] args) in the middle of the window.
+9. Click Ok.
+10. Press Enter before the opening brace on the first line.
+11. Press Enter before the other opening brace on the 2nd or 3rd line.
+12. You are ready to start your program.
+
+The goal of this project is to utilize user input.
+
+To begin, whenever you receive user input, you need to utilize the Scanner class.
+This means you have to import the class into your program.
+To do this, type one of the following two lines at the top of your code - the very first line of your file:
+1. import java.util.Scanner;
+2. import java.util.*;
+
+Inside of the program (where the actual code goes), you need to create a Scanner object. The code for this object is as follows:
+Scanner s = new Scanner(System.in);
+
+Your goal is to receive a String from a user and display it to the screen.
+
+To store a String in a variable, you need to declare the variable as a String.
+String x = "";
+
+Prompt the user to enter a String.
+
+The code to store the string should look similar to:
+x = s.nextLine();
+
+Now, you can place this variable inside of a print statement.
+
+Display the variable to the screen as follows:
+System.out.println(x);
+
+You can also have numeric user input.
+
+For example, if the required input were a double type, we would use:
+double y = s.nextDouble();
+
+If the required input were an int type, we would use:
+int z = s.nextInt();
+
+It is important that only ONE Scanner variable is declared per class file. 
+
+One very important comment:
+When transitioning from user input from a numeric type to a String, you MUST include a dummy variable in between the numeric and String types.
+
+For example:
+
+System.out.print("Please enter your age: ");
+int age = s.nextInt();
+System.out.print("Please enter your name: ");
+String dummy = s.nextLine();
+String name = s.nextLine();
+
+This will prevent the name variable from eating the Enter key.
+
+You can now print the variables as follows:
+System.out.println(name + " is " + age + " years old");
+
+You do not need a dummy variable for the reverse. Observe:
+System.out.print("Please enter your name: ");
+String name = s.nextLine();
+System.out.print("Please enter your age: ");
+int age = s.nextInt();
+
+You can now print the variables as follows:
+System.out.println(name + " is " + age + " years old");
+
+At the end of your file, you should close your Scanner variable to prevent memory leaks as follows:
+s.close();
+
+Your goal is to experiment with input and output utilizing variables.

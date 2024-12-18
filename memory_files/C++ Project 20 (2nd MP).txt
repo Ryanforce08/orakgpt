@@ -1,0 +1,166 @@
+C++ Project 20
+2 points
+
+Goal:
+1. Learn how to write recursive functions.
+2. Learn what a base case is.
+3. Learn how to call recursive functions.
+4. Learn the three logical operators.
+
+To get started:
+To create a new project, click Create a new project. Then click Empty Project. Click Next
+
+For the Project name, type Prog20. Click the 3 dots (...) for the location. Select the Prog20 folder you created above. No other options need to be changed for now. Click Create.
+
+If an advertising window appears, click the little X at the top left.
+
+To add a file (a class), right click on Source files. Go to Add → New Item…
+Type Prog20 for the file name. NO SPACES. Click Add.
+
+Before we begin, we should understand what a logical operator is. A logical operator is an operator that links Boolean expressions. In C++, there are 3 of them - and, or, and not.
+
+The truth tables look as follows:
+
+x	y	x OR y
+T	T	T
+T	F	T
+F	T	T
+F	F	F
+
+x	y	x AND y
+T	T	T
+T	F	F
+F	T	F
+F	F	F
+
+x	NOT x
+T	F
+F	T
+
+Here, an OR operator will be true if either 1 or both of the values are true - 2 values needed
+An AND operator will be true if both values are true only - 2 values needed
+A NOT operator will negate what the value is - 1 value needed
+
+In C++, 
+1. OR is represented by ||
+2. AND is represented by &&
+3. NOT is represented by !
+
+A recursive function is a function that is called inside of itself.
+All recursive functions must have:
+1. A base case
+2. A call to itself
+
+A base case is the simplest solution of a recursive problem. The base case should be placed inside of an if conditional. The else portion of the conditional should have a call to the function itself.
+
+There are some famous sequences that are recursively defined. The Fibonacci sequence is one of the most famous of these. We can also use recursion to calculate factorials very easily and quickly.
+
+We will start with the factorial problem since it is fairly easy to understand and write:
+The base case would be:
+0! = 1 OR 1! = 1
+
+All other values (integers) are computed as:
+n! = n * (n - 1) * (n - 2) … (2) * 1
+
+For example, 4! = 4 * 3 * 2 * 1 = 24. These values get large very fast.
+
+This can be programmed into a function. We will specify a return type of int since an integer is returned. There is 1 parameter - the value n. It is also an int type. The factorial function will return the nth factorial.
+
+int factorial(int n)
+{
+    if (n == 0 || n == 1)
+        return 1;
+    else
+        return n * factorial (n - 1);
+}
+
+In main(), if I were to call factorial(4), the tracing would be as follows:
+4! 
+= 4 * factorial(3) 
+= 4 * 3 * factorial(2) 
+= 4 * 3 * 2 * factorial(1) 
+= 4 * 3 * 2 * 1 = 24
+Notice how the recursion stops once the function returns 1. This is important since 1 is called the base case here. It is what stops the recursion. If the base case were not here, we would have infinite recursion. That is very bad.
+
+Almost all recursive functions will return something back. In the case of factorial, we return the value of the factorial.
+
+Fibonacci is computed in a similar way, but there are two base cases.
+F0 = 0
+F1 = 1
+Fn = Fn-1 + Fn-2
+
+Fibonacci numbers are the sum of the previous two Fibonacci numbers. Here, the value coming in is an int and the value returned is also an int. The Fibonacci function will return the nth Fibonacci number.
+
+The Fibonacci sequence can be coded like:
+int fibonacci(int n)
+{
+    if (n == 0)
+        return 0;
+    else if (n == 1)
+        return 1;
+    else
+        return fibonacci(n - 1) + fibonacci(n - 2);
+}
+
+Let’s trace this algorithm to find fibonacci(5)
+fibonacci(5) 
+= fibonacci(4) + fibonacci(3)
+= fibonacci(3) + fibonacci(2) + fibonacci(2) + fibonacci(1)
+= fibonacci(2) + fibonacci(1) + fibonacci(1) + fibonacci(0) + fibonacci(1) + fibonacci(0) + 1
+= fibonacci(1) + fibonacci(0) + 1 + 1 + 0 + 1 + 0 + 1
+= 1 + 0 + 1 + 1 + 0 + 1 + 0 + 1
+= 5
+Thus, the 5th fibonacci number is 5. Notice that fibonacci(5) = fibonacci(4) + fibonacci(3). Now we need to use recursion for both of these values. fibonacci(4) = fibonacci(3) + fibonacci(2) and fibonacci(3) = fibonacci(2) + fibonacci(1), so fibonacci(5) = fibonacci(3) + fibonacci(2) + fibonacci(2) + fibonacci(1). Recursion is now needed on 3 of these cases, but the last 1, it is not needed since 1 is a base case and fibonacci(1) = 1. Building down, we have fibonacci(5) = fibonacci(2) + fibonacci(1) + fibonacci(1) + fibonacci(0) + fibonacci(1) + fibonacci(0) + 1. All of these simplify except the first one, so we have fibonacci(5) = fibonacci(1) + fibonacci(0) + 1 + 1 + 0 + 1 + 0 + 1. No more recursion is needed since fibonacci(1) and fibonacci(0) are known. Finally, we get fibonacci(5) = 1 + 0 + 1 + 1 + 0 + 1 + 0 + 1 = 5.
+
+We can use these on other sequences as well.
+For example, if we have:
+A0 = 5
+An = 3 * An-1 - 4
+We can program this as:
+int recseq(int n)
+{
+    if (n == 0)
+        return 5;
+    else
+        return 3 * recseq(n - 1) - 4;
+}
+
+If we have a sequence with 2 base cases like as follows:
+A0 = 7
+A1 = -4
+An = 2 * An-1 - 3 * An-2 - 6
+We can program this as:
+int recseq2(int n)
+{
+    if (n == 0)
+        return 7;
+    else if (n == 1)
+        return -4;
+    else
+        return 2 * recseq2(n - 1) - 3 * recseq2(n - 2) - 6;
+}
+
+We can also print any of these sequences nicely in main() with a loop:
+for (int i = 0; i < 15; i++)
+{
+    cout << "The " << i << "th Fibonacci number is: " << fibonacci(i) << endl;
+    cout << i << "! = " << factorial(i) << endl;
+    cout << "The " << i  << "th number in 1st sequence is: " << recseq(i) << endl;
+    cout << "The " << i  << "th number in 2nd sequence is: " << recseq2(i) << endl;
+}
+
+
+Your goal:
+1. Program the sequence:
+A0 = -2
+An = 4 * An-1 - 1
+
+2. Program the sequence:
+B0 = 2
+B1 = -3
+Bn = 4 * Bn-1 + 5 * Bn-2 - 7
+3. Find A11 and B9 by printing out each to the screen.
+4. Find the first 12 numbers of each of these sequences.
+5. Write a power(a, b) function using recursion.
+Remember, you need a base case for recursion.
+Recall: a0 = 1 and ab = a * ab-1

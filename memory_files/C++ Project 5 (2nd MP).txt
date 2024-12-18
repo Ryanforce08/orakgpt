@@ -1,0 +1,65 @@
+C++ Project 5
+1 point
+
+Goals:
+1. Learn how to use user input in a program
+2. Storing user input in variables
+3. Printing user input to the screen
+4. Understand the difference between a syntax error, a runtime error, and a logic error
+
+To get started:
+To create a new project, click Create a new project. Then click Empty Project. Click Next
+
+For the Project name, type Prog5. Click the 3 dots (...) for the location. Select the Prog5 folder you created above. No other options need to be changed for now. Click Create.
+
+If an advertising window appears, click the little X at the top left.
+
+To add a file (a class), right click on Source files. Go to Add → New Item…
+Type Prog5 for the file name. NO SPACES. Click Add.
+
+From Prog4, you have learned how variables function and the various types of variables that exist. However, we have only dealt with output so far. Here, we will learn how to use user input for a program.
+
+As long as we use variables, we can store input in the following way:
+cin >> x;
+Here, x is a variable that must be declared earlier and is of the desired type you need.
+
+In order to receive user input, you must prompt the user to enter the type of data necessary. For example, if you wanted to ask the user to enter their name, one would need a string variable type since a name would be declared as a string.
+
+This can be done in the following way:
+string name;
+cout << "Please enter your name: ";
+cin >> name;
+
+Notice how there is NOT a << endl; on the line of cout. This is because we want the user input to be on the same line as the prompt. This is standard formatting. You should use this format. Also notice the space after the :. Also, notice how name is not instantiated or initialized. It is just declared as a string.
+
+We can now display this name to the screen in the following way:
+cout << "Your name is: " << name << endl;
+
+Notice how there IS a << endl; for this line since it is output. Notice how there is a space after the :.
+
+A good rule is that if there is output, you should return a line.
+If there is input you should not return a line.
+This works for all the programming languages you will use for this course.
+
+This can be done with a numeric type as well. For example, one can ask the user’s age:
+int age;
+cout << "Please enter your age: ";
+cin >> age;
+cout << "Your age is: " << age << endl;
+
+After you are finished collecting ALL of your user input, you will need a line called:
+cin.ignore();
+
+This will allow you to go back to normal output mode. It should be the third to last line in main before:
+cin.get();
+return 0;
+
+One other concept to be aware of are the three types of errors that are possible.
+
+One type of error is a syntax error. This is an error caught by the compiler and will not allow your code to run and execute. An example of this would be missing a semicolon after a line.
+
+A second type of error is a runtime error. This is an error caught during the execution of a program. Your program will terminate from this. An example of this would be entering a letter or a string for a numeric data type variable or dividing by 0. For example if we tried to enter a letter for a number when we asked the user to enter their age would generate a runtime error.
+
+A third type of error is the most difficult to find or catch. It is a logic error. This is an error not caught by the compiler or during runtime. It can only be caught by a human. An example of this would be spelling a string wrong, or performing wrong mathematics. For example, if I entered “Biran” as my name, that would be a logic error, or if I wanted to compute 3 + 2 and I entered 3 + 1. The program will syntactically run, but it is not the desired outcome.
+
+Your goal for this project is to ask the user to enter variables for all 5 primitive types and also a string.

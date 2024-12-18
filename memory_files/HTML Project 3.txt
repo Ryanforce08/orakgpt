@@ -1,0 +1,84 @@
+HTML Project 3
+
+2 points
+
+Create a folder named HTML3 (should be inside of your HTML folder on P:)
+
+Directions:
+1. Open up Notepad ++ from your USB Drive.
+2. At the top, you will see a tab for Language. Go to H → HTML
+3. Go to Save As… and locate the directory you created before Step 1 and type in index.
+
+Add to your HTML file a table of your classes with their schedule.
+
+To do this, we have the following table markup tags:
+
+<TABLE>		Defines a table
+<CAPTION>		Defines the title of the table (The default position of the
+			table is at the top of the table but ALIGN=BOTTOM can also
+			be used.)
+<TR>			Defines a row within a table.
+<TH>			Defines a table header cell.
+<TD>			Defines a table data cell.
+
+We also have the following attribute tags:
+BORDER		Used with <TABLE>			Displays a border
+ALIGN			Used with all tags		Horizontal alignment of
+								elements in cells
+VALIGN		All tags except CAPTION		Vertical alignment of cells
+ROWSPAN=n		Used with <TD>			The number of rows that a cell
+								spans
+COLSPAN=n		Used with <TD>			The number of columns that a
+								cell spans
+NOWRAP		All tags except CAPTION		Turn off word wrap within a
+								cell
+
+The format of a table should look as follows:
+<TABLE>
+<CAPTION> Title of the table </CAPTION>
+
+<TR>
+<TH> Header of the first column </TH>
+…
+<TH> Header of the last column </TH>
+</TR>
+
+<TR>
+<TD> Contents of the first data cell in first row </TD>
+…
+<TD> Contents of the last data cell in first row </TD>
+</TR>
+…
+<TR>
+<TD> Contents of the first data cell in last row </TD>
+…
+<TD> Contents of the last data cell in the last row </TD>
+</TR>
+</TABLE>
+
+
+Here is an example of a table:
+<TABLE BORDER>
+
+<CAPTION ALIGN=CENTER>
+Computer Science 111 - Fundamentals of Data Structures
+</CAPTION>
+
+<TR>
+<TH>Week #</TH>
+<TH>Monday</TH>
+<TH>Wednesday</TH>
+<TH>Friday</TH>
+</TR>
+
+<TR>
+<TD ALIGN=CENTER>1</TD> 
+<TD>Introduction</TD>
+<TD>Ordered Collections</TD> 
+<TD>Sorted Collections</TD>
+</TR>
+
+</TABLE>
+
+
+

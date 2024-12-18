@@ -1,0 +1,15 @@
+There are two options for starting HTML:
+
+Option 1 - USB Drive
+1. Create a Folder on your P:\ (possibly in an HTML Folder) and call it HTML1.
+2. Open up Notepad ++ from your USB Drive.
+3. At the top, you will see a tab for Language. Go to H → HTML
+4. Go to Save As… and locate the directory you created in Step 1 and type in first.
+
+Once everything is set up, you’re free to experiment with this project.
+
+Check the other document for a basic idea on how HTML works.
+
+If you are in Notepad++, be sure to go to File → Save to save your work.
+
+Once your project is saved, open up the .html file in the proper directory to view your website.

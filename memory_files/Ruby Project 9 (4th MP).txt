@@ -1,0 +1,37 @@
+Ruby Project 9
+1 point
+
+Create a Folder inside of Ruby called Ruby9
+
+Create a file inside of Ruby9 called ruby9.rb
+
+Your goal is to create a 1000 element array with random numbers from 0-1000.
+
+Remember, you can declare the array in any of the two following ways:
+1. arr = []
+2. arr = Array.new(1000)
+
+Display the range, median, mean to the screen.
+
+To find the median, you first need to determine if there are an even or odd number of elements. 
+
+If there are an even number of elements, you need to add the two middle elements and divide by 2.
+If there are an odd number of elements, you need to find the middle number.
+
+You should be using the .length method for arrays. Do not hard code numbers for indices.
+
+Recall the mean is the average of the elements (sum divided by the length of array).
+
+The range is the difference between the largest element and smallest element.
+
+It is advisable to copy the sorting algorithm you used in Ruby8 to do this.
+Simply copy the file from the Ruby8 directory and paste it in the Ruby9 directory.
+
+Call the file by using 
+load ‘filename.rb’ on the first line of your program, where filename is either SelectionSort.rb, BubbleSort.rb, InsertionSort.rb, etc…
+
+You’re going to eventually have to do this in this semester, so if you have time left (which you should), find the mode. Remember the mode is the most frequent number. Display how many times this number appears. If there are multiple modes, you should display all instances of the most frequent number.
+For instance, if the sorted array is:
+arr = [1, 2, 2, 3, 3, 4, 5, 5]
+The mode is: 2, 3, 5 and appears 2 times.
+

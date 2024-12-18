@@ -1,0 +1,41 @@
+Homework 1:
+68 points
+
+Fundamentals of Java Programming
+Ogihara
+
+p. 26
+1. b, d, e, f, g, h (6)
+2. (2)
+3. (2)
+4. (2)
+8. (4)
+12. (4)
+ 
+p. 63
+1. (4)
+2. (2)
+3. c (1)
+4. (3)
+7. (2)
+8. (2)
+9. (2)
+10. (2)
+11. (2)
+
+p. 81
+1. a, b, c, d, e, g, h (7)
+2. a-e (5)
+3. a-f (6)
+
+Additionally,
+1a. What are the two types of comments? (1)
+
+1b. Provide an example of both kinds of comments. (2)
+
+
+2a. What are the three types of errors? (1)
+
+2b. Give a description of each kind of error. (3)
+
+2c. Give an example of each kind of error. (3)

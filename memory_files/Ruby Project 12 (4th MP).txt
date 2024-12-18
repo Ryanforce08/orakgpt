@@ -1,0 +1,68 @@
+Ruby Project 12
+1 points
+
+Create a Folder inside of Ruby called Ruby12
+
+Create a file inside of Ruby12 called ruby12.rb
+
+Ask the user to enter a string with spaces (for instance “Hello World”).
+Store this value inside a variable.
+
+It is now possible to create an array based on the characters in the string utilizing the .split method.
+
+This method normally will take one parameter inside of quotation marks. This will separate the string into separate elements based on what is inside the quotations marks.
+
+For example, if we have the code:
+str = "Hello World"
+a = []
+a = str.split("e")
+
+The array a would have the following contents:
+a = ["H", "llo World"]
+
+Notice how the “e” has disappeared and the string has been split up before and after this character.
+There will be two elements inside this array since there is only 1 “e”
+
+Try the following code:
+str = "Hello World"
+a = []
+a = str.split("o")
+
+Print the array to the screen and you should notice there are 3 elements inside the array separated from where the "o" is inside the string.
+
+Your goal is to reverse the order of each element.
+
+You can now utilize the .reverse! method which will reverse all the characters inside a string.
+
+It is probably advisable to use a .each loop with this array. Remember, the .each loop will loop for every value inside the array.
+The syntax of a .each loop should look like:
+a.each do |x|
+   # code here
+end
+
+You could also use:
+a.each { |x| ### }
+where ### represents the code inside the loop.
+
+In both cases, |x| represents the iterator, the current element inside the array.
+
+Part 2:
+Create a file inside of Ruby12 called ruby12b.rb
+
+Ask the user to enter a string.
+Store this value inside a variable.
+
+Ask the user to enter a character
+Store this value inside a variable.
+
+Your goal is to find how many times that character is inside the larger string. You must use a .each loop.
+
+You might want to create an array of single characters.
+To do this, don’t put anything inside the quotes.
+For example:
+str = "Brian"
+a = []
+a = str.split("")
+# a = ["B", "r", "i", "a", "n"]
+
+

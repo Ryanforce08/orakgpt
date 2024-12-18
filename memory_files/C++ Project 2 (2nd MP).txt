@@ -1,0 +1,50 @@
+C++ Project 2
+1 point
+
+Goals:
+1. Learn String concatenation
+2. Learn Escape sequences
+
+To get started:
+To create a new project, click Create a new project. Then click Empty Project. Click Next
+
+For the Project name, type Prog2. Click the 3 dots (...) for the location. Select the Prog2 folder you created above. No other options need to be changed for now. Click Create.
+
+If an advertising window appears, click the little X at the top left.
+
+To add a file (a class), right click on Source files. Go to Add → New Item…
+Type Prog2 for the file name. NO SPACES. Click Add.
+
+String concatenation is the combining of a string and another string and creating a larger string. For example, "Hello" + string("World") would create the larger string "HelloWorld".
+
+Escape sequences are a sequence of characters inside a string that allow for various special characters to be returned. Escape sequences always start with a \.
+Here are some escape sequences:
+"\n" → returns a line
+"\t" → returns a tab
+"\\" → returns a \
+"\'" → returns a ‘
+"\"" → returns a “
+"\r" → carriage return (go to beginning of the line)
+
+Note a carriage return will overwrite text if printing to the screen
+
+You can use string concatenation to combine numbers and strings to outputs. Items can be separated using the << operator.
+
+
+
+
+
+
+
+
+
+Directions: You are to display the following to the screen all of the following exercises, each with a single line of code:
+
+A. A forward slash looks like / and a backslash looks like \
+B. 2000 is the first year of the century (do not use numbers inside of quotes)
+C. She said, "I'm tired of this."
+D.       x	y
+     1	2
+E. The character 'A' has an ASCII value of 65
+F. Hi. My name is Brian (use each word in quotes by itself using << operator)
+

@@ -1,0 +1,62 @@
+C++ Project 6
+1 point
+
+Goals:
+1. Learn how to use constants
+2. Learn how to access E and PI as math constants
+3. Learning other math functions
+
+To get started:
+To create a new project, click Create a new project. Then click Empty Project. Click Next
+
+For the Project name, type Prog6. Click the 3 dots (...) for the location. Select the Prog6 folder you created above. No other options need to be changed for now. Click Create.
+
+If an advertising window appears, click the little X at the top left.
+
+To add a file (a class), right click on Source files. Go to Add → New Item…
+Type Prog6 for the file name. NO SPACES. Click Add.
+
+A constant is a variable that once declared cannot be changed.
+
+Constants are added with the keyword const and this keyword is added before the declaration of a variable.
+
+Constant variables are declared in ALL CAPS and underscores (_) are used to separate words.
+
+For example, if I declare a constant:
+const int I = 4;
+
+I cannot change the value of I throughout the program, and if I try to, I receive a syntax error.
+
+There are two constants that are previously defined in C++: E and PI.
+
+To access them, you need to import them.
+
+The very first line of your program, add the line:
+#define _USE_MATH_DEFINES
+
+You can now use constants M_PI and M_E. These constants are variables that represent PI and E, respectively. You can find the values online if you wish.
+
+PI has a numerical representation of about 3.14159. E has a mathematical representation of 2.71828.
+
+Previously, from Prog 3, you learned about the math function: pow(a, b). It calculates ab.
+
+There are many other functions in the cmath class:
+cos(a)
+sin(a)
+tan(a)
+acos(a)
+asin(a)
+atan(a)
+fmin(a, b) (There is also a min(a, b) function also exists, but it is not located in cmath)
+fmax(a, b) (There is also a max(a, b) function also exists, but it is not located in cmath)
+abs(a)
+sqrt(a)
+cbrt(a)
+And many others. You can see the functions in the cmath class here: https://cplusplus.com/reference/cmath/ 
+You should look at the return types so you can see what kind of variable they yield.
+You do not need to import the cmath class.
+
+Your goal is:
+1. Declare a constant variable of your own and print the value to the screen.
+2. Display both PI and E to the screen using the constants predefined in C++.
+3. Use at least 4 math functions in your program and display the results to the screen.

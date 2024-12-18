@@ -1,0 +1,40 @@
+Honors Programming 
+Assignment 4:
+48 points
+
+1. Print “Hello World” to the screen. (2)
+
+2. Use a variable named x and assign it to 20.
+Print the variable and your name to the screen using three different print techniques. (6)
+
+3. Write a line of code that stores your name as a string. (2)
+
+4. Write a segment of code that stores your age as a number. (2)
+
+5. Let x = 10.
+Compute and print to the screen: (6)
+a. x + 7
+b. x - 7
+c. x * 7
+d. x / 7
+e. x % 7
+f. x ** 7
+
+6. Explain the following conditionals: (6)
+a. If statement
+b. If/else statement
+c. If/elif/else statement
+
+7. Write a segment of code for each of these three sets of conditionals. At least one of the sets must use a comparison with a string, and at least one must use a comparison with a number. (12)
+
+8. Explain the following loops: (4)
+a. While loop
+b. For loop 
+
+9. Write an example of a while loop. (2)
+
+10. Write an example of a for loop. (2)
+
+11. What do the following for loops do: (4)
+a. for i in range(1000)
+b. for i in range(10, 20)

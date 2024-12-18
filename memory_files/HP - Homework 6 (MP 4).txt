@@ -1,0 +1,79 @@
+Honors Programming 
+Assignment 6:
+50 points
+1. Create an empty list. (2)
+
+
+2. Add the elements 5, 6, 7, 8, 9, 10 to the list consecutively using a for loop. (4)
+
+
+3. How do you sort a list? (2)
+
+
+4. How do you find the number of elements in a list? (2)
+
+
+5. Write Insertion Sort in Python. (6)
+Here is Insertion Sort in Java:
+public static void insertionSort(int[] a)
+{
+   for (int i = 1; i < a.length; i++)
+   {
+      int temp = a[i];
+      int j;
+      for (j = i - 1; j >=0 && temp < a[j]; j--)
+         a[j + 1] = a[j]
+      a[j + 1] = temp;
+   }
+}
+
+
+
+
+6. How do you find the median (assume the list is sorted)? (2)
+
+
+
+7. How do you find the range (assume the list is sorted)? (2)
+
+
+
+8. How do you find the mean? (2)
+
+
+
+9. Write the recursive method for factorial in Python. (4)
+
+
+
+10. Write the recursive method for Fibonacci in Python. (4)
+
+
+
+11. Here are 11 string methods. Write an example for each of them.
+
+1a. .count(a) → Finds how many times the string a appears in a string
+1b. .count(a, b, c) → Finds how many times the string a appears in a string between positions b and c (both numbers) (2 - 1 for each)
+
+2a. .endswith(a) → Returns True if the string a is the ending of a string
+2b. .endswith(a, b, c) → Returns True if the string a is the ending of a string between positions b and c (both numbers) (2 - 1 for each)
+
+3a. .find(a) → Returns the position of the string a inside of a string. Returns -1 otherwise.
+3b. .find(a, b, c) → Returns the position of the string a inside of a string between positions b and c (both numbers). Returns -1 otherwise. (2 - 1 for each)
+
+4. len(string) → Returns the length of a string. (1)
+
+5. .lower() → Converts all characters in a string to lowercase. (1)
+
+6. max(string) → Returns the maximum alphabetical character in a string. (1)
+
+7. min(string) → Returns the minimum alphabetical character in a string. (1)
+
+8. .replace(a, b) → Replaces all occurrences of string a with string b. (1)
+
+9. .split(“delim”) → Splits a string into elements of a list by a given delimiter. (1)
+
+10. .strip() → Removes leading and trailing whitespace on a string. (1)
+
+11. .upper() → Converts all characters in a string to uppercase. (1)
+

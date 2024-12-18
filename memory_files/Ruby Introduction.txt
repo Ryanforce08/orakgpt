@@ -1,0 +1,22 @@
+Before starting any of the Ruby projects, complete the following tasks:
+
+1. Create a folder in your Hon Prog folder called Ruby.
+
+1. Open up Notepad++ on your flash drive.
+2. At the top, go to Language → R → Ruby
+3. Write your program
+4. Go to File → Save As…
+5. Type your filename and save your file in the desired Ruby directory (for example Ruby1) 
+6. For editing file, simply click the Save button
+
+To run a Ruby program, use the following steps:
+1. Open up Ruby on the Desktop and type the following steps exactly.
+2. cd HonProg
+3. cd Ruby (unless your Ruby folder is in another folder, then go there first)
+4. cd Ruby1 (or any other Ruby project you are working on)
+5. ruby ruby1.rb
+
+To see contents of a directory, type: dir
+To back a directory, type: cd ..
+
+

@@ -1,0 +1,87 @@
+C++ Project 13
+3 points
+
+Goal:
+1. Learn various return types of string functions.
+2. Learn various definitions of string functions.
+
+To get started:
+To create a new project, click Create a new project. Then click Empty Project. Click Next
+
+For the Project name, type Prog13. Click the 3 dots (...) for the location. Select the Prog13 folder you created above. No other options need to be changed for now. Click Create.
+
+If an advertising window appears, click the little X at the top left.
+
+To add a file (a class), right click on Source files. Go to Add → New Item…
+Type Prog13 for the file name. NO SPACES. Click Add.
+
+Your goal is to create a program that finds the return type and definition of the following string functions.
+
+Use the following strings to start and then modify as necessary to determine the appropriate string return types and definitions for the functions.
+
+Write your answers in comments.
+
+Use the following strings to determine the necessary information:
+
+string s1 = "Hello, my name is Brian.";
+string s2 = "Hello";
+string s3 = "World";
+string s4 = "a";
+string s5 = "";
+char c1 = 'Q';
+char c2 = 'Z';
+int num1 = 2;
+int num2 = 15;
+int num3 = 7;
+    
+cout << s2.length() << endl;
+cout << s1.at(num1) << endl;
+cout << s1.find(s4) << endl;
+cout << s1.find(s4, num2) << endl;
+cout << s2.compare(s3) << endl;
+cout << s3.compare(s2) << endl;
+cout << s5.empty() << endl;
+cout << s1.empty() << endl;
+cout << s1.substr(num1, num2) << endl;
+cout << s1 << endl;
+s2.swap(s3);
+cout << s2 << endl;
+cout << s3 << endl;
+s1.front() = c1;
+cout << s1 << endl;
+s1.back() = c2;
+cout << s1 << endl;
+cout << s1.erase(num3, num1) << endl;
+
+cout << "\n\n\n\n";
+
+string base = "this is a test string.";
+string str2 = "n example";
+string str3 = "sample phrase";
+string str4 = "useful.";
+
+string str = base;
+cout << str << endl;
+str.replace(9, 5, str2); // 3 parameters
+cout << str << endl;
+str.replace(19, 6, str3, 7, 6); // 5 parameters
+cout << str << endl;
+str.replace(8, 10, "just a"); // 3 parameters
+cout << str << endl;
+str.replace(8, 6, "a shorty", 7); // 4 parameters
+cout << str << endl;
+
+Your goal is to find the return types and definitions for:
+1 .length()
+2. .at(n)
+3. .find(s)
+4. .find(s, n)
+5. .compare(s)
+6. .empty()
+7. .substr(n1, n2)
+8. .swap(s)
+9. .front()
+10 .back()
+11. .erase(n1, n2)
+
+12. .replace(n1, n2, s) 

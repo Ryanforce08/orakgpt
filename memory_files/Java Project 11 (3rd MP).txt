@@ -1,0 +1,119 @@
+Java Project 11 - 3rd MP
+
+Eclipse
+1. Inside of the Java folder you created, create another folder called Java11
+2. Open up the Eclipse Icon on your Desktop
+3. Navigate to the Java11 directory you created and select that folder
+4. Click the Restore Icon on the left (it looks like a small windows button)
+3. Go to File -> New -> Java Project
+4. Type in the name of the project - Java11 and click Finish
+5. Right click on the project on the left (in this case Java11) and go to New -> Class
+7. Type in Java11 as the filename
+8. Check the box for public static void main(String[] args) in the middle of the window.
+9. Click Ok.
+10. Press Enter before the opening brace on the first line.
+11. Press Enter before the other opening brace on the 2nd or 3rd line.
+12. You are ready to start your program.
+
+The goal of this project is to familiarize yourself with various loops.
+
+Definite loops: Loops with a known counter
+Method 1:						Method 2:
+int i = 0;						for (int i = 0; i < 50; i++)
+while (i < 50)					{
+{							   System.out.println(i * 2);
+   System.out.println(i * 2);			}
+   i++;
+}
+
+This code will print out all the even numbers from 0 to 98. Both do the same thing.
+
+
+Indefinite loops: Loops without a known counter:
+Method 1:
+Scanner s = new Scanner (System.in);
+while (i != 50)
+{
+   System.out.print("Please enter an integer: ");
+   i = s.nextInt();
+   System.out.println(i);
+}
+
+Method 2:
+Scanner s = new Scanner (System.in);
+for (; i != 50; )
+{
+   System.out.print("Please enter an integer: ");
+   i = s.nextInt();
+   System.out.println(i);
+}
+
+Both methods ask user for input and displays it to the screen. It keeps running until user enters 50.
+
+
+Infinite loops: Loops that repeat forever
+Method 1:						Method 2:
+while (true)						for (;;)
+{							{
+   System.out.println(1);				   System.out.println(1);
+}							}
+
+Both methods will print out the number 1 infinitely.
+
+Notice in for loops, there could be some components in the structure that are left blank.
+
+For code inside a loop that is 1 line, braces are not needed. This holds true for both conditionals and loops.
+
+For example:
+int x = 35;
+if (x < 40)
+   System.out.println("You are young");
+else
+   System.out.println("You are old");
+
+This is perfectly valid syntax and notice opening and closing braces are not needed since the code inside each block is exactly one line long. This is why it is so critical to indent for conditionals and loops
+
+In our previous example:
+while (true)						for (;;)
+   System.out.println(1);				   System.out.println(1);
+
+These would perform the exact same task and would not generate an error message. Note that the blocked code is only one line long.
+
+
+The break keyword:
+The keyword break will break out of the innermost loop that it is inside.
+In our second example, the code could have been written as follows:
+Scanner s = new Scanner (System.in);
+while (true)
+{
+   System.out.print("Please enter an integer: ");
+   i = s.nextInt();
+   System.out.println(i);
+   if (i == 50)
+      break;
+}
+
+
+
+
+Method 2:
+Scanner s = new Scanner (System.in);
+for (;;)
+{
+   System.out.print("Please enter an integer: ");
+   i = s.nextInt();
+   System.out.println(i);
+   if (i == 50)
+      break;
+}
+
+These loops will break out of the loop once the user enters 50. Otherwise, the loop keeps repeating.
+Notice how the code inside the if statement is exactly one line long, and therefore does not need braces around it.
+
+Inside of your Java11 file, you are required to utilize the following.
+Definite loop
+Indefinite loop
+Infinite loop
+break keyword
+
+You may not use any of the examples I created.

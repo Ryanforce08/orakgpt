@@ -1,0 +1,64 @@
+C++ Assignment 3 - 2nd MP
+51 points
+
+1. What are the three types of conditional structures? (3)
+
+
+2. Write a segment of code for each of the three structures. (9)
+
+
+
+
+
+
+
+
+3. What does the statement cin.ignore() do? (1)
+
+
+4. What are the 6 relational operators? (3)
+
+
+5. What kinds of values can you compare with relational operators? (1)
+
+
+6. What is a while loop? (1)
+
+
+7. What are the 7 compound assignment statements? (3)
+
+
+8. What are the compound assignment statements used for? (1)
+
+
+9a. Write an example of a while loop that counts up. (3)
+
+
+9b. Write an example of a while loop that counts down. (3)
+
+
+10. What is a for loop? (1)
+
+
+11. List the three components of the for loop. (3)
+
+
+12. What do each of the three components of a for loop do? (3)
+
+
+13a. Write an example of a for loop that counts up. (3)
+
+
+13b. Write an example of a for loop that counts down. (3)
+
+
+14. What does the isPrime(int n) function do? (1)
+
+
+15. What is the return type of the isPrime(int n) function? (1)
+
+
+16. Write the algorithm for the isPrime(int n) function. (4)
+
+
+17. Write an algorithm to find the first 100 prime numbers. (4)

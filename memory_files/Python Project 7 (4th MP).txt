@@ -1,0 +1,37 @@
+Python Project 7
+1 point
+
+Create a Folder inside of Python called Python7
+
+Create a file called python7.py
+
+This project will have you play a guessing game with the computer.
+
+Have the computer guess a random number from 1-100 inclusive.
+
+To create a random number, we first need to import the random library:
+import random
+
+To actually create a random integer, you will need the following syntax:
+random.randint(x, y)
+where x is the minimum value for your range, and y is the maximum value. The random number will be inclusive of these two numbers.
+
+Display a count for how many times it takes the user to guess the correct number. It should always be 7 or less.
+
+If the user guesses wrong, display to the screen if the number is higher or lower than the guessed number. 
+
+When the count reaches 7, stop the user from guessing. If the user fails, display “Failed”. If the user succeeds, display “Won in __  tries” where __ refers to the count from above.
+
+The reason the count should always be 7 or less is because guessing in the middle of the range will perform an optimal solution.
+
+For example,
+1. If the computer has the number at 42, you should guess 50 first.
+2. 50 would then be the max, so you would guess 25.
+3. 25 would now be the min, so you would guess 37
+4. 37 would now be the min, so you would guess 43
+5. 43 would now be the max, so you would guess 40
+6. 40 would now be the min, so you would guess 41
+7. 41 would now be the min, so you would guess 42
+42 is correct.
+
+This strategy is important for Python 9 where you will be choosing a random number, and the computer will be guessing. You would say higher or lower and the computer will fix the range and always guess in the middle.

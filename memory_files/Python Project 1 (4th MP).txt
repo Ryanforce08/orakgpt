@@ -1,0 +1,27 @@
+Python Project 1
+1 point
+
+Create a Folder inside of Python called Python1
+Create a file called python1.py
+
+In a Python project, you do not need to start your file with public class Python1.
+You also do not need public static void main (String[] args) for your main method.
+You also do not need opening and closing braces.
+
+To display simple text to the screen, use print()
+The method print() works very similar to System.out.println() from Java or puts in Ruby
+
+The syntax is somewhat similar to Ruby.
+
+The goal of this project is to display "Hello World" to the screen.
+
+Below "Hello World", you are to create a variable and store your age in it. Do not use semicolons.
+
+You are then going to print the following line three different ways, all of which you are responsible for:
+I am __ years old
+where __ refers to the age you stored in a variable.
+
+To do this, utilize the following syntax:
+1. "I","am",__,"years","old"
+2. "I am " + str(__) + " years old"
+3. "I am %s years old" %(__)

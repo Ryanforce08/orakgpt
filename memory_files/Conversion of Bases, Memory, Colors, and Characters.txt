@@ -1,0 +1,194 @@
+Conversion of Bases:
+
+You are responsible for converting numbers between the following systems:
+
+Decimal
+Binary
+Hexadecimal
+
+There are 6 possible conversions:
+Binary → Decimal
+Binary → Hexadecimal
+Decimal → Binary
+Decimal → Hexadecimal
+Hexadecimal → Binary
+Hexadecimal → Decimal
+
+Here are 6 examples (1 of each):
+Ex. 1: Binary → Decimal
+Convert 1010111012 to decimal.
+
+Solution: 
+Each digit is a power of 2 starting with 0 from the right to the left.
+So, we have: 1x20 + 0x21 + 1x22 + 1x23 + 1x24 + 0x25 + 1x26 + 0x27 + 1x28
+=1 + 4 + 8 + 16 + 64 + 256 = 349.
+
+
+Ex. 2: Binary → Hexadecimal
+Convert 10110012 to hexadecimal.
+
+Solution: 
+Group the number into groups of 4. If there aren’t a multiple of 4 number of digits, make sure you add the appropriate number of 0s before the number.
+Here, we have 1011001 which is 7 digits. To make it 8 digits, use 01011001.
+Convert each group of 4 digits to a decimal number:
+0-9 = 0-9 respectively
+10 = A
+11 = B
+12 = C
+13 = D
+14 = E
+15 = F
+0101 - 1x20 + 0x21 + 1x22 + 0x23 = 1 + 4 = 5
+1001 - 1x20 + 0x21 + 0x22 + 1x23 = 1 + 8 = 9
+Our hexadecimal number is 59.
+
+Ex. 3: Decimal → Binary
+Convert 35110 to binary.
+
+Solution: 
+List your powers of 2 first and find the largest number that is contained inside of our number (here, we have 351). Stop when you get to a number larger than your current number.
+0
+1
+2
+4
+8
+16
+32
+64
+128
+256
+512
+256 is our largest number. Write a 1 if the number is contained and a 0 if it isn’t. The first digit of our number will always be a 1. If the number is contained, subtract the number by the contained number to get our new number. At the end, you will always get 0. You must utilize every power of 2 listed starting with the largest and working your way down to 1.
+256? Yes, so put a 1 first and subtract.
+351 - 256 = 95.
+128? No, so put a 0 next.
+64? Yes, so put a 1 next and subtract.
+95 - 64 = 31.
+32? No, so put a 0 next.
+16? Yes, so put a 1 next and subtract.
+31 - 16 = 15.
+8? Yes, so put a 1 next and subtract.
+15 - 8 = 7.
+4? Yes, so put a 1 next and subtract.
+7 - 4 = 3.
+2? Yes, so put a 1 next and subtract.
+3 - 2 = 1.
+1? Yes, so put a 1 next and subtract.
+1 - 1 = 0.
+Our binary number is 101011111.
+
+
+Ex. 4: Decimal → Hexadecimal
+Convert 11410 to hexadecimal.
+
+Solution: 
+First convert the number to binary:
+1
+2
+4
+8
+16
+32
+64
+128
+64? Yes, put a 1 first and subtract.
+114 - 64 = 50
+32? Yes, put a 1 next and subtract.
+50 - 32 = 18
+16? Yes, put a 1 next and subtract.
+18 - 16 = 2
+8? No, put a 0 next.
+4? No, put a 0 next.
+2? Yes, put a 1 next and subtract.
+2 - 2 = 0
+1? No, put a 0 next.
+Binary number is 1110010.
+With a multiple of 4 this number becomes 01110010.
+Convert this binary number to hexadecimal as in Ex 1.
+0111 - 1x20 + 1x21 + 1x22 + 0x23 = 1 + 2 + 4 = 7
+0010 - 0x20 + 1x21 + 0x22 + 0x23 = 2
+Our hexadecimal number is therefore 72.
+
+
+Ex. 5: Hexadecimal → Binary
+Convert 6E16 to binary.
+
+Solution: 
+Remember from Ex 2, that:
+10 = A
+11 = B
+12 = C
+13 = D
+14 = E
+15 = F
+Convert each digit into a 4 bit binary number. Your answer will be the number read from left to right. Make sure the first digit of the binary digit is a 1.
+6 = 0110 
+E = 14 = 1110
+Our binary number is 1101110.
+
+
+Ex. 6: Hexadecimal → Decimal
+Convert 2EA16 to binary.
+
+Solution: 
+Remember from Ex 2, that:
+10 = A
+11 = B
+12 = C
+13 = D
+14 = E
+15 = F
+Similarly to converting binary to decimal, start with the right and work your way to the left. Instead of powers of 2, you use powers of 16. Use the numerical values for A-F.
+2EA = 10x160 + 14x161 + 2x162 = 10 + 224 + 512 = 746. 
+Our decimal number is 746.
+
+
+Memory / Data Storage:
+
+Smallest unit = 1 bit (0 or 1) (2 possibilities)
+1 byte = 8 bits (23 bits)
+1 kB = 1024 bytes (210 bytes, 213 bits)
+1 MB = 1024 kB (210 kB, 220 bytes, 223 bits)
+1 GB = 1024 MB (210 MB, 220 kB, 230 bytes, 233 bits)
+1 TB = 1024 GB (210 GB, 220 MB, 230 kB, 240 bytes, 243 bits)
+1 PB = 1024 TB (210 TB, 220 GB, 230 MB, 240 kB, 250 bytes, 253 bits)
+1 EB = 1024 PB (210 PB, 220 TB, 230 GB, 240 MB, 250 kB, 260 bytes, 263 bits)
+
+Ex. 7: 
+How many bits are in 16 TB?
+
+Solution:
+16 TB = 24 • 210 • 210 • 210 • 210 • 23 = 247 bits
+Here, 24 = 16, 210 GB in 1 TB, 210 MB in 1 GB, 210 kB in 1 MB, 210 bytes in 1 kB, 23 bits in 1 byte.
+
+
+
+Characters:
+ASCII - 128 (27) in normal system. Each character is mapped to a number
+             256 (28) in extended system. Each character is mapped to a number. 
+The extended version uses all of original 128 plus modified characters such as accent marks, circumflexes, etc.
+
+Unicode - 65536 (216) possibilities. This includes characters and letters from other alphabet scripts.
+Java uses Unicode.
+
+
+Colors:
+
+Colors are represented by an RGB system.
+Each color (red, green, blue) is represented by a number from 0-255 (256=28 possibilities)
+
+Colors are either written as a 6 digit hex code where each color is a 2 digit hex code (0-FF)
+OR
+Colors can be written as a sequence of 3 numbers (R, G, B) (from 0-255 each)
+
+There are, therefore, a total of 28 • 28 • 28 =224  possible colors.
+
+Red would be written as (255, 0, 0) or FF0000
+Green would be written as (0, 255, 0) or 00FF00
+Blue would be written as (0, 0, 255) or 0000FF
+Magenta would be written as (255, 0, 255) or FF00FF
+Cyan would be written as (0, 255, 255) or 00FFFF
+Yellow would be written as (255, 255, 0) or FFFF00
+White would be written as (255, 255, 255) or FFFFFF
+Black would be written as (0, 0, 0) or 000000
+

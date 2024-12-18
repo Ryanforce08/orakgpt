@@ -1,0 +1,75 @@
+Java Project 7 - 3rd MP
+1 point
+
+Eclipse
+1. Inside of the Java folder you created, create another folder called Java7
+2. Open up the Eclipse Icon on your Desktop
+3. Navigate to the Java7 directory you created and select that folder
+4. Click the Restore Icon on the left (it looks like a small windows button)
+3. Go to File -> New -> Java Project
+4. Type in the name of the project - Java7 and click Finish
+5. Right click on the project on the left (in this case Java7) and go to New -> Class
+7. Type in Java7 as the filename
+8. Check the box for public static void main(String[] args) in the middle of the window.
+9. Click Ok.
+10. Press Enter before the opening brace on the first line.
+11. Press Enter before the other opening brace on the 2nd or 3rd line.
+12. You are ready to start your program.
+
+The goal of this project is to familiarize yourself with conditionals.
+
+There are 3 types of conditional statements:
+if - if the boolean expression is true, perform this action (always the first statement in a conditional)
+else - if the boolean expression is false, perform this action (always the last statement in a conditional)
+else if - used for 3 or more conditions, put after if statement and before else statement
+
+Only one of the above statements will execute. An else if statement is needed with 3 or more conditions. An else is needed with exactly 2 statements. When there is only one condition, you just utilize an if statement with no else or else if.
+
+The syntax is as follows:
+if (boolean condition)
+{
+   Code here;
+}
+else if (boolean condition)
+{
+   Code here;
+}
+… (more else if statements if necessary)
+else
+{
+   Code here;
+}
+
+This project will utilize all 3 setups.
+First declare a Scanner variable:
+Scanner s = new Scanner (System.in);
+
+Create 3 int variables: age, num, year
+
+First, prompt the user to enter an age.
+Define age as follows:
+age = s.nextInt();
+
+You’ve already seen .nextLine(); which will get user input as a String. 
+.nextInt() will get user input as an int
+
+Then prompt the user to enter a favorite number.
+Define num as follows:
+num = s.nextInt();
+
+Then prompt the user to enter the year you graduate.
+Define year as follows:
+year = s.nextInt();
+
+Display to the screen the following:
+1. If the user’s age is less than 18, display "You are young"
+
+2. 
+a. If the user’s favorite number is less than 100, display "Cool number!", otherwise (if the number is greater than or equal to 100) 
+b. display "Way cool number!"
+
+3. 
+a. If the class year is 2027, display "Freshman"
+b. If the class year is 2026, display "Sophomore"
+c. If the class year is 2025, display "Junior"
+d. If the class year is 2024, display "Senior"

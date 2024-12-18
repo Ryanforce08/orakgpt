@@ -1,0 +1,70 @@
+Java Project 9 - 3rd MP
+2 points
+
+Eclipse
+1. Inside of the Java folder you created, create another folder called Java9
+2. Open up the Eclipse Icon on your Desktop
+3. Navigate to the Java9 directory you created and select that folder
+4. Click the Restore Icon on the left (it looks like a small windows button)
+3. Go to File -> New -> Java Project
+4. Type in the name of the project - Java9 and click Finish
+5. Right click on the project on the left (in this case Java9) and go to New -> Class
+7. Type in Java9 as the filename
+8. Check the box for public static void main(String[] args) in the middle of the window.
+9. Click Ok.
+10. Press Enter before the opening brace on the first line.
+11. Press Enter before the other opening brace on the 2nd or 3rd line.
+12. You are ready to start your program.
+
+The goal of this project is to familiarize yourself with various loops.
+
+You’ve already learned the syntax for a while loop:
+while (boolean expression)
+{
+   Code here;
+}
+
+Remember that the while loop executes as long as the boolean condition is true.
+
+Part 1:
+Your goal is to display the numbers 1 through 100 on the screen utilizing a while loop
+To do this, you should create a variable that is initialized to 1
+Then you will need to increment the variable each time until it reaches 100.
+There are two ways to do this, both of which you need to know:
+If the variable is called x, then the following 3 statements are equivalent:
+x++;		x = x + 1;		x += 1;
+Here, 1 is added to x and then assigns it back into x
+
+
+Part 2:
+Create a new Java Project. Call this project Java9a
+Create a new class file called Java9a
+
+The goal of this project is to utilize a for loop.
+
+A for loop has the following syntax:
+for (initialization; boolean condition; modification)
+{
+   Code here;
+}
+
+For example, try the following:
+for (int i = 0; i < 4; i++)
+{
+   System.out.println("Hello World!");
+}
+
+Notice how “Hello World!” is printed to the screen 4 times.
+The variable i functions as a counter variable. The incrementing is performed in the modification portion of a for loop
+The boolean condition here is i < 4
+Counter starts out at 0 and since 0 < 4, loop executes
+Once body of loop is complete, counter is incremented by 1
+Counter is now 1 and since 1 < 4, loop executes
+…
+Counter is now 4 and since 4 is not less than 4, loop no longer executes
+
+Your goal of this project is to print out all the numbers of 1 to 100 in reverse order.
+You will need to decrement rather than increment in this case
+You may either use:
+x--; 		x = x - 1;		x -= 1;
+All statements are identically the same

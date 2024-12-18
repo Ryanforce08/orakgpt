@@ -1,0 +1,38 @@
+Python Project 6
+1 point
+
+Create a Folder inside of Python called Python6
+
+Part 1:
+
+Create a file called python6.py
+
+This project will familiarize yourself with functions. In Ruby and Java, they are called methods. A method has a separate definition that is beyond our scope.
+
+To create a function with no parameters, use the following syntax:
+def func:
+   # code here
+
+To call the method, simply type func()
+
+To create a function with parameters, pass them in just like you would in Ruby or Java:
+
+def func(a, b):
+   # code here
+
+To call the method, simply type func(x, y)
+
+For your project, you will ask the user for a number
+
+You will write 3 functions:
+
+Function 1:
+Return the sum of all numbers from 1 to the number entered
+
+Function 2:
+Return the sum of all the squares of numbers from 1 to the number entered
+
+Function 3:
+Return the sum of all the cubes of the numbers from 1 to the number entered
+
+Each of these functions should return a value. You should have a print statement for each of the method calls, where it displays that number to the screen.

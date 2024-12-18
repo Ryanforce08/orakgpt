@@ -1,0 +1,30 @@
+Homework 2:
+59 points
+
+Fundamentals of Java Programming
+Ogihara
+
+p. 64
+6. (3)
+9. (2)
+12. (2)
+13. (3)
+14. (3)
+15. (2)
+
+p. 239
+2a-e. (5)
+4a-e, g. (6)
+5abc, e-g (6)
+8a-e. (5)
+
+p. 166
+3. (4)
+4. (4)
+7. (4)
+9. (3)
+
+What is the purpose of a dummy for user input when going from an  int or double to a String? (2)
+
+p. 288
+6. What does this code do? (3)

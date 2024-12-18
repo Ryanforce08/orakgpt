@@ -1,0 +1,17 @@
+In order to make the red X marks go away (and actually be able to debug your code), you must do the following:
+
+1. In Eclipse, on the left, you should see the names of your projects. Right click and go to Build Path and then to Configure Build Path...
+
+2. At the top, in the middle, select the Libraries Tab.
+
+3. Click on the library that is there and go to Remove.
+
+4. Click Add Library...
+
+5. Select JRE System Library and select Next.
+
+6. Click Finish at the bottom.
+
+7. Press OK at the bottom of the window.
+
+This should resolve your issues.

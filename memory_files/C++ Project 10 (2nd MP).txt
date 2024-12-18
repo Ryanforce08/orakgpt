@@ -1,0 +1,132 @@
+C++ Project 10
+2 points
+
+Goals:
+1. Learn the 7 compound assignment operators
+2. Learn to write while loops
+
+To get started:
+To create a new project, click Create a new project. Then click Empty Project. Click Next
+
+For the Project name, type Prog10. Click the 3 dots (...) for the location. Select the Prog10 folder you created above. No other options need to be changed for now. Click Create.
+
+If an advertising window appears, click the little X at the top left.
+
+To add a file (a class), right click on Source files. Go to Add → New Item…
+Type Prog10 for the file name. NO SPACES. Click Add.
+
+There are 7 compound assignment operators:
+1. +=
+2. -=
+3. *=
+4. /=
+5. %=
+6. ++
+7. --
+
+They function as follows:
+i += 4 // i = i + 4
+i -= 4 // i = i - 4
+i *= 4 // i = i * 4
+i /= 4 // i = i / 4
+i %= 4 // i = i % 4
+i++ // i += 1 or i = i + 1
+i-- // i -= 1 or i = i - 1
+
+For example, if we have the segment:
+int i = 7;
+i += 4;
+
+After the execution of these two statements, i = 11.
+
+These are useful for both while loops for this project, and for loops for next project.
+
+A while loop is a loop that executes repeatedly as long as a Boolean expression is true. Code inside while loops is always indented inside of braces.
+
+For example, if we have:
+int i = 0;
+while (i < 5)
+{
+   cout << "The value of i is: " << i << endl;
+   i += 1;
+}
+
+The following would be printed to the screen:
+The value of i is 0
+The value of i is 1
+The value of i is 2
+The value of i is 3
+The value of i is 4
+
+The loop stops after this since i becomes 5 and 5 is not less than 5. Notice how there is a compound assignment operator here, and this is used to change the value of i throughout the loop. Most while loops will have a compound assignment operator for this purpose. Here, i will count up.
+
+Loops can also count down:
+int i = 5;
+while (i > 0)
+{
+   cout << "The value of i is: " << i << endl;
+   i -= 1;
+}
+
+The following would be printed to the screen:
+The value of i is 5
+The value of i is 4
+The value of i is 3
+The value of i is 2
+The value of i is 1
+
+Here, i starts at 5 and counts down to 0 (doesn’t include it since the value is subtracted after the cout statement.
+
+
+
+
+You can also count by a different amount as well.
+
+Consider the following loop structure:
+int i = 0;
+while (i < 10)
+{
+   cout << "The value of i is: " << i << endl;
+   i += 2;
+}
+
+The following would be printed to the screen:
+The value of i is 0
+The value of i is 2
+The value of i is 4
+The value of i is 6
+The value of i is 8
+
+Here, i counts up by 2. The loop stops once i becomes 10.
+
+Your task is as follows:
+A. Ask the user for a number to print a star-like figure.
+B. Write a function to print the amount of stars to the screen. You will need a loop here. This function should take an int parameter and use a loop to count up (or down - your choice) and print out that many stars to the screen. Do not print a line break during the loop. You can either do it afterwards, or back inside main().
+C. Use a loop to count up and down from the number from 1 to num (the user input number) and num to 1.
+
+For example, your program should look like this:
+Please enter a number: 5
+*
+**
+***
+****
+*****
+*****
+****
+***
+**
+*
+
+
+
+
+Please enter a number: 4
+*
+**
+***
+****
+****
+***
+**
+*
+

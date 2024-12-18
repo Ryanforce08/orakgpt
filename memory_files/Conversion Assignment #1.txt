@@ -1,0 +1,44 @@
+Conversion Assignment #1:
+24 points
+
+1. Convert the following from binary to decimal: (2)
+a. 10111101
+b. 11111111
+
+2. Convert the following from decimal to binary: (2)
+a. 47
+b. 101
+
+3. Convert the following from binary to hexadecimal: (2)
+a. 10111101
+b. 11111111
+
+4. Convert the following from decimal to hexadecimal: (2)
+a. 47
+b. 101
+
+5. Convert the following from hexadecimal to binary: (2)
+a. 38
+b. 1AE
+
+6. Convert the following from hexadecimal to decimal: (2)
+a. 38
+b. 1AE
+
+7. Answer the following about bits and bytes. (8)
+a. How many bits are in a byte?
+b. How many bytes are in 1 kB?
+c. How many kB are in 1 MB?
+d. How many MB are in 1 GB?
+e. How many GB are in 1 TB?
+f. How many TB are in 1 PB?
+g. How many PB are in 1 EB?
+h. How many bits are in 4 TB?
+
+
+13. How are colors represented by computers? (1)
+
+14. How many possible colors are there? (1)
+
+15. How many possible characters are there in Unicode? in ASCII? (2)
+

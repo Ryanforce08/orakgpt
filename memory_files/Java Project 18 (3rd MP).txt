@@ -1,0 +1,105 @@
+Java Project 18 - 3rd MP
+2 points
+
+Eclipse
+1. Inside of the Java folder you created, create another folder called Java18
+2. Open up the Eclipse Icon on your Desktop
+3. Navigate to the Java18 directory you created and select that folder
+4. Click the Restore Icon on the left (it looks like a small windows button)
+3. Go to File -> New -> Java Project
+4. Type in the name of the project - Java18 and click Finish
+5. Right click on the project on the left (in this case Java18) and go to New -> Class
+7. Type in Java18 as the filename
+8. Check the box for public static void main(String[] args) in the middle of the window.
+9. Click Ok.
+10. Press Enter before the opening brace on the first line.
+11. Press Enter before the other opening brace on the 2nd or 3rd line.
+12. You are ready to start your program.
+
+You will be discovering how ArrayLists work in the Java environment.
+
+To use ArrayLists, one needs to import the following file into their program:
+import java.util.ArrayList;
+
+To declare an ArrayList, one would use the following line of code:
+ArrayList <Type> al = new ArrayList <Type> ();
+
+ArrayLists can only be of Objects. Luckily, every primitive data type (int, char, double, etc.) has a corresponding Object class.
+Here are the 8 primitive type’s associated classes (Wrapper classes)
+int → Integer
+double → Double
+char → Character
+byte → Byte
+boolean → Boolean
+short → Short
+long → Long
+float → Float
+
+Notice that the Object type begins with a capital letter.
+
+For example, if you want an ArrayList of integers, you would use the code:
+ArrayList <Integer> al = new ArrayList <Integer> ();
+
+There are significant differences between arrays and ArrayLists.
+array							ArrayList
+1. Size must be known					Size does not have to be known
+2. Printing the contents of an array must be done by a loop	Printing an ArrayList can be done with print
+3. Elements are accessed by index inside of brackets ([])	Elements are accessed via methods
+4. Elements are added according to their position		Elements are added in first open position
+
+Here are some useful methods associated with ArrayLists:
+Method			Use
+.get(i) 		Retrieves the element at the specified position
+.add(element)		Adds the element to the first open position (usually at the end)
+.add(i, element)	Adds the element at the specified position
+.set(i, element)	Overwrites the contents of position i with the element desired
+.size()		Finds the number of elements in the ArrayList
+.remove(i)		Removes an element from an ArrayList at a given position
+.remove((Object) O)	Removes the first instance of a given Object
+.clear()		Clears the ArrayList
+.indexOf(element)	Finds the location of the first instance of element
+.isEmpty()		Returns true if the ArrayList has no elements
+.contains(element)	Returns true if the ArrayList contains the specified element
+
+The indexing of an ArrayList starts in position 0 and continues to n - 1, exactly the same as arrays
+
+To print out an ArrayList, simply use the command:
+System.out.println(al);
+
+Notice how no loop is needed to print it to the screen
+
+To load an ArrayList, it is advisable to use a loop, similar to arrays.
+
+To get you started, try the following code:
+
+ArrayList <Integer> al = new ArrayList <Integer> ();
+for (int i = 0; i < 100; i++)
+   al.add(i);
+System.out.println(al);
+
+This will create an ArrayList with 100 elements that has the value the same as the index.
+
+Part 1:
+Create a Folder, Project, and File named Java18
+
+Your goal is to create an ArrayList of 100 elements.
+
+You are then to use the following methods in some way in your program (up to you how you use them):
+.get(i) // should be inside a print statement 		
+.add(element) // should not be in a print statement. Print afterwards.
+.add(i, element) // should not be in a print statement. Print afterwards.
+.set(i, element) // should not be in a print statement. Print afterwards.
+.size() // should be inside a print statement
+.remove(i) // should not be in a print statement. Print afterwards.
+.remove((Object type) O) // should not be in a print statement. Print afterwards.
+           // Put the type of the ArrayList in where it says (Object here)
+.indexOf(element) // should be inside a print statement
+.isEmpty() // should be inside a print statement
+.contains(element) // should be inside print statement
+
+
+Part 2:
+
+Create a Project and File named Java18a
+
+Recreate Java16 using ArrayLists instead of arrays.

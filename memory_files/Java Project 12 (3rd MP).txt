@@ -1,0 +1,133 @@
+Java Project 12 - 3rd MP
+2 points
+
+Eclipse
+1. Inside of the Java folder you created, create another folder called Java12
+2. Open up the Eclipse Icon on your Desktop
+3. Navigate to the Java12 directory you created and select that folder
+4. Click the Restore Icon on the left (it looks like a small windows button)
+3. Go to File -> New -> Java Project
+4. Type in the name of the project - Java12a and click Finish. Do this for Java12b and Java12c too.
+5. Right click on the project on the left (in this case Java12a or Java12b or Java12c) and go to New -> Class
+7. Type in Java12a as the filename. Do this for Java12b and Java12c too.Do this for Java12b and Java12c too.
+8. Check the box for public static void main(String[] args) in the middle of the window.
+9. Click Ok.
+10. Press Enter before the opening brace on the first line.
+11. Press Enter before the other opening brace on the 2nd or 3rd line.
+12. You are ready to start your program.
+
+The goal of this project is to familiarize yourself with creating methods.
+
+As you know, methods are designed to perform a specific task.
+
+All methods should be declared public or private (we will use only public methods in Honors Programming)
+A method is either static or non-static (we will use only static methods in Honors Programming)
+A method must contain a return type (if any)
+A method must have a name (should not start with a capital letter or number)
+A method must specify parameters (if any)
+
+An example of a method is as follows:
+
+public static void firstMethod ()
+{
+   System.out.println("This is my first method!");
+}
+
+Notice how there is no returning value. The type is specified as void.
+
+This method should be placed outside of main, but inside of your class. Generally you put it below your main method.
+
+In order for a method to be utilized, it must be called. A method can be called anywhere in another method.
+Here, we will call it inside of main.
+
+Try typing the following inside of main on a line by itself:
+firstMethod();
+
+
+Part 1:
+
+For Java12a.java:
+
+Your project should involve the following:
+
+Have main call a method that calls a method that calls a method that calls a method.
+
+That is 4 levels of method calling. Inside of the 4th method, display to the screen “Inception”.
+
+
+Part 2:
+
+For Java12b.java:
+
+Methods can also return values and pass parameters. Only one value can be returned though.
+
+Let’s assume we want to pass two integer parameters into a method and perform the five basic mathematical operations on them and return nothing back to the method.
+
+The method will look as follows:
+public static void calc (int a, int b)
+{
+   System.out.println(a + " + " + b + " = " + (a + b));
+   System.out.println(a + " - " + b + " = " + (a - b));
+   System.out.println(a + " * " + b + " = " + (a * b));
+   System.out.println(a + " / " + b + " = " + (a / b));
+   System.out.println(a + " % " + b + " = " + (a % b));
+}
+
+The variables being passed in must have a type associated with them (the correct type). All variables must be separated by a comma. They are located in the parentheses in the method heading. 
+
+The main method could look as follows:
+public static void main (String[] args)
+{
+   int x = 31;
+   int y = 5;
+   calc(x, y);
+}
+
+Try this out and see what happens. Note that the variable names in main are different from the variables in calc. This is normal practice. In general, the variables in a method should be a different name than the methods you passing. You could have also passed your own numbers too (instead of variables). Try adding another line of code to main where you choose your own two numbers for a and b.
+
+
+Part 3:
+
+For Java12c.java:
+
+As stated earlier, methods can return values.
+
+A simple method that will subtract two numbers is as follows:
+public static int methodSubtract (int a, int b)
+{
+   int x = a - b;
+   return x;
+}
+
+There are multiple differences between this method and the previous ones:
+1. This method has a return type of int rather than void
+2. This method has a keyword return that will return a value back to wherever the method is called
+
+
+If there is a return type, it should either be called in either of the two following ways:
+1. The method is called inside of a print / println statement
+2. The method is assigned to a variable of a proper type
+
+For example, if we were to call the method above in main, it would look as follows:
+Way #1:
+public class Java12
+{
+   public static void main (String[] args)
+   {
+      System.out.println("The value of 10 - 3 is: " + methodSubtract(10, 3));
+   }
+}
+
+Way #2:
+public class Java12
+{
+   public static void main (String[] args)
+   {
+      int x = methodSubtract(10, 3);
+      System.out.println("The value of 10 - 3 is: " + x);
+   }
+}
+
+Note that if you are using Way #2 (which is what I usually do), that you must assign the proper variable type to the value of the return type of the method call. For example, if the method had a return type of boolean, you need to assign it to a boolean variable. In our case, the return type is int, so I need to declare a variable of type int.
+
+Your goal is to display to the screen the product of two numbers being entered by the user and calling a method that computes this product and returns the value back to your main method.

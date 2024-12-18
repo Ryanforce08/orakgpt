@@ -1,0 +1,123 @@
+Homework 1:
+45 points
+
+Lesson 1:
+1. What is blockly?
+
+2. What is the goal of the angry birds minigame?
+
+3. What is a loop block used for, and how does it work?
+
+
+Lesson 2:
+4. What is the purpose of the Scrat minigame?
+
+5. What is debugging?
+
+6. Explain how the turn left and turn right blocks work.
+
+
+Lesson 3:
+7. What is the goal of treasure hunting with Laurel?
+
+8. Describe the collect command.
+
+9. Where can Laurel collect treasure from?
+
+
+Lesson 4:
+10. What is the purpose of the Creating Art minigame?
+
+11. Explain the difference between jump forward ________ pixels and move forward _______ pixels.
+
+12. How do you change the brush’s color?
+
+
+Lesson 5:
+13. What is a sprite?
+
+14. What is the goal of the Sprite Lab?
+
+15. How do you introduce a new sprite, and where does that sprite appear?
+
+
+Lesson 6:
+16. What is the goal of this lesson?
+
+17. What are some of the sprites that you can add to the world?
+
+
+Lesson 7:
+18. How do you set the size of a sprite?
+
+19. What are some behaviors that a sprite can change during the course of an animation?
+
+20. How does a sprite appear in a random location?
+
+
+Lesson 8:
+21. What are some of the virtual pets?
+
+22. What does it mean for a sprite to wander?
+
+23. What is the significance of energy in the Virtual Pet with Sprite Lab?
+
+
+Lesson 9:
+24. Explain how to get a song to play in Code.org.
+
+25. What is a measure?
+
+26. How do you set a background effect?
+
+27. How does the when block function?
+
+
+Lesson 10:
+28. Explain how sound is played in the blockly IDE.
+
+29. How can you play a song on the piano?
+
+30. Explain how the control structures work in relation to the sounds. 
+
+
+Lesson 11:
+31. What is the purpose of the BB-8 lab with Rey?
+
+32. How do you pick up scrap metal?
+
+33. How does the move backwards block work?
+
+
+Lesson 12:
+34. How does the Sticker Art minigame work?
+
+35. How do you jump to a specific location on the screen?
+
+36. How do you change the width of a brush?
+
+
+Lesson 13:
+37. What is a nested loop?
+
+38. Explain the purpose of the plants vs zombies minigame.
+
+39. What is nesting as it refers to loops?
+
+
+Lesson 14:
+40. What is the purpose of the Snowflake minigame with Anna and Elsa?
+
+41. How do you draw multiple patterns simultaneously?
+
+42. How many times would the following code segment run?
+A move forward command was placed in a loop that repeats 3 times and that was placed in a loop that repeats 5 times.
+
+
+Lesson 15:
+43. What is the goal of the Minecraft minigame?
+
+44. How do you cross lava?
+
+45. What is a conditional statement?
+

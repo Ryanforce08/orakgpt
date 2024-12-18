@@ -1,0 +1,46 @@
+C++ Project 15
+1 point
+
+Goal:
+1. Learn how to load arrays using loops.
+2. Learn how to load an array with prime numbers.
+
+To get started:
+To create a new project, click Create a new project. Then click Empty Project. Click Next
+
+For the Project name, type Prog15. Click the 3 dots (...) for the location. Select the Prog15 folder you created above. No other options need to be changed for now. Click Create.
+
+If an advertising window appears, click the little X at the top left.
+
+To add a file (a class), right click on Source files. Go to Add → New Item…
+Type Prog15 for the file name. NO SPACES. Click Add.
+
+You have already learned how to load an array on one line and multiple lines. Now you will use a loop to accomplish this task.
+
+For example, if I want an array of the first 100 even numbers starting at 2, I can use the following syntax:
+
+int arr [100];
+for (int i = 0; i < 100; i++)
+   arr[i] = 2*(i + 1);
+
+Now, the array is loaded with all even numbers 2 to 200 inclusive. You don’t need separate lines to do it or one line with all of the numbers there. This is extremely helpful with very large datasets. For reference, the reason I use (i + 1) is because i starts at 0 since the indices of an array start at 0. All even numbers are multiples of 2. So if you trace through this, you will see 2*(i + 1) goes from 2 to 200 inclusive when i goes from 0 to 99 inclusive.
+
+One can print the array as well using my algorithm or your own way:
+printIntArr(arr, sizeof(arr) / sizeof(int));
+
+My result will look like:
+[2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52, 54, 56, 58, 60, 62, 64, 66, 68, 70, 72, 74, 76, 78, 80, 82, 84, 86, 88, 90, 92, 94, 96, 98, 100, 102, 104, 106, 108, 110, 112, 114, 116, 118, 120, 122, 124, 126, 128, 130, 132, 134, 136, 138, 140, 142, 144, 146, 148, 150, 152, 154, 156, 158, 160, 162, 164, 166, 168, 170, 172, 174, 176, 178, 180, 182, 184, 186, 188, 190, 192, 194, 196, 198, 200]
+
+If you would like to perform the same task but for odd numbers use:
+int arr2 [100];
+for (int i = 0; i < 100; i++)
+   arr2[i] = 2*i + 1;
+
+Your output will look like when you use my algorithm:
+[1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57, 59, 61, 63, 65, 67, 69, 71, 73, 75, 77, 79, 81, 83, 85, 87, 89, 91, 93, 95, 97, 99, 101, 103, 105, 107, 109, 111, 113, 115, 117, 119, 121, 123, 125, 127, 129, 131, 133, 135, 137, 139, 141, 143, 145, 147, 149, 151, 153, 155, 157, 159, 161, 163, 165, 167, 169, 171, 173, 175, 177, 179, 181, 183, 185, 187, 189, 191, 193, 195, 197, 199]
+
+Your goal is to put the first 1000 prime numbers into an array. You should look at Prog 12 for this algorithm. Instead of displaying the prime numbers to the screen, you should put them into an array.
+
+Use my algorithm to print out the array in a nice format.
+
+Then, find the 250th prime number, 500th prime number, 750th prime number, and 1000th prime number and display them in a nice format to the screen.

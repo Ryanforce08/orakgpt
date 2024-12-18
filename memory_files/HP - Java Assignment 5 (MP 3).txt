@@ -1,0 +1,64 @@
+Homework 5:
+55 points
+
+Fundamentals of Java Programming
+Ogihara
+
+p. 364-365
+2. (10)
+3. (10)
+
+Describe the following methods for the ArrayList class: (10)
+.add(el); // el is an element of the ArrayList type.
+.add(i, el); // el is an element, i is a position
+.set(i, el);
+.remove(i);
+.remove((Type) el); // Type is the type of the elements in the ArrayList
+                    // el is an element in the ArrayList
+.isEmpty();
+.contains(el);
+.indexOf(el);
+.size();
+.clear();
+
+What is a sorting algorithm? (1)
+
+
+Why can you not use al.length with an ArrayList? What must you use instead? (2)
+
+
+How do you print an ArrayList? (1)
+
+
+What are some differences between an ArrayList and an array? (2)
+
+
+Convert the following code from a String array to an ArrayList: (3)
+String temp = a[i];
+a[i] = a[i + 2]
+a[i+2] = temp;
+
+
+
+
+
+
+What is recursion? (1)
+
+
+What is a base case? (1)
+
+
+What will happen if a base case was not there? (1)
+
+
+
+Write the fibonacci method in recursive form. (5)
+
+
+
+Write the factorial method in recursive form. (5)
+
+
+Print an array to the screen using Arrays.toString(arr); 
+Make sure you import the Arrays class to your program. What do you notice about how it printed? (3)

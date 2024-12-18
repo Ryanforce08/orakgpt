@@ -1,0 +1,62 @@
+Java Project 15 - 3rd MP
+1 point
+
+Eclipse
+1. Inside of the Java folder you created, create another folder called Java15
+2. Open up the Eclipse Icon on your Desktop
+3. Navigate to the Java15 directory you created and select that folder
+4. Click the Restore Icon on the left (it looks like a small windows button)
+3. Go to File -> New -> Java Project
+4. Type in the name of the project - Java15 and click Finish
+5. Right click on the project on the left (in this case Java15) and go to New -> Class
+7. Type in Java15 as the filename
+8. Check the box for public static void main(String[] args) in the middle of the window.
+9. Click Ok.
+10. Press Enter before the opening brace on the first line.
+11. Press Enter before the other opening brace on the 2nd or 3rd line.
+12. You are ready to start your program.
+
+Part 1:
+You will be discovering how random numbers function in the Java environment.
+
+In order to create a random number, you need to utilize the Random class.
+
+First, you will need to import this class using:
+import java.util.Random;
+Or
+import java.util.*;
+
+Then, you will need to create a Random object similar to the Scanner object used for user input:
+Random r = new Random();
+
+Now you have to create a Random integer.
+
+For instance, to create a random integer from 0 to n, use the code:
+int rand = r.nextInt(n);
+
+For example, if you want a random integer from 5 to 10, including 5, but not 10, you would use:
+int rand = r.nextInt(5) + 5;
+
+Here, we are creating a random integer from 0 to 5 (not including 5), and then adding 5 to it.
+
+Your goal is to create 1000 random numbers between 1000 and 1999 inclusive.
+
+You are to find the sum of these numbers, and then the average. Display the average to the screen.
+
+
+Part 2:
+Create a Project and File named Java15a.
+
+There is another way to create a random number, and this uses the Math class. No class needs to be imported this way.
+
+To create a random decimal number from 0 to 1 (0 inclusive, 1 exclusive), you would use the code:
+double rand = Math.random();
+
+If you want to create a random integer from 10 to 15 (10 inclusive, 15 exclusive), use the code:
+int rand = (int) (Math.random() * 5) + 10;
+
+Here, we are changing the type of the decimal number to an integer by a process known as typecasting.
+
+Typecasting allows the programmer to change the type of a variable or other arithmetic. Here we are casting a double as an int.
+
+Your goal is to perform the same task as above, but using the Math.random() algorithm.

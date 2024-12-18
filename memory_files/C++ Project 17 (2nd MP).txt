@@ -1,0 +1,52 @@
+C++ Project 17
+1 point
+
+Goal:
+1. Learn how to create random numbers.
+2. Learn how to load random numbers into an array.
+3. Learn how to find the mean of the numbers in an array.
+
+To get started:
+To create a new project, click Create a new project. Then click Empty Project. Click Next
+
+For the Project name, type Prog17. Click the 3 dots (...) for the location. Select the Prog17 folder you created above. No other options need to be changed for now. Click Create.
+
+If an advertising window appears, click the little X at the top left.
+
+To add a file (a class), right click on Source files. Go to Add → New Item…
+Type Prog17 for the file name. NO SPACES. Click Add.
+
+To get started, make sure you include the stdlib.h header file into our program:
+#include <stdlib.h>
+
+You will use the rand() function to generate a random integer. The random integers generated will range from 0 to 32767 inclusive.
+
+First, you need to have a seed - a starting value of our random number generator. It’s useful to base this off time, so it is recommended to use:
+srand(time(NULL));
+
+srand(n) is a function that will generate a seed for a random number. Also, time(NULL) will set the current time as now. Therefore, we will get a new seed every time we run the program.
+
+To start this project, try creating a loop from 0 to 20 (use a for or while loop). Use a cout statement with rand() to display some random numbers to the screen. You can see all the numbers range from 0 to 32767 inclusive.
+
+This is nice, but what if we want to restrict the range of numbers? We can surely do this with a nice formula.
+
+Try using this formula to generate a random number from [a, b]:
+rand() % (b - a + 1) + a
+
+Let’s say I want to generate a random integer from 40 to 60 inclusive. There are 21 numbers here. To get this, you take 60 - 40 + 1 = 21. 40 is our starting value.
+If we wanted to print this number, we would put this content inside a cout statement: 
+rand() % 21 + 40
+
+Instead, you will load this number to the array.
+
+Now that we have an array of random integers, we can perform various tasks like finding: mean, median, range, and mode.
+
+Of these, mean is the easiest. To find the mean, you have to add up all the values and then divide by the number of values. Therefore, you will need a sum variable and set it to 0 (initially). Create a loop that iterates over every value (similarly to how you print the contents of an array without using my algorithm) and add the array value at that index to the sum: sum += arr[i]. 
+
+Once the loop has been completed, you can either create a decimal value for the mean by creating a variable for it (taking the sum and dividing it by the number of values or length), or displaying it directly into a cout statement. Multiply the sum by 1.0 to find the decimal mean.
+
+Your task:
+A. Create an array of 1000 int types and load it with a random number from 100 to 200 inclusive.
+B. Use my algorithm (from Prog 14) to print the array to the screen.
+C. Display the mean. It should be around 150 or so if you did it correctly.
+

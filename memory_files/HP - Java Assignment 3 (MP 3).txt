@@ -1,0 +1,39 @@
+Homework 3:
+60 points
+
+Fundamentals of Java Programming
+Ogihara
+
+p. 203
+1. (3)
+2. (3)
+9. (3)
+10. (2)
+11. (2)
+12. (2)
+13. (2)
+
+p. 287
+1. (2)
+5. (3)
+
+p. 137
+3ef. (2)
+4a-d. (4)
+11. (4)
+
+What does the keyword break do? (2)
+
+Where does one put the break keyword? (2)
+
+Create an infinite loop structure using both a for loop and a while loop that will break if the user enters the number 3. (6)
+
+p. 137
+2. (2)
+5. (4)
+6. (3)
+7. (3)
+8. (3)
+9. (3)
+
+

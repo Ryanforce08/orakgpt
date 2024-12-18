@@ -1,0 +1,49 @@
+Java Project 3 - 3rd MP
+1 point
+
+Eclipse
+1. Inside of the Java folder you created, create another folder called Java3
+2. Open up the Eclipse Icon on your Desktop
+3. Navigate to the Java3 directory you created and select that folder
+4. Click the Restore Icon on the left (it looks like a small windows button)
+3. Go to File -> New -> Java Project
+4. Type in the name of the project - Java3 and click Finish
+5. Right click on the project on the left (in this case Java3) and go to New -> Class
+7. Type in Java3 as the filename
+8. Check the box for public static void main(String[] args) in the middle of the window.
+9. Click Ok.
+10. Press Enter before the opening brace on the first line.
+11. Press Enter before the other opening brace on the 2nd or 3rd line.
+12. You are ready to start your program.
+
+The goal of this project is to learn about variables.
+
+In order for you to utilize a variable, you have to declare it and know its type.
+
+There are 9 variable types you can declare without importing a class.
+Technically, there are 17, but 8 of these you will not learn until AP Computer Science A.
+
+Here are the 9 types you can use:
+* 1. String → A String inside of quotes
+
+* 2. int → An integer from -231 to 231 - 1
+* 3. double → A decimal value either positive or negative from 4.9E-324 to 1.7976931348623157E308
+* 4. boolean → A value of either true or false
+* 5. char → A character ranging from the ASCII value of 0 to 255, or a character between single quotes
+6. float → A decimal value either positive or negative from 1.4E-45 to 3.4028235E38. Must have the letter F or f at the end of the line.
+* 7. long → An integer from -263 to 263 - 1
+8. short → An integer from -215 to 215 - 1
+9. byte → An integer from -27 to 27 - 1
+
+The types with a * are ones that are most common and ones we will use throughout the year.
+In #3 and #6, the letter E represents “times 10 to the power of”
+For example, the number 3.774E5 would be 377400.
+
+The type String is an object and the other 8 types are primitive types.
+This simply means there is no class associated with the primitive type.
+
+Declaring a variable would be utilizing the following syntax:
+type var = value;
+
+Your goal is to declare 9 of these variables (1 of each type), and then display them to the screen in 9 println() statements.
+You can put the variable in the println() statements directly, and should not contain quotes.

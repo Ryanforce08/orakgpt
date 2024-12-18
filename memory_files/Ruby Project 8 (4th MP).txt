@@ -1,0 +1,27 @@
+Ruby Project 8
+1 point
+
+Create a Folder inside of Ruby called Ruby8
+
+This project will familiarize yourself with:
+1. Sorting arrays
+2. Importing a file
+
+Choose a sorting algorithm from Sorting2 in Java. Create a Ruby file with the name of that corresponding Java file.
+
+Convert the algorithm from Java to Ruby. The only line of code you will need to add is:
+return a
+This is added at the very bottom of the method before end
+
+Create a file named ruby8.rb
+
+At the top of the program, use the code:
+load ‘__________.rb’
+Where __________ is the name of the file you created above.
+Be sure to change the ‘ and ’ from Google Drive to standard apostrophes.
+
+Create a blank array, then fill it with random integers from 0-1000.
+
+Call the sorting method with the array as the parameter.
+
+Finally, print the sorted array to the screen.

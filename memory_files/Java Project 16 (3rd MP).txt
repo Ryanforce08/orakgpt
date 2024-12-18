@@ -1,0 +1,90 @@
+Java Project 16 - 3rd MP
+2 points
+
+Eclipse
+1. Inside of the Java folder you created, create another folder called Java16
+2. Open up the Eclipse Icon on your Desktop
+3. Navigate to the Java16 directory you created and select that folder
+4. Click the Restore Icon on the left (it looks like a small windows button)
+3. Go to File -> New -> Java Project
+4. Type in the name of the project - Java16 and click Finish
+5. Right click on the project on the left (in this case Java16) and go to New -> Class
+7. Type in Java16 as the filename
+8. Check the box for public static void main(String[] args) in the middle of the window.
+9. Click Ok.
+10. Press Enter before the opening brace on the first line.
+11. Press Enter before the other opening brace on the 2nd or 3rd line.
+12. You are ready to start your program.
+
+You will be discovering how arrays work in the Java environment.
+
+Arrays are objects in the Java programming environment. They are a single collection of data types.
+
+Essentially, they are an easy way to store a large number of variables. However, we must know the size of the array (the number of elements inside of it).
+
+The general form of declaring an array is as follows:
+type[] arr;
+
+To declare and instantiate an array in one line, use the code:
+type[] arr = new type[number_of_elements];
+
+For example, to declare an array of 50 ints, use the following code:
+int[] arr = new int[50];
+
+To access an element in an array, we use the syntax arr[i], where i represents the element number. The first index of an array is always 0.
+
+There are two ways to initialize an array.
+The first will be directly:
+For example:
+int[] arr = {0, 2, 4, 6, 8, 10};
+Here, we directly store the values into the array. Note that it’s not necessary to know the size of the array when initializing it this way.
+
+An alternate way of storing data into an array (and probably the most common) is via the use of loops.
+For example:
+int[] arr = new int[6];
+for (int i = 0; i < 6; i++)
+{
+   arr[i] = 2*i;
+}
+
+To print an array, you must utilize a loop. You cannot print the array using System.out.print(arr);
+You must utilize a loop. It is useful to use the .length method associated with arrays to find out how many elements are inside of it:
+for (int i = 0; i < arr.length; i++)
+   System.out.println(arr[i]);
+
+
+
+
+
+
+
+Part 1:
+
+Ask the user to enter a number. Write a method called isPrime(n) that takes one parameter. It should return true if the number entered is prime, and false if the number is not prime.
+
+
+
+Therefore, the method header should look:
+public static boolean isPrime (int n)
+
+Here are two sample outputs:
+1.
+Please enter a number: 27
+false
+
+2.
+Please enter a number: 103
+true
+
+
+Part 2:
+
+Create a Project called Java16a and a file called Java16a
+
+Copy the method isPrime(n) from Part 1 to Part 2:
+
+Your task is to create an array of the first 100 prime numbers.
+Display them to the screen. Make sure you utilize the method you created in Part 1.
+
+Hint: Declare an array of size 100. You will need a counter variable. It might be useful to use an infinite loop and break out once the count reaches 100.
+

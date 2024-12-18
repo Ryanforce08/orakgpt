@@ -1,0 +1,48 @@
+Python Project 4
+1 point
+
+Create a Folder inside of Python called Python4
+Create a file called python4.py
+
+This project will familiarize you with loop structures.
+
+Ruby has a variety of loop structures. There are 3 of them, but this project will focus on 2 of them.
+Here are the following loop structures:
+1. while loop
+2. for loop
+3. for loop using each structure
+
+while loop:
+This functions analogously to Java - meaning, it functions exactly the same. The syntax is also the same.
+For example, to print out your name 4 times to the screen:
+i = 0
+while (i < 4):
+   print("Brian Orak")
+   i = i + 1 # you could also use i += 1, but i++ is not valid syntax
+
+
+for loop:
+This functions analogously to Java, but the loop can only count by 1.
+For example, to print out your name 4 times to the screen:
+for i in range(4):
+   print("Brian Orak")
+
+Here, i will be in the range 0, 1, 2, 3. Note that 4 is not included.
+
+A for loop can also start at a specific location (other than 0)
+For example
+for i in range(5, 9):
+   print("Brian Orak %s" %(i))
+
+Here, i will be in the range 5, 6, 7, 8. Note that 9 is not included
+
+
+
+
+break keyword: The syntax is identical to Java or Ruby.
+This is used to break out of the innermost loop.
+
+For reference, if a boolean variable is desired, the possibilities are True or False. Note that these choices are capitalized.
+
+Your goal is to use two examples of a while loop and two examples of a for loop (using the range feature). You are to utilize the break keyword in some aspect: Use it with an infinite while loop.
+

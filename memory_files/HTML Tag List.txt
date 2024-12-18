@@ -1,0 +1,94 @@
+Here is a list of tags that you can use with their description
+
+The following tags do NOT need closing tags:
+
+Commenting:
+Tag			Description
+<!-- … -->		Text / Code inside will not be seen / executed
+
+
+Images:
+Tag			Description
+<IMG>			Adds an image
+
+
+Special tags:
+Tag			Description
+<BR>			Returns a line
+<HR>			Creates a horizontal rule / line
+
+The following tags DO need closing tags:
+
+Text formatting:
+Tag			Description
+<B>			Boldens text
+<I>			Italicized text
+<U>			Underlines text
+<STRONG>		Use important text
+<EM>			Emphasize text
+<DEL>			Creates deleted text (strikethrough)
+<STRIKE>		Creates strikethrough text
+<CITE>			Creates cited text (italicized)
+<PRE>			Text to be formatted literally
+<CODE>			Text to be seen as code
+<Q>			Defines a quotation
+<TT>			Defines teletype text
+<SUP>			Defines superscripted text
+<SUB>			Defines subscripted text
+<S>			Defines text that is no longer correct
+
+
+Informative:
+<HTML>			Used for HTML documents
+<HEAD>			Used for information about the document
+<TITLE>		Used for website titles
+<A>			Used for hyperlinks
+<BODY>			Used for the body of the website
+<FONT>			Used for various fonts, colors, etc… 
+<P>			Used for paragraphs
+<MARQUEE>		Used for scrolling text
+
+
+Used with CSS:
+<STYLE>		Used for CSS (cascade style sheets)
+<LINK>			Defines relationship between document and external source
+
+
+Headings:
+Tag			Description
+<H1>			Creates a heading, largest size
+<H2>			Creates a heading, second largest size
+<H3>			Creates a heading, third largest size
+<H4>			Creates a heading, third smallest size
+<H5>			Creates a heading, second smallest size
+<H6>			Creates a heading, smallest size
+
+Multimedia:
+Tag			Description
+<EMBED>		Used for embedding sound, movies, etc...
+<VIDEO>		Defines a video track
+<AUDIO>		Defines an audio track
+<TRACK>		Defines text tracks
+
+
+Lists:
+Tag			Description
+<UL>			Used for bulleted lists
+<OL>			Used for ordered (numbered) lists
+<LI>			Adds an element to the list
+
+
+Tables:
+Tag			Description
+<TABLE>		Defines a table
+<CAPTION>		Defines a table caption
+<COL>			Specifies column properties
+<COLGROUP>		Specifies properties for one or more columns for formatting
+<TBODY>		Groups the body content in a table
+<TD>			Defines a cell in a table
+<TFOOT>		Groups the footer content in a table
+<TH>			Defines the header cell in a table
+<THEAD>		Groups the header content in a table
+<TR>			Defines a row in a table
+
+

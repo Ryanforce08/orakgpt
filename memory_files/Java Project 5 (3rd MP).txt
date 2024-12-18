@@ -1,0 +1,78 @@
+Java Project 5 - 3rd MP
+1 point
+
+Eclipse
+1. Inside of the Java folder you created, create another folder called Java5
+2. Open up the Eclipse Icon on your Desktop
+3. Navigate to the Java5 directory you created and select that folder
+4. Click the Restore Icon on the left (it looks like a small windows button)
+3. Go to File -> New -> Java Project
+4. Type in the name of the project - Java5 and click Finish
+5. Right click on the project on the left (in this case Java5) and go to New -> Class
+7. Type in Java5 as the filename
+8. Check the box for public static void main(String[] args) in the middle of the window.
+9. Click Ok.
+10. Press Enter before the opening brace on the first line.
+11. Press Enter before the other opening brace on the 2nd or 3rd line.
+12. You are ready to start your program.
+
+The goal of this project is to familiarize yourself with various operators.
+
+We will utilize the following operators:
++, - → unary operators (requires one operand)
++, +, -, *, /, % → binary operators (requires two operands)
+
+An operand is a value of some kind (usually a number)
+
+An operator acts upon these operands. 
+
+For example, in the expression 2 + 3, 2 and 3 are the operands and + is the operator.
+
+
+Here are what the following operators do:
+Unary operators:
++ → makes a number positive
+- → makes a number negative
+
+Binary operators:
+Addition: + → adds two numbers
+String concatenation: + → adds two strings
+Subtraction: - → subtracts two numbers
+Multiplication: * → multiplies two numbers
+Division: / → divides two numbers using integer division
+Modulus: % → finds the remainder between two integers
+
+What’s nice about Java is that we can add two statements together using the + operator.
+This can even be done inside a print() / println() statement.
+
+For example, the following code is valid:
+int x = 5;
+System.out.println("The value of x is: " + x);
+Try it out.
+
+You can also add strings together as well:
+String s1 = "Hello ";
+String s2 = "world";
+String s3 = s1 + s2;
+
+Division is rather interesting:
+Try the following statements:
+int x = 5;
+int y = 6;
+int z = 3;
+System.out.println("The value of " + y + "/" + z + " is " + y / z);
+System.out.println("The value of " + x + "/" + z + " is " + x / z);
+
+What do you notice?
+
+Order of operations also applies to these operators
+Parentheses () have the highest precedence.
+The unary operators have the second highest precedence
+The binary operators have the following precedences: *, /, % have higher precedence over +, +, and -
+
+Your goal is to print out the following statements to the screen using single println() statements (no variables are needed). There should be no numbers inside of quotes.
+This is project 05
+05 is the number of this project
+Quiz 02 will be on Tuesday
+
+

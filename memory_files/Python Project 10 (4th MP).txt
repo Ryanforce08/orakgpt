@@ -1,0 +1,60 @@
+Python Project 10
+1 points
+
+Create a Folder inside of Python called Python10
+
+Create a file called python10.py
+
+This project will focus on Lists.
+
+Lists are utilized very similarly to arrays in Ruby.
+
+Your goal is to create a List of random length (between 1-1000 inclusive).
+You are then to load the List with random numbers 1-1000 inclusive
+You are then to find the mean and the range (you can find the range after sorting below).
+To add an element to the list, utilize the method append
+For instance, if you have an empty list declared as:
+l = []
+To add the number 40 to the end of the list, simply utilize the command:
+l.append(40)
+If you were to print l to the screen, simply print out the array:
+print(l)
+
+You are then to sort the List using your favorite sorting algorithm. Be sure to copy this method to the top of your program. You do not need the return statement at the bottom of the method.
+
+You are then to find the median of the List (the middle number). To do this, you need the length of the List, which you can find using:
+len(l)
+This is assuming that l is the name of the List
+
+BubbleSort:
+public static void bubbleSort(int[] a)
+{ 
+   int swap;
+   for (int c = 0; c < a.length - 1; c++)
+   {
+      for (int d = 0; d < a.length - c - 1; d++)
+      {
+         if (a[d] > a[d+1]) /* For descending order use < */
+         { 
+            swap = a[d]; 
+            a[d] = a[d + 1]; 
+            a[d + 1] = swap;
+         }
+      }
+   }
+}
+
+Insertion Sort:
+public static void insertionSort(int[] a)
+{
+   for (int i = 1; i < a.length; i++)
+   {
+      int temp = a[i]; 
+      int j;
+      for (j = i - 1; j >=0 && temp < a[j]; j--) 
+         a[j + 1] = a[j]; 
+      a[j + 1] = temp;
+   }
+}
+
+

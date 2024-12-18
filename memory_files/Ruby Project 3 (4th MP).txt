@@ -1,0 +1,61 @@
+Ruby Project 3
+1 point
+
+Create a Folder inside of Ruby called Ruby3
+Create a file called ruby3.rb
+
+This project will familiarize you with conditional statements.
+
+Ruby has 4 conditional statements:
+if
+elsif
+else
+unless
+
+if, elsif, and else are used exactly the same as Java.
+
+For example:
+If there is one conditional, you would have code akin to:
+if (boolean condition)
+   # code here
+end
+
+If there are two conditionals, you would have code akin to:
+if (boolean condition)
+   # code here
+else
+   # code here
+end
+
+If there are three or more conditionals, you would have code akin to:
+if (boolean condition)
+   # code here
+elsif (boolean condition)
+   # code here
+# more elsif conditionals if necessary
+else
+   # code here
+end
+
+Notice how there are no opening and closing braces, and code contained within each conditional is indented. You will be required to use anywhere from 2-4 spaces or a tab. The keyword end designates the end of a conditional.
+
+The unless conditional is useful if only one case is being satisfied (mainly used for a loop, which you will learn later.)
+It is used with code akin to:
+unless (boolean condition)
+   # code here
+end
+
+Your project is to utilize these 4 conditionals in some way.
+
+You must use two instances of numbers and two instances of strings. You must also use the .eql? method below for strings once.
+
+A useful method in Ruby is the .eql? method
+For instance, if we have the code:
+a = "hello"
+if (a.eql? "hello")
+   print "Hello World"
+else
+   print "Goodbye World"
+end
+
+Your code doesn’t have to produce anything useful.

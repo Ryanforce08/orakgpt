@@ -1,0 +1,100 @@
+C++ Project 7
+2 points
+
+Goals:
+1. Learn how to write functions with no parameters
+2. Learn how to call functions with no arguments
+3. Learn how to assign functions with no parameters with a return type to a variable
+4. Learn how to print functions with no parameters that return a value directly to the screen
+
+To get started:
+To create a new project, click Create a new project. Then click Empty Project. Click Next
+
+For the Project name, type Prog7. Click the 3 dots (...) for the location. Select the Prog7 folder you created above. No other options need to be changed for now. Click Create.
+
+If an advertising window appears, click the little X at the top left.
+
+To add a file (a class), right click on Source files. Go to Add → New Item…
+Type Prog7 for the file name. NO SPACES. Click Add.
+
+A function is a procedure in a program designed to perform a specific task that may be called.
+
+A function may or may not return a value. All functions must be named - starting with a lowercase letter.
+
+You know one function already: main(). This function has a return type of int and is called directly when the program is compiled and run.
+
+All functions must be implemented (written) above main(). 
+
+Additionally, all functions must specify what the function returns. If it returns a value, you must specify this - for example, a function that returns a value should have a return type of int, double, float, char, bool, or string. A function that does not have a return type must have a return type specified as void.
+
+In order for the function to be utilized, it must be called. To call a function, simply type the function name with ().
+
+Functions must begin with { and end with }. All code inside should be indented.
+
+
+
+
+
+To get started, here is an example of a void return type function:
+
+void func1()
+{
+   cout << "This is my first function." << endl;
+   cout << "It has a return type of void." << endl;
+}
+
+int main()
+{
+   func1();
+
+   cin.get();
+   return 0;
+}
+
+Here, func1() will be called in main(). The function simply prints two lines of text to the screen and that’s it.
+
+Functions can also return something back to the call. This can either be printed to the screen directly or stored in a variable. The return type specified must match the type of value you are returning.
+
+For example, consider the following two examples:
+
+int func2()
+{
+   cout << "This is my second function." << endl;
+   return 2;
+}
+
+int main()
+{
+   int x = func2();
+   cout << x << endl;
+
+   cin.get();
+   return 0;
+}
+
+Here, 2 is printed to the screen because func2() is called in main() and stored in a variable named x. Then, x is printed to the screen which has the value of 2.
+
+You can also print the value directly to the screen in a cout statement.
+Consider the following:
+string func3()
+{
+   cout << "This is my third function" << endl;
+   return "Brian";
+}
+
+int main()
+{
+   cout << func3() << endl;
+
+   cin.get();
+   return 0;
+}
+
+Here, "Brian" is printed to the screen and I call this function, func3() inside of a cout statement directly. It is not assigned to a variable.
+
+Functions can do all sorts of tasks, and it is recommended you write them as necessary for any project in the class.
+
+Your goal is to write functions that do the following:
+1. Create functions that have return types of: int, double, float, char, bool, and string. 
+2. Write function calls to each of these. At least one of these should be assigned to a variable. At least one of these should be situated directly inside a cout statement.
+3. Write a function of type void that calls another function of type void (by writing another function) and call the first function in main().

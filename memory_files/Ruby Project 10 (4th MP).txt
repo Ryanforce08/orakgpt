@@ -1,0 +1,87 @@
+Ruby Project 10
+1 point
+
+Create a Folder inside of Ruby called Ruby10
+
+Create a file inside of Ruby10 called ruby10.rb
+
+You are to create a 15 element array with random numbers from 0-10 inclusive.
+
+Remember, you can declare the array in any of the two following ways:
+1. arr = []
+2. arr = Array.new(1000)
+
+Your goal is to find the mode. Remember the mode is the most frequent number.
+
+To get started, you will need to sort the array. It is advisable to copy the sorting algorithm you used in Ruby8 or Ruby9 to do this.
+Simply copy the file from the Ruby8 or Ruby9 directory and paste it in the Ruby10 directory.
+
+Call the file by using 
+load ‘filename.rb’ on the first line of your program, where filename is either SelectionSort.rb, BubbleSort.rb, InsertionSort.rb, etc…
+
+For example, if an array is:
+a = [2, 5, 6, 4, 3, 6, 9, 3, 4, 2, 4, 3]
+Sorting this would yield:
+a = [2, 2, 3, 3, 3, 4, 4, 4, 5, 6, 6, 9]
+
+The following output should be displayed:
+The most frequent number appears: 3 times
+The number(s) that appear most frequently are: [3, 4]
+
+Hints:
+You will probably need 2-3 counter variables.
+You will need to cycle through the array multiple times.
+You will need an empty array and add the elements that appear most frequently to the empty array.
+Start with an array of 10-15 elements with random numbers 1-5. You’re guaranteed a repeat, and you can debug faster.
+You should find the number of times the most frequent number appears. This is like the “halfway point”. This will be worth 0.5 points.
+
+
+
+Example:
+Let arr = [1, 2, 2, 3, 3, 3, 4, 4, 5, 5, 5]
+count1 = 1
+count2 = 1
+Loop from [0, 9] or [0, 10)
+1 ≠ 2 → count1 = 1, count2 = 1
+	2 = 2 → count1 = 2, count2 = 2
+		2 ≠ 3 → count1 = 1, count2 = 2
+			3 = 3 → count1 = 2, count2 = 2
+				3 = 3 → count1 = 3, count2 = 3
+					3 ≠ 4 → count1 = 1, count2 = 3
+						4 = 4 → count1 = 2, count2 = 3
+							4 ≠ 5 → count1 = 1, count2 = 3
+								5 = 5 → count1 = 2, count2 = 3
+									5 = 5 → count1 = 3, count2 = 3
+
+count1 = 1
+mode = []
+Loop from [0, 9] or [0, 10)
+1 ≠ 2 → count1 = 1, count2 = 3
+	2 = 2 → count1 = 2, count2 = 3
+		2 ≠ 3 → count1 = 1, count2 = 3
+			3 = 3 → count1 = 2, count2 = 3
+				3 = 3 → count1 = 3, count2 = 3
+					mode = [3]
+					3 ≠ 4 → count1 = 1, count2 = 3
+						4 = 4 → count1 = 2, count2 = 3
+							4 ≠ 5 → count1 = 1, count2 = 3
+								5 = 5 → count1 = 2, count2 = 3
+									5 = 5 → count1 = 3, count2 = 3
+									mode = [3, 5]
+mode is [3, 5]
+
+Algorithm:
+1. Load BubbleSort.rb
+2. Create an array and load it with random numbers from 0 to 10 inclusive (Add 15 numbers)
+3. Sort the array
+4. Set count1 = 1, count2 = 1
+5. Create a loop ranging from [0, length - 1) or [0, length - 2]
+6.	If adjacent elements are equal → increment count1
+	If adjacent elements are not equal → count1 = 1
+7. 	If count2 < count1 → increment count2
+8. Create blank mode array, reset count1 = 1
+9. Create a loop ranging from [0, length - 1) or [0, length - 2]
+11. 	If adjacent elements are equal → increment count1
+	If adjacent elements are not equal → count1 = 1
+11. 	If count1 is equal to count2 → add current element to mode
+12. Display original array and mode array to screen

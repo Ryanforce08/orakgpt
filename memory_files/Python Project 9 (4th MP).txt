@@ -1,0 +1,23 @@
+Python Project 9
+1 point
+
+Create a Folder inside of Python called Python9
+
+Create a file called python9.py
+
+This project will familiarize yourself with random numbers.
+
+To create a random number, we first need to import the random library:
+import random
+
+To actually create a random integer, you will need the following syntax:
+random.randint(x, y)
+where x is the minimum value for your range, and y is the maximum value. The random number will be inclusive of these two numbers.
+
+Your goal is to create 10000 random numbers from 1-10000 inclusive without the use of an array.
+You are to find the mean, range, minimum, and maximum.
+
+For reference, if you want a random decimal between 0 and 1, use the following syntax:
+random.random()
+
+Of course this can be extended to a range of numbers simply by multiplying that by a certain integer.

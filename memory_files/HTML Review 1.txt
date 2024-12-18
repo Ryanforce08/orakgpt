@@ -1,0 +1,63 @@
+For HTML Quiz #1, you are required to know the following:
+
+1. How tags work
+2. Which tags need closing tags
+3. How to change the font / color / etc… 
+4. How to add an image / picture
+5. The following tags (with descriptions):
+
+
+Commenting:
+Tag			Description
+<!-- … -->		Text / Code inside will not be seen / executed
+
+
+Images:
+Tag			Description
+<IMG>			Adds an image
+
+
+Special tags:
+Tag			Description
+<BR>			Returns a line
+<HR>			Creates a horizontal rule / line
+
+
+Text formatting:
+Tag			Description
+<B>			Boldens text
+<I>			Italicized text
+<U>			Underlines text
+<DEL>			Creates deleted text (strikethrough)
+<CODE>		Text to be seen as code
+<SUP>			Defines superscripted text
+<SUB>			Defines subscripted text
+
+
+Informative:
+<HTML>		Used for HTML documents
+<HEAD>		Used for information about the document
+<TITLE>		Used for website titles
+<A>			Used for hyperlinks
+<BODY>		Used for the body of the website
+<FONT>		Used for various fonts, colors, etc… 
+<P>			Used for paragraphs
+<MARQUEE>		Used for marquees
+
+
+Headings:
+Tag			Description
+<H1>			Creates a heading, largest size
+<H2>			Creates a heading, second largest size
+<H3>			Creates a heading, third largest size
+<H4>			Creates a heading, third smallest size
+<H5>			Creates a heading, second smallest size
+<H6>			Creates a heading, smallest size
+
+
+Lists:
+Tag			Description
+<UL>			Used for bulleted lists
+<OL>			Used for ordered (numbered) lists
+<LI>			Adds an element to the list
+

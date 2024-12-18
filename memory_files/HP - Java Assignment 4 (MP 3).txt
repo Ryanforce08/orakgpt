@@ -1,0 +1,78 @@
+Homework 4:
+67 points
+
+Fundamentals of Java Programming
+Ogihara
+
+1. Write the algorithm that allows you to calculate pi. Do not write code. Write in pseudocode instead. (6)
+
+
+2. What is the purpose of using Math.abs(x - y) when finding pi accurate to 5 decimal places? (2)
+
+
+3. List the 3 logical operators and create truth tables for each of them. (6)
+
+
+4. Write an if conditional that will execute if x < 40 or x > 60. (1)
+
+
+5. Write an if conditional that will execute if x > 40 and x < 60. (1)
+
+
+6. Write an if conditional that will execute for the opposite of what y is. Assume y is a boolean. (1)
+
+p. 167
+10. (4)
+11. (4)
+
+7. Create a Random object. (1)
+
+8. Create a random number (by using Math.random() and the Random object) between the following ranges: (5)
+a. 0 to 50 (0 inclusive, 50 exclusive)
+b. 10 to 20 (10 inclusive, 20 exclusive)
+c. 20 to 40 (20 inclusive, 40 inclusive)
+d. 38 to 52 (38 inclusive, 52 exclusive)
+e. 27 to 91 (27 inclusive, 91 inclusive)
+
+9. Write a detailed algorithm that will calculate your GPA. Do note write code. Write pseudocode. (6)
+
+
+10. Declare and instantiate an int array called arr1 on one line that has the values of: {5, 6, 7, 8}. (2)
+
+
+11. Declare and instantiate a String array called arr2 on one line that has the values of {"Hello”, "World", "Hello World"}. (2)
+
+
+p. 318-319
+1a-c. (3)
+
+
+12. Print out the values of an array called arr3, with each element on one line. (2)
+
+
+13. Write pseudocode for the isPrime(int n) method. Do not write code. (6)
+
+
+
+
+14a. Another value we can approximate using sums is the mathematical constant e. e is defined below:
+
+Write an algorithm that approximates e using 50 iterations.  denotes a factorial. It’s not necessary that you know what it does, but if you want to know, . Basically, 0!=1, 1!=1, 2!=2, 3!=6, 4!=24, 5!=120, …. This grows very, very rapidly. You may assume that we have a method called factorial in the program that returns a double. The method takes one parameter and returns the decimal equivalent of above. For example, factorial(3) = 6.0. My advice is to call this method in your algorithm. You do not have to write Java code if you don’t want to. (10)
+For reference, the factorial method is below. You do NOT need to know this.
+
+
+
+
+
+public static double factorial (int n)
+{
+   double prod = 1.0;
+   for (int i = 1; i < n; i++)
+      prod *= i+1;
+   return prod;
+}
+
+
+
+
+b. Use part a to find how many iterations are necessary to approximate e to within 0.0001. You do not have to write Java code if you don’t want to. Use Math.E for e. (5)

@@ -1,0 +1,55 @@
+HTML Project #4
+1 point
+
+Create a folder named HTML4 (should be inside of your HTML folder on P:)
+
+Directions:
+1. Open up Notepad ++ from your USB Drive.
+2. At the top, you will see a tab for Language. Go to H → HTML
+3. Go to Save As… and locate the directory you created before Step 1 and type in index.
+
+
+According to Mozilla, Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or other markup languages such as Scalable Vector Graphics (SVG). CSS describes how the structured elements in the document are to be rendered on screen, on paper, in speech, or on other media. The ability to adjust the document's presentation depending on the output medium is a key feature of CSS.
+
+There are entire university courses dedicated to teaching CSS. I am not really looking for you to be “fluent” in it in one day, but you are required to know the basics.
+
+CSS is primarily used inside of a tag called <STYLE>.
+
+
+
+
+
+
+Remember, all projects should begin with:
+<HTML>
+<HEAD>
+<TITLE> Title of your website here </TITLE>
+…
+</HEAD>
+…
+</HTML>
+
+
+CSS is very powerful and is able to modify current properties of HTML.
+It is highly recommended to complete all of the CSS inside of <HEAD> and after <TITLE>.
+
+All CSS code should go inside of <STYLE> and </STYLE>
+
+Remember that each method inside of <STYLE> will overwrite the attributes of a specific tag.
+
+For instance, if one would like the <H1> tag edited, one can use the following syntax:
+<STYLE>
+h1 
+{
+   color: #36CFFF; 
+}
+</STYLE>
+
+Now everytime <H1> is accessed, it will be in the color #36CFFF. 
+
+This can be used for any tag, including backgrounds. It is highly recommended that you utilize body in this way, so everytime <BODY> is used inside of the website, the attributes inside of <STYLE> are applied.
+
+For more information, check out: http://www.tutorialspoint.com/css/css_syntax.htm
+
+Your goal in this project is to familiarize yourself with CSS.
+
